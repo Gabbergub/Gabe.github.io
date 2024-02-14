@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    margin: auto;
+    padding: auto;
+    display:grid;
+}
+.art {
+    background-color: papayawhip;
+    color: black;
+    font-family: anton, sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+    
+}
+.navbar {
+    outline-style: solid;
+    outline-color: papayawhip;
+  }
+.container {
+    height:50%;
+      display:grid;
+      background-color:papayawhip;
+  }
+.self {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+.MH {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+.sad {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+.cow {
+  width: 434px;
+  height: 534px;
+  object-fit: contain;
+}
+.mountain {
+  width: 434px;
+  height: 534px;
+  object-fit: contain;
+}
+a {
+    text-decoration:none;
+    color: papayawhip;
+  }
+  
+  a:hover{
+    text-decoration:none;
+  }

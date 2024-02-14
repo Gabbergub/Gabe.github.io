@@ -1,5 +1,5 @@
 body {
-    background-color: #1134A6;
+    background-color: black;
     margin: auto;
     padding: auto;
     display:grid;
@@ -20,12 +20,11 @@ section {
     flex: 3;
   }
 .header {
-    padding: 30px; 
+    padding: 25px; 
     text-align: center; 
     background-color: black;
- 
   }
-.heading {
+  .heading {
     color: papayawhip;
     font-family: anton, sans-serif;
 font-style: normal;
@@ -33,6 +32,63 @@ font-size: 30px;
 font-weight: 400;
 letter-spacing: 5px;
 }
+  .topnav {
+    background-color: #1134A6;
+    overflow: hidden;
+    text-align: center;
+    font-family: anton, sans-serif;
+font-style: normal;
+font-size: 100%;
+font-weight: 400;
+letter-spacing: 5px;
+  }
+  .about {
+    background-color: black;
+    outline-style: solid;
+    outline-color: papayawhip;
+    color: papayawhip;
+    font-family: anton, sans-serif;
+font-style: normal;
+font-size: 100%;
+font-weight: 400;
+letter-spacing: 5px;
+text-align: justify;
+border: 20px;
+        padding: 15px;
+        margin-left: -10px;
+        border-radius: 5px;
+}
+p {
+        font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    color: papayawhip;
+    text-align: right;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    outline-style: dashed;
+    color: papayawhip;
+  }
+  .navbar {
+    outline-style: solid;
+    outline-color: papayawhip;
+  }
+
 .work {
     color: black;
     font-family: anton, sans-serif;
@@ -46,9 +102,19 @@ border-radius: 5px;
     width: 125%;
     margin: auto;
 }
+
+a {
+  text-decoration:none;
+  color: papayawhip;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
 .art {
-    background-color: black;
-    color: papayawhip;
+    background-color: papayawhip;
+    color: black;
     font-family: anton, sans-serif;
     font-style: normal;
     font-size: 100%;
@@ -58,6 +124,7 @@ border-radius: 5px;
     border-radius: 5px;
     width: 20%;
     margin: auto;
+    
 }
 .self {
   width: 300px;
@@ -86,8 +153,8 @@ border-radius: 5px;
 }
 
 .type {
-  background-color: black;
-  color: papayawhip;
+  background-color: papayawhip;
+    color: black;
   font-family: anton, sans-serif;
   font-style: normal;
   font-size: 100%;
@@ -99,32 +166,10 @@ border-radius: 5px;
   margin: auto;
   
 }
-#container2 {
-  height:50%;
-    display:grid;
-    background-color:papayawhip;
-}
-.about {
-    background-color: black;
-    color: papayawhip;
-    font-family: anton, sans-serif;
-font-style: normal;
-font-size: 100%;
-font-weight: 400;
-letter-spacing: 5px;
-text-align: justify;
-border: 20px;
-        padding: 20px;
-        margin-left: -20px;
-        border-radius: 5px;
-}
-p {
-        font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
-}
+
 
 .fa {
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
     width: 55px;
     text-align: center;
@@ -141,7 +186,7 @@ p {
   }
   
   .footer {
-    padding: 10px; 
+    padding: 100px; 
     text-align: center; 
     background: black; 
   }
@@ -186,7 +231,7 @@ p {
     object-fit:contain;
     
   }
-  span {
+  p {
     font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
         font-size: 100%;
@@ -209,18 +254,16 @@ letter-spacing: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
+    
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  h3 {
-    color: papayawhip;
-    padding: 20px;
-  text-align: center;
-
-  }
   .workdoc {
+    font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
     width: 20px;
-    margin: auto;
+    margin: center;
   }
+
