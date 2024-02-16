@@ -171,25 +171,34 @@ a:hover{
 .fa {
     padding: 30px;
     font-size: 30px;
-    width: 55px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50px;
-    
+    border-radius: 50%;
   }
   .fa:hover {
     opacity: 0.7;
   }
   .fa-instagram {
-    background: black;
+    background: transparent;
+    color: papayawhip;
+  }
+  .fa-linkedin {
+    background: transparent;
     color: papayawhip;
   }
   
   .footer {
-    padding: 100px; 
-    text-align: center; 
-    background: black; 
-  }
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: papayawhip;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+ }
   #container {
     height:50%;
     display:grid;
@@ -260,10 +269,5 @@ letter-spacing: 5px;
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .workdoc {
-    font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
-    width: 20px;
-    margin: center;
-  }
+ 
 
