@@ -10,7 +10,7 @@ body {
   background-color: black;
 }
 .heading {
-  color: papayawhip;
+  color: whitesmoke;
   font-family: anton, sans-serif;
 font-style: normal;
 font-size: 30px;
@@ -29,11 +29,11 @@ letter-spacing: 5px;
 }
 .navbar {
     outline-style: solid;
-    outline-color: papayawhip;
+    outline-color: whitesmoke;
   }
   .topnav a {
     
-    color: papayawhip;
+    color: whitesmoke;
     text-align: right;
     padding: 14px 50px;
     text-decoration: none;
@@ -42,23 +42,23 @@ letter-spacing: 5px;
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: whitesmoke;
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
     outline-style: dashed;
-    color: papayawhip;
+    color: whitesmoke;
   }
   .navbar {
     outline-style: solid;
-    outline-color: papayawhip;
+    outline-color: whitesmoke;
   }
 .container {
     height:50%;
       display:grid;
-      background-color:papayawhip;
+      background-color:whitesmoke;
   }
 .self {
   width: 300px;
@@ -87,7 +87,7 @@ letter-spacing: 5px;
 }
 a {
     text-decoration:none;
-    color: papayawhip;
+    color: whitesmoke;
   }
   
   a:hover{
@@ -106,15 +106,15 @@ a {
   }
   .fa-instagram {
     background: black;
-    color: papayawhip;
+    color: whitesmoke;
   }
   .fa-linkedin {
     background: transparent;
-    color: papayawhip;
+    color: whitesmoke;
   }
   .footer {
     outline-style: solid;
-    outline-color: papayawhip;
+    outline-color: whitesmoke;
     position:relative;
     left: 0;
     bottom: 0;
@@ -124,7 +124,7 @@ a {
  }
   a {
       text-decoration:none;
-      color: papayawhip;
+      color: whitesmoke;
     }
     
     a:hover{

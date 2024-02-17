@@ -1,9 +1,18 @@
 body {
+  color: whitesmoke;
+    font-family: "latino-gothic-variable",sans-serif;
+    font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
     background-color: black;
     margin: auto;
     padding: auto;
   
 }
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 .header {
   padding: 25px; 
   text-align: center; 
@@ -42,8 +51,8 @@ letter-spacing: 5px;
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: black;
+    color: whitesmoke;
   }
   
   /* Add a color to the active/current link */
@@ -94,7 +103,7 @@ letter-spacing: 5px;
     .footer {
         outline-style: solid;
         outline-color: whitesmoke;
-        position: absolute;
+        position: relative;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -110,4 +119,42 @@ letter-spacing: 5px;
       a:hover{
         text-decoration:none;
       }
-      
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color:black;
+        border: whitesmoke;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label,
+    input,
+    textarea {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: black;
+        color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #1134A6;
+    }    

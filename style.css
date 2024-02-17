@@ -25,7 +25,7 @@ section {
     background-color: black;
   }
   .heading {
-    color: papayawhip;
+    color: whitesmoke;
     font-family: anton, sans-serif;
 font-style: normal;
 font-size: 30px;
@@ -45,8 +45,8 @@ letter-spacing: 5px;
   .about {
     background-color: black;
     outline-style: solid;
-    outline-color: papayawhip;
-    color: papayawhip;
+    outline-color: whitesmoke;
+    color: whitesmoke;
     font-family: anton, sans-serif;
 font-style: normal;
 font-size: 100%;
@@ -66,7 +66,7 @@ p {
   /* Style the links inside the navigation bar */
   .topnav a {
     
-    color: papayawhip;
+    color: whitesmoke;
     text-align: right;
     padding: 14px 50px;
     text-decoration: none;
@@ -75,18 +75,18 @@ p {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: whitesmoke;
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
     outline-style: dashed;
-    color: papayawhip;
+    color: whitesmoke;
   }
   .navbar {
     outline-style: solid;
-    outline-color: papayawhip;
+    outline-color: whitesmoke;
   }
 
 .work {
@@ -97,7 +97,7 @@ font-size: 100%;
 font-weight: 400;
 letter-spacing: 5px;
 text-align: center;
-background-color: papayawhip;
+background-color: whitesmoke;
 border-radius: 5px;
     width: 125%;
     margin: auto;
@@ -105,7 +105,7 @@ border-radius: 5px;
 
 a {
   text-decoration:none;
-  color: papayawhip;
+  color: whitesmoke;
 }
 
 a:hover{
@@ -113,7 +113,7 @@ a:hover{
 }
 
 .art {
-    background-color: papayawhip;
+    background-color: whitesmoke;
     color: black;
     font-family: anton, sans-serif;
     font-style: normal;
@@ -153,7 +153,7 @@ a:hover{
 }
 
 .type {
-  background-color: papayawhip;
+  background-color: whitesmoke;
     color: black;
   font-family: anton, sans-serif;
   font-style: normal;
@@ -181,7 +181,7 @@ a:hover{
   }
   .fa-instagram {
     background: transparent;
-    color: papayawhip;
+    color: whitesmoke;
   }
   .fa-linkedin {
     background: transparent;
@@ -191,7 +191,7 @@ a:hover{
   .footer {
     outline-style: solid;
     outline-width: 5px;
-    outline-color: papayawhip;
+    outline-color: whitesmoke;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -258,7 +258,7 @@ letter-spacing: 5px;
     display: none;
     position: absolute;
     background-color: black;
-    color: papayawhip;
+    color: whitesmoke;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
