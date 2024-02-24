@@ -2,7 +2,6 @@ body {
     background-color: black;
     margin: auto;
     padding: auto;
-    display:grid;
 }
 * {
     box-sizing: border-box;
@@ -20,20 +19,18 @@ section {
     flex: 3;
   }
 .header {
-    padding: 25px; 
-    text-align: center; 
     background-color: black;
   }
   .heading {
+    margin-left: 5%;
     color: whitesmoke;
     font-family: anton, sans-serif;
 font-style: normal;
-font-size: 30px;
+font-size: 15px;
 font-weight: 400;
 letter-spacing: 5px;
 }
   .topnav {
-    background-color: #1134A6;
     overflow: hidden;
     text-align: center;
     font-family: anton, sans-serif;
@@ -58,16 +55,9 @@ border: 20px;
         margin-left: -10px;
         border-radius: 5px;
 }
-p {
-        font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
-}
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    
-    color: whitesmoke;
-    text-align: right;
     padding: 14px 50px;
     text-decoration: none;
     font-size: 17px;
@@ -112,45 +102,7 @@ a:hover{
   text-decoration:none;
 }
 
-.art {
-    background-color: whitesmoke;
-    color: black;
-    font-family: anton, sans-serif;
-    font-style: normal;
-    font-size: 100%;
-    font-weight: 400;
-    letter-spacing: 5px;
-    text-align: center;
-    border-radius: 5px;
-    width: 20%;
-    margin: auto;
-    
-}
-.self {
-  width: 300px;
-  height: 400px;
-  object-fit: contain;
-}
-.MH {
-  width: 300px;
-  height: 400px;
-  object-fit: contain;
-}
-.sad {
-  width: 300px;
-  height: 400px;
-  object-fit: contain;
-}
-.cow {
-  width: 434px;
-  height: 534px;
-  object-fit: contain;
-}
-.mountain {
-  width: 434px;
-  height: 534px;
-  object-fit: contain;
-}
+
 
 .type {
   background-color: whitesmoke;

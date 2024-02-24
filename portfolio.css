@@ -4,21 +4,22 @@ body {
     padding: auto;
   
 }
+* {
+  box-sizing: border-box;
+}
 .header {
-  padding: 25px; 
-  text-align: center; 
   background-color: black;
 }
 .heading {
+  margin-left: 5%;
   color: whitesmoke;
   font-family: anton, sans-serif;
 font-style: normal;
-font-size: 30px;
+font-size: 15px;
 font-weight: 400;
 letter-spacing: 5px;
 }
 .topnav {
-  background-color: #1134A6;
   overflow: hidden;
   text-align: center;
   font-family: anton, sans-serif;
@@ -32,9 +33,6 @@ letter-spacing: 5px;
     outline-color: whitesmoke;
   }
   .topnav a {
-    
-    color: whitesmoke;
-    text-align: right;
     padding: 14px 50px;
     text-decoration: none;
     font-size: 17px;
@@ -51,12 +49,26 @@ letter-spacing: 5px;
     outline-style: dashed;
     color: whitesmoke;
   }
+  .work {
+    background-color: black;
+    outline-style: solid;
+    outline-color: whitesmoke;
+    color: whitesmoke;
+    font-family: anton, sans-serif;
+font-style: normal;
+font-size: 100%;
+font-weight: 400;
+letter-spacing: 5px;
+        padding: 10px 50px;
+        margin-left: 10px;
+        border-radius: 5px;
+  }
   
   .workdoc {
     font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
     width: 20px;
-    margin: center;
+    margin-left: 5%;
   }
   .type {
     background-color: whitesmoke;

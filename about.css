@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    margin: auto;
+    padding: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+}
+.heading {
+  margin-left: 5%;
+  color: whitesmoke;
+  font-family: anton, sans-serif;
+font-style: normal;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 5px;
+}
+.topnav {
+  overflow: hidden;
+  text-align: center;
+  font-family: anton, sans-serif;
+font-style: normal;
+font-size: 100%;
+font-weight: 400;
+letter-spacing: 5px;
+}
+.navbar {
+    outline-style: solid;
+    outline-color: whitesmoke;
+  }
+  .topnav a {
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    outline-style: dashed;
+    color: whitesmoke;
+  }
+
+  a {
+    text-decoration:none;
+    color: whitesmoke;
+  }
+  
+  a:hover{
+    text-decoration:none;
+  }
+  .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-instagram {
+    background: black;
+    color: whitesmoke;
+  }
+  .fa-linkedin {
+    background: transparent;
+    color: whitesmoke;
+  }
+  .footer {
+    outline-style: solid;
+    outline-color: whitesmoke;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+    section {
+        float: right;
+        display: -webkit-flex;
+        display: flex;
+        width: 600px;
+        height: 200px;
+        padding: 20px;
+      }
+      article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+      }
+      .self {
+        margin-left: 20%;
+        padding: 20px;
+        float: left;
+        display: flex;
+        left:20px;
+        width: 500px;
+        height: 600px;
+        object-fit: contain;
+      }
+      .about {
+        background-color: black;
+        outline-style: solid;
+        outline-color: whitesmoke;
+        color: whitesmoke;
+        font-family: anton, sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: justify;
+    border: 20px;
+            padding: 15px;
+            margin-left: -10px;
+            border-radius: 5px;
+    }
+p {
+    font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+        font-size: 100%;
+font-weight: 400;
+letter-spacing: 5px;
+  }
