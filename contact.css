@@ -120,7 +120,7 @@ letter-spacing: 5px;
       * {
         box-sizing: border-box;
       }
-      .container {
+      .container2 {
         max-width: 600px;
         margin: 50px auto;
         padding: 20px;
@@ -156,3 +156,22 @@ letter-spacing: 5px;
     button:hover {
         background-color: #1134A6;
     }    
+
+    .container1 {
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    @media (max-width: 768px) {
+      .container {
+        width: 100%;
+        padding: 10px;
+      }
+    }

@@ -49,6 +49,7 @@ font-style: normal;
 font-size: 100%;
 font-weight: 400;
 letter-spacing: 5px;
+word-spacing: -8px;
 text-align: justify;
 border: 20px;
         padding: 15px;
@@ -91,6 +92,8 @@ background-color: whitesmoke;
 border-radius: 5px;
     width: 125%;
     margin-top: 50px;
+    letter-spacing: 3px;
+word-spacing: -5px;
 }
 
 a {
@@ -218,7 +221,8 @@ a:hover{
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
         font-size: 100%;
 font-weight: 400;
-letter-spacing: 5px;
+letter-spacing: 3px;
+word-spacing: -5px;
   }
 
   

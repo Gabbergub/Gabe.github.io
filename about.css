@@ -120,6 +120,7 @@ letter-spacing: 5px;
     font-size: 100%;
     font-weight: 400;
     letter-spacing: 5px;
+    word-spacing: -8px;
     text-align: justify;
     border: 20px;
             padding: 15px;
@@ -131,5 +132,26 @@ p {
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
         font-size: 100%;
 font-weight: 400;
-letter-spacing: 5px;
+letter-spacing: 3px;
+word-spacing: -5px;
+  }
+
+
+  .container1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
   }
