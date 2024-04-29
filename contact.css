@@ -1,8 +1,8 @@
 body {
-  color: whitesmoke;
+  color: black;
     font-family: "latino-gothic-variable",sans-serif;
     font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
-    background-color: black;
+    background-color: white;
     margin: auto;
     padding: auto;
   
@@ -14,11 +14,11 @@ body {
     }
   }
   .header {
-    background-color: black;
+    background-color: white;
   }
   .heading {
     margin-left: 5%;
-    color: whitesmoke;
+    color: black;
     font-family: anton, sans-serif;
 font-style: normal;
 font-size: 15px;
@@ -34,7 +34,7 @@ letter-spacing: 5px;
     margin: center;
   }
   .type {
-    background-color: whitesmoke;
+    background-color: black;
       color: black;
     font-family: anton, sans-serif;
     font-style: normal;
@@ -58,7 +58,8 @@ letter-spacing: 5px;
   }
   .navbar {
       outline-style: solid;
-      outline-color: whitesmoke;
+      outline-color: black;
+      outline-width: 4px;
     }
     .topnav a {
       padding: 14px 50px;
@@ -71,20 +72,49 @@ letter-spacing: 5px;
       background-color: whitesmoke;
       color: black;
     }
-    
-    /* Add a color to the active/current link */
-    .topnav a.active {
-      outline-style: dashed;
-      color: whitesmoke;
-    }
   
     a {
       text-decoration:none;
-      color: whitesmoke;
+      color: black;
     }
+    
     
     a:hover{
       text-decoration:none;
+    }
+
+      .box .rectangle {
+      position: relative;
+      width: 525px;
+      height: 204px;
+      border-radius: 5px;
+      border: 2px solid;
+      border-color: #000000;
+      margin: auto;
+      top: 150px;
+      width: 25%;
+      padding: 20px;
+      
+      }
+      .text-heading{
+       border-bottom: 4px solid black;
+       font-family: anton, sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 5px;
+    word-spacing: -8px;
+    text-align: justify;
+      }
+      
+
+    video{
+      position: relative;
+      margin-right: 5%;
+        float: right;
+        display: inline-flex;
+        right:20px;
+        bottom: 190px;
     }
     .fa {
         padding: 30px;
@@ -98,25 +128,23 @@ letter-spacing: 5px;
       opacity: 0.7;
     }
     .fa-instagram {
-      background: black;
-      color: whitesmoke;
+      background: white;
+      color: black;
     }
     .fa-linkedin {
         background: transparent;
-        color: whitesmoke;
+        color: black;
       }
     .footer {
-        outline-style: solid;
-        outline-color: whitesmoke;
-        position: relative;
+        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: black;
+        background-color: transparent;
         text-align: center;
      }
     
-    
+    /* contact form code 
       * {
         box-sizing: border-box;
       }
@@ -175,3 +203,5 @@ letter-spacing: 5px;
         padding: 10px;
       }
     }
+    */
+    
