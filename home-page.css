@@ -3,10 +3,13 @@ body {
     margin: auto;
     padding: auto;
 }
-* {
-    box-sizing: border-box;
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-section {
+}
+/* section {
     display: -webkit-flex;
     display: flex;
     width: 600px;
@@ -17,7 +20,7 @@ section {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-  }
+  } */
 .header {
     background-color: white;
   }
@@ -72,8 +75,8 @@ border: 20px;
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: black;
+    color: white;
   }
   
   .navbar {
@@ -126,7 +129,7 @@ a:hover{
 
 
 .fa {
-    padding: 30px;
+    padding: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;

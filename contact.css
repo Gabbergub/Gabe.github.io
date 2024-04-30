@@ -69,8 +69,8 @@ letter-spacing: 5px;
     
     /* Change the color of links on hover */
     .topnav a:hover {
-      background-color: whitesmoke;
-      color: black;
+      background-color: black;
+      color: white;
     }
   
     a {
@@ -117,7 +117,7 @@ letter-spacing: 5px;
         bottom: 190px;
     }
     .fa {
-        padding: 30px;
+        padding: 10px;
         font-size: 30px;
         width: 30px;
         text-align: center;

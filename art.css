@@ -3,8 +3,11 @@ body {
     margin: auto;
     padding: auto;
 }
-* {
-  box-sizing: border-box;
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 .header {
   background-color:white;
@@ -99,7 +102,7 @@ a {
     text-decoration:none;
   }
   .fa {
-    padding: 30px;
+    padding: 10px;
     font-size: 30px;
     width: 30px;
     text-align: center;
