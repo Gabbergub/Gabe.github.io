@@ -1,8 +1,4 @@
 body {
-  color: black;
-    font-family: "latino-gothic-variable",sans-serif;
-    font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
-    background-color: white;
     margin: auto;
     padding: auto;
   
@@ -13,9 +9,7 @@ body {
       margin-top: 0;
     }
   }
-  .header {
-    background-color: white;
-  }
+
   .heading {
     margin-left: 2%;
     color: black;
@@ -27,7 +21,7 @@ letter-spacing: 5px;
 }
 
   
-  .workdoc {
+  /* .workdoc {
     font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
     width: 20px;
@@ -46,7 +40,7 @@ letter-spacing: 5px;
     width: 20%;
     margin: auto;
     
-  }
+  } */
   .topnav {
     overflow: hidden;
     text-align: center;
@@ -54,24 +48,44 @@ letter-spacing: 5px;
   font-style: normal;
   font-size: 100%;
   font-weight: 400;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   }
   .navbar {
       outline-style: solid;
       outline-color: black;
-      outline-width: 4px;
+      outline-width: 2px;
     }
     .topnav a {
-      padding: 14px 50px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 14px;
     }
     
     /* Change the color of links on hover */
-    .topnav a:hover {
+    .topnav a:hover:not(.active) {
       background-color: black;
       color: white;
     }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: o;
+      overflow: hidden;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      padding: 5px 40px;
+    }
+    .active {
+      outline-style:solid;
+      outline-color: black;
+      outline-width: 3px;
+    }
+  
   
     a {
       text-decoration:none;
@@ -93,7 +107,7 @@ letter-spacing: 5px;
       margin: auto;
       top: 150px;
       width: 25%;
-      padding: 20px;
+      padding: 25px;
       
       }
       .text-heading{
@@ -106,6 +120,23 @@ letter-spacing: 5px;
     word-spacing: -8px;
     text-align: justify;
       }
+      p {
+        font-family: "latino-gothic-variable",sans-serif;
+            font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+            font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+      }
+      h3 {
+        color: gray;
+        font-family: "latino-gothic-variable",sans-serif;
+            font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+            font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+      } 
       
 
     video{

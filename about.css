@@ -5,10 +5,8 @@ body {
     cursor: url('Smiley_Face.png'), auto;
 }
 
-.header {
-  background-color: white;
-}
 .heading {
+  padding: auto;
   margin-left: 2%;
   color: black;
   font-family: anton, sans-serif;
@@ -24,22 +22,21 @@ letter-spacing: 5px;
 font-style: normal;
 font-size: 100%;
 font-weight: 400;
-letter-spacing: 5px;
+letter-spacing: 2px;
 }
 .navbar {
   
     outline-style: solid;
     outline-color: black;
-    outline-width: 4px;
+    outline-width: 2px;
   }
   .topnav a {
-    padding: 14px 50px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .topnav a:hover:not(.active) {
     background-color: black;
     color: white;
   }
@@ -51,6 +48,26 @@ letter-spacing: 5px;
   
   a:hover{
     text-decoration:none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: o;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    padding: 5px 40px;
+  }
+  .active {
+    outline-style:solid;
+    outline-color: black;
+    outline-width: 3px;
   }
   .fa {
     padding: 10px;
@@ -129,6 +146,15 @@ font-weight: 400;
 letter-spacing: 3px;
 word-spacing: -5px;
   }
+  h3 {
+    color: gray;
+    font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+        font-size: 12px;
+font-weight: 400;
+letter-spacing: 2px;
+word-spacing: 2px;
+  } 
 
   img {
     max-width: 100%;
