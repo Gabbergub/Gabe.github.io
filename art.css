@@ -121,7 +121,8 @@ a {
     color: black;
   }
   .footer {
-    position:absolute;
+    position:relative;
+    margin-top: 100%;
     left: 0;
     bottom: 0;
     width: 100%;
