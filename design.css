@@ -9,7 +9,13 @@ body {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
-
+.smiley{
+  margin-top: -90px;
+  left: 280px;
+position: absolute;
+  display: flex;
+  width: 100px;
+}
 .heading {
   margin-left: 2%;
   color: black;
@@ -59,6 +65,7 @@ letter-spacing: 2px;
     padding: 5px 40px;
   }
   .active {
+    color: #DC143C;
     outline-style:solid;
     outline-color: black;
     outline-width: 3px;

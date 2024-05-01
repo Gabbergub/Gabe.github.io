@@ -3,11 +3,13 @@ body {
     margin: auto;
     padding: auto;
 }
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+
+.smiley{
+  margin-top: -90px;
+  left: 280px;
+position: absolute;
+  display: flex;
+  width: 100px;
 }
 .heading {
   margin-left: 2%;
@@ -64,6 +66,7 @@ letter-spacing: 2px;
     padding: 5px 40px;
   }
   .active {
+    color: green;
     outline-style:solid;
     outline-color: black;
     outline-width: 3px;
@@ -87,8 +90,101 @@ font-weight: 400;
 letter-spacing: 2px;
 word-spacing: 2px;
   } 
-  /*
-.container {
+  .digital_work {
+    background-color: white;
+    outline-style: solid;
+    outline-color: black;
+    color: black;
+    font-family: anton, sans-serif;
+font-style: normal;
+font-size: 100%;
+font-weight: 400;
+letter-spacing: 5px;
+word-spacing: -8px;
+text-align: justify;
+position: relative;
+top: 120px;
+display: flex;
+        width: 300px;
+        padding: 15px;
+        margin-left: 7%;
+        border-radius: 5px;
+  }
+  .container1 {
+    position: relative;
+    height:50%;
+    width: 100%;
+      top: -180px;
+      vertical-align: center;
+      background-color:transparent;
+  }
+.gay_kiss {
+  position: relative;
+width: 255px;
+height: 326px;
+top: 310px;
+left: 111px;
+object-fit: contain;
+}
+.omar {
+  position: relative;
+  width: 191px;
+  height: 326px;
+  top: 310px;
+  left: 126px;
+  object-fit: contain;
+  }
+  
+.jacob {
+  position: relative;
+width: 273px;
+height: 326px;
+top: 310px;
+left: 143px;
+object-fit: contain;
+}
+.granny {
+  position: relative;
+  width: 239px;
+  height: 326px;
+  top: 310px;
+  left: 160px;
+  object-fit: contain;
+}
+.fruit {
+  position: relative;
+  width: 466px;
+  height: 326px;
+  top: 199px;
+  left: 111px;
+  object-fit: contain;
+}
+.marcus {
+  position: relative;
+  width: 316px;
+height: 452px;
+top:325px;
+  left: 127px;
+  object-fit: contain;
+}
+
+.emma {
+  position: relative;
+  width: 347px;
+height: 326px;
+  top: 199px;
+  left: 143px;
+  object-fit: contain;
+}
+.josh {
+  position: relative;
+  width: 465px;
+  height: 479px;
+  top: 215px;
+  left: 111px;
+  object-fit: contain;
+}
+.container2 {
     height:50%;
       display:grid;
       background-color:whitesmoke;
@@ -118,7 +214,7 @@ word-spacing: 2px;
   height: 534px;
   object-fit: contain;
 }
-*/
+
 a {
     text-decoration:none;
     color: black;
@@ -139,7 +235,7 @@ a {
     opacity: 0.7;
   }
   .fa-instagram {
-    background: white;
+    background: transparent;
     color: black;
   }
   .fa-linkedin {
@@ -164,5 +260,44 @@ a {
       text-decoration:none;
     }
   
+   
+ 
+    /*
+    .row {
+      
+      display: flex;
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    .column {
+      -ms-flex: 25%; 
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
     
     
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+} 
+*/

@@ -9,7 +9,13 @@ body {
       margin-top: 0;
     }
   }
-
+  .smiley{
+    margin-top: -90px;
+    left: 280px;
+  position: absolute;
+    display: flex;
+    width: 100px;
+  }
   .heading {
     margin-left: 2%;
     color: black;
@@ -123,7 +129,7 @@ letter-spacing: 5px;
       p {
         font-family: "latino-gothic-variable",sans-serif;
             font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-            font-size: 100%;
+            font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
     word-spacing: 1px;

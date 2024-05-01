@@ -4,7 +4,13 @@ body {
     padding: auto;
     cursor: url('Smiley_Face.png'), auto;
 }
-
+.smiley{
+  margin-top: -90px;
+  left: 280px;
+position: absolute;
+  display: flex;
+  width: 100px;
+}
 .heading {
   padding: auto;
   margin-left: 2%;
@@ -65,6 +71,7 @@ letter-spacing: 2px;
     padding: 5px 40px;
   }
   .active {
+    color: #1457DC;
     outline-style:solid;
     outline-color: black;
     outline-width: 3px;
@@ -141,10 +148,10 @@ letter-spacing: 2px;
 p {
     font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-        font-size: 100%;
+        font-size: 12px;
 font-weight: 400;
-letter-spacing: 3px;
-word-spacing: -5px;
+letter-spacing: 1px;
+word-spacing: 1px;
   }
   h3 {
     color: gray;
