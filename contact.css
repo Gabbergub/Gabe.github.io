@@ -11,8 +11,8 @@ body {
   }
   .smiley{
     margin-top: -90px;
-    left: 280px;
-  position: absolute;
+    left: 255px;
+  position: relative;
     display: flex;
     width: 100px;
   }

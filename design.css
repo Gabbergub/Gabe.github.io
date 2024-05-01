@@ -3,16 +3,16 @@ body {
     margin: auto;
     padding: auto;
 }
-/* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
 }
 .smiley{
   margin-top: -90px;
-  left: 280px;
-position: absolute;
+  left: 255px;
+position: relative;
   display: flex;
   width: 100px;
 }

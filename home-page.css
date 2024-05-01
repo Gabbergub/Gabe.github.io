@@ -2,15 +2,18 @@ body {
     background-color: white;
     margin: auto;
     padding: auto;
-    cursor: url(Smiley_Face.png),url('vertopal.com_Smiley_Face.cur'),url('https://www.vertopal.com/download/file/740852c9472f416f9ff73f5cb72a0005.cur') 4 12, pointer;
+   
 }
-a:hover {
-  cursor: url(Smiley_Face.png), auto;
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 .smiley{
   margin-top: -90px;
-  left: 280px;
-position: absolute;
+  left: 255px;
+position: relative;
   display: flex;
   width: 100px;
 }
