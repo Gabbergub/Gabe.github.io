@@ -90,6 +90,78 @@ font-weight: 400;
 letter-spacing: 2px;
 word-spacing: 2px;
   } 
+
+  .digital_work {
+    background-color: white;
+    outline-style: solid;
+    outline-color: black;
+    color: black;
+    font-family: anton, sans-serif;
+font-style: normal;
+font-size: 100%;
+font-weight: 400;
+letter-spacing: 2px;
+text-align: justify;
+position: relative;
+top: 120px;
+display: flex;
+        width: 300px;
+        padding: 10px;
+        margin-left: 7%;
+        border-radius: 5px;
+  }
+
+  .container1 {
+    position: relative;
+    height:50%;
+    width: 100%;
+      top: -180px;
+      vertical-align: center;
+      background-color:transparent;
+  }
+.poster {
+  position: relative;
+width: 455px;
+height: 526px;
+margin-top: 310px;
+float: left;
+  margin-left: 70px;
+object-fit: contain;
+}
+.poster_mockup {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin-top: 840px;
+  float: left;
+  margin-left: -29%;
+  object-fit: contain;
+  }
+  
+.instagram_mockup {
+  position: relative;
+  width: 739px;
+  height: 371px;
+margin-top: 50px;
+float: right;
+object-fit: contain;
+}
+.banner_animation {
+  position: relative;
+  width: 239px;
+  height: 326px;
+  top: 310px;
+  left: 160px;
+  object-fit: contain;
+}
+.web_mockup {
+  position: relative;
+  width: 466px;
+  height: 326px;
+  top: 199px;
+  left: 111px;
+  object-fit: contain;
+}
   /* .work {
     background-color: black;
     outline-style: solid;
