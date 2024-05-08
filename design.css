@@ -239,6 +239,12 @@ position: relative;
         margin-left: 36%;
         object-fit: contain;
       }
+      .interface {
+        /* override other styles to make responsive */
+        width: 55vw    !important;
+        height: auto   !important;
+       object-fit: contain;
+      }
 
 
       .slow {
@@ -252,7 +258,7 @@ position: relative;
     font-weight: 400;
     letter-spacing: 2px;
     text-align:center;
-    margin-top: 130%;
+    margin-top: 165%;
     top:50px;
     position: relative;
             width: 200px;
