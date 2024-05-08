@@ -88,6 +88,7 @@ letter-spacing: 5px;
       padding: 5px 40px;
     }
     .active {
+      color: gray;
       outline-style:solid;
       outline-color: black;
       outline-width: 3px;

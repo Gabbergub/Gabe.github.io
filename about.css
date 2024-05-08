@@ -76,7 +76,7 @@ letter-spacing: 2px;
     padding: 5px 40px;
   }
   .active {
-    color: #1457DC;
+    color: gray;
     outline-style:solid;
     outline-color: black;
     outline-width: 3px;
