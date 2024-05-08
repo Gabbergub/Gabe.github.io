@@ -102,6 +102,7 @@ font-size: 100%;
 font-weight: 400;
 letter-spacing: 2px;
 text-align: center;
+margin-top: 15%;
 top: 50px;
 position: relative;
         width: 200px;
@@ -146,7 +147,7 @@ position: relative;
         /* override other styles to make responsive */
         width: 100%    !important;
         height: auto   !important;
-       
+       object-fit: contain;
       }
       
       * {
@@ -156,7 +157,7 @@ position: relative;
       .instagram_mockup {
         /* margin-top: 181%; */
         width: 63vw;
-       
+       object-fit: contain;
        /*
         margin-top: -47%;
         /* position:absolute; */
@@ -165,34 +166,35 @@ position: relative;
       .poster{
         /* position:absolute; */
         width:35vw;
+        object-fit: contain;
         /*top:100vh;*/
       }
     .poster_mockup{
       /* position:absolute; */
-      
+      object-fit: contain;
       width:45vw;
       
     }
-    .visual-title {
+    .visual {
       background-color: white;
-      outline-style: solid;
-      outline-color: black;
-      color: black;
-      font-family: anton, sans-serif;
-  font-style: normal;
-  font-size: 100%;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-align:center;
-  margin-top: 130%;
-  top:50px;
-  position: relative;
-          width: 200px;
-          padding: 10px;
-          margin-left: 12px;
-          border-radius: 5px;
-        
-    }
+        outline-style: solid;
+        outline-color: black;
+        color: black;
+        font-family: anton, sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align:center;
+    margin-top: 185%;
+    top:50px;
+    position: relative;
+            width: 200px;
+            padding: 10px;
+            margin-left: 12px;
+            border-radius: 5px;
+      }
+    
     
     .main_content2 {
       margin: 60px 0 40px;
@@ -211,12 +213,14 @@ position: relative;
         .cover {
           /* margin-top: 181%; */
           width: 35vw;
+          object-fit: contain;
           /* position:absolute; */
         }
   
         .spread1{
           /* position:absolute; */
           width:55vw;
+          object-fit: contain;
           /*top:100vh;*/
         }
         .spread2{
@@ -225,7 +229,7 @@ position: relative;
           transform: rotate(90deg);
           margin-left: 47%;
           margin-top: -27%;
-          
+          object-fit: contain;
           /*top:100vh;*/
         }
       .spread3{
@@ -233,6 +237,7 @@ position: relative;
         width:55vw;
         margin-top: -55%;
         margin-left: 36%;
+        object-fit: contain;
       }
 
 
@@ -270,20 +275,24 @@ position: relative;
         .poster2 {
           /* margin-top: 181%; */
           width: 35vw;
+          object-fit: contain;
           /* position:absolute; */
         }
         .event-poster {
           width: 35vw;
           margin-left: 5%;
+          object-fit: contain;
         }
         .mockup1{
           /* position:absolute; */
           width:57vw;
+          object-fit: contain;
           /*top:100vh;*/
         }
         .mockup2{
           /* position:absolute; */
           width:35vw;
+          object-fit: contain;
           /*top:100vh;*/
         }
       
