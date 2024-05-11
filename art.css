@@ -9,13 +9,13 @@ body {
     margin-top: 0;
   }
 }
-.smiley{
+/*.smiley{
   margin-top: -90px;
   left: 255px;
 position: relative;
   display: flex;
   width: 100px;
-}
+}*/
 .heading {
   margin-left: 2%;
   color: black;
