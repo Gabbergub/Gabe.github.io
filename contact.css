@@ -10,21 +10,22 @@ body {
       margin-top: 0;
     }
   }
-  .smiley{
+ /* .smiley{
     margin-top: -90px;
     left: 255px;
   position: relative;
     display: flex;
     width: 100px;
-  }
+  }*/
+
   .heading {
     margin-left: 2%;
     color: black;
-    font-family: anton, sans-serif;
-font-style: normal;
-font-size: 15px;
-font-weight: 400;
-letter-spacing: 5px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+letter-spacing: 2px;
 }
 
   
@@ -51,20 +52,21 @@ letter-spacing: 5px;
   .topnav {
     overflow: hidden;
     text-align: center;
-    font-family: anton, sans-serif;
-  font-style: normal;
-  font-size: 100%;
-  font-weight: 400;
-  letter-spacing: 2px;
+    font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+        font-size: 12px;
+font-weight: 400;
+letter-spacing: 2px;
+word-spacing: 2px;
   }
   .navbar {
       outline-style: solid;
       outline-color: black;
-      outline-width: 2px;
+      outline-width: 1px;
     }
     .topnav a {
       text-decoration: none;
-      font-size: 14px;
+      
     }
     
     /* Change the color of links on hover */
@@ -117,17 +119,19 @@ letter-spacing: 5px;
       margin: auto;
       top: 150px;
       width: 35%;
+      height: auto;
       padding: 25px;
       
       }
-      .text-heading{
-       border-bottom: 4px solid black;
-       font-family: anton, sans-serif;
+      .text-heading {
+        position: relative;
+       border-bottom: 1px solid black;
+       color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
-    font-size: 100%;
-    font-weight: 400;
-    letter-spacing: 5px;
-    word-spacing: -8px;
+    font-weight: 100px;
+    font-size: 12px;
+letter-spacing: 2px;
     text-align: justify;
       }
       p {
@@ -152,9 +156,11 @@ letter-spacing: 5px;
       
 
     video{
-     
+    
       margin-right: 5%;
-      
+      width: 30vw    !important;
+        height: auto   !important;
+       object-fit: contain;
     }
     .fa {
         padding: 10px;
@@ -177,7 +183,7 @@ letter-spacing: 5px;
       }
     .footer {
         position: relative;
-        margin-top: 40%;
+        margin-top: 20%;
         left: 0;
         bottom: 0;
         width: 100%;
