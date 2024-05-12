@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color:white;
     margin: auto;
     padding: auto;
    
@@ -47,7 +47,6 @@ img {
 
   .heading {
     margin-left: 2%;
-    color: black;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -64,14 +63,24 @@ font-weight: 400;
 letter-spacing: 2px;
 word-spacing: 2px;
   }
-  .self-promo {
+  p {
+    color: red;
+    font-family: "latino-gothic-variable",sans-serif;
+       font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+       font-size: 70px;
+font-weight: 400px;
+margin-left: 1%;
+
+
+ }
+  /*.self-promo {
     margin-top: 100px;
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
-  }
+  }*/
   /*.about {
     background-color: white;
     outline-style: solid;
@@ -97,13 +106,13 @@ border: 20px;
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: #353935;
+    color: #F9F6EE;
   }
   
   .navbar {
     outline-style: solid;
-    outline-color: black;
+    outline-color: #353935;
     outline-width: 1px;
   }
   ul {
@@ -139,7 +148,7 @@ word-spacing: -5px;
 
 a {
   text-decoration:none;
-  color: black;
+  color: #353935;
 }
 
 a:hover{
@@ -177,16 +186,16 @@ a:hover{
   }
   .fa-instagram {
     background: transparent;
-    color: black;
+    color: #353935;
   }
   .fa-linkedin {
     background: transparent;
-    color: black;
+    color: #353935;
   }
   
   .footer {
     position: relative;
-    margin-top: 10%;
+    margin-top: 30%;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -262,7 +271,7 @@ a:hover{
         font-size: 12px;
 font-weight: 400;
 letter-spacing: 2px;
-word-spacing: 2px;
+word-spacing: 1px;
   } 
 
   

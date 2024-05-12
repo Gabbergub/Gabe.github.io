@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color:white;
     margin: auto;
     padding: auto;
   
@@ -20,12 +20,12 @@ body {
 
   .heading {
     margin-left: 2%;
-    color: black;
+    margin-left: 2%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
-letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
   
@@ -60,9 +60,9 @@ letter-spacing: 2px;
 word-spacing: 2px;
   }
   .navbar {
-      outline-style: solid;
-      outline-color: black;
-      outline-width: 1px;
+    outline-style: solid;
+    outline-color:#353935;
+    outline-width: 1px;
     }
     .topnav a {
       text-decoration: none;
@@ -71,8 +71,8 @@ word-spacing: 2px;
     
     /* Change the color of links on hover */
     .topnav a:hover:not(.active) {
-      background-color: black;
-      color: white;
+      background-color: #353935;
+    color: #F9F6EE;
     }
     ul {
       list-style-type: none;
@@ -91,15 +91,15 @@ word-spacing: 2px;
     }
     .active {
       color: gray;
-      outline-style:solid;
-      outline-color: black;
-      outline-width: 3px;
+    outline-style:solid;
+    outline-color: #353935;
+    outline-width: 3px;
     }
   
   
     a {
       text-decoration:none;
-      color: black;
+      color: #353935;
     }
     
     
@@ -111,7 +111,7 @@ word-spacing: 2px;
       box-sizing: border-box;
     }
    
-      .box .rectangle {
+      /*.box .rectangle {
     position:relative;
       border-radius: 5px;
       border: 2px solid;
@@ -121,27 +121,25 @@ word-spacing: 2px;
       width: 35%;
       height: auto;
       padding: 25px;
-      
-      }
+      }*/
+
       .text-heading {
         position: relative;
-       border-bottom: 1px solid black;
-       color: black;
+       border-bottom: 1px solid #353935;
+       color: #353935;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100px;
     font-size: 12px;
-letter-spacing: 2px;
-    text-align: justify;
+margin-left: 1%;
       }
       p {
         font-family: "latino-gothic-variable",sans-serif;
             font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
             font-size: 12px;
     font-weight: 400;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    text-align: justify;
+    margin-left: 1%;
+    
    
       }
       h3 {
@@ -156,8 +154,6 @@ letter-spacing: 2px;
       
 
     video{
-    
-      margin-right: 5%;
       width: 30vw    !important;
         height: auto   !important;
        object-fit: contain;
@@ -175,11 +171,11 @@ letter-spacing: 2px;
     }
     .fa-instagram {
       background: transparent;
-      color: black;
+      color: #353935;
     }
     .fa-linkedin {
         background: transparent;
-        color: black;
+        color: #353935;;
       }
     .footer {
         position: relative;
