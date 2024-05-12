@@ -52,12 +52,12 @@ body {
   .topnav {
     overflow: hidden;
     text-align: center;
-    font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-        font-size: 12px;
-font-weight: 400;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
 letter-spacing: 2px;
-word-spacing: 2px;
+
   }
   .navbar {
     outline-style: solid;
@@ -125,18 +125,19 @@ word-spacing: 2px;
 
       .text-heading {
         position: relative;
-       border-bottom: 1px solid #353935;
+      /* border-bottom: 1px solid #353935;*/
        color: #353935;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100px;
-    font-size: 12px;
+    font-size: 20px;
 margin-left: 1%;
       }
       p {
+        position: relative;
         font-family: "latino-gothic-variable",sans-serif;
             font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-            font-size: 12px;
+            font-size: 15px;
     font-weight: 400;
     margin-left: 1%;
     

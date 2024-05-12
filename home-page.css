@@ -56,12 +56,12 @@ letter-spacing: 2px;
   .topnav {
     overflow: hidden;
     text-align: center;
-    font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-        font-size: 12px;
-font-weight: 400;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 10px;
 letter-spacing: 2px;
-word-spacing: 2px;
+
   }
   p {
     color: red;
