@@ -52,8 +52,8 @@ letter-spacing: 2px;
   
   /* Change the color of links on hover */
   .topnav a:hover:not(.active) {
-    background-color: #353935;
-    color: #F9F6EE;
+    background-color: transparent;
+    color: #FF2400;
   }
   
   
@@ -70,12 +70,12 @@ letter-spacing: 2px;
   
   li a {
     display: block;
-    padding: 5px 40px;
+    padding: 2px 15px;
   }
   .active {
-    color: gray;
-    outline-style:solid;
-    outline-color: #353935;
+    color: #FF2400;
+    /*outline-style:solid;
+    outline-color: #353935;*/
     outline-width: 3px;
   }
  /* p{
@@ -89,7 +89,7 @@ font-weight: 400;
 letter-spacing: 2px;
   }*/
   
-  h3 {
+  h4 {
     color: gray;
     font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
