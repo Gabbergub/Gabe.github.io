@@ -78,6 +78,13 @@ letter-spacing: 2px;
   position: relative;
   padding: 20px;
 }
+.fade-in-text {
+  animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
   p {
      font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 

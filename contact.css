@@ -122,7 +122,13 @@ letter-spacing: 2px;
       height: auto;
       padding: 25px;
       }*/
-
+      .fade-in-text {
+        animation: fadeIn 2s;
+      }
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
       .text-heading {
         position: relative;
       /* border-bottom: 1px solid #353935;*/
