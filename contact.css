@@ -1,5 +1,5 @@
 body {
-  background-color:white;
+  background-color:#F9F6EE;
     margin: auto;
     padding: auto;
   
@@ -72,7 +72,7 @@ letter-spacing: 2px;
     /* Change the color of links on hover */
     .topnav a:hover:not(.active) {
       background-color: transparent;
-      color: #FF2400;
+      color: #002FA7;
     }
     ul {
       list-style-type: none;
@@ -90,7 +90,7 @@ letter-spacing: 2px;
     padding: 2px 15px;
     }
     .active {
-      color: #FF2400;
+      color: #002FA7;
       /*outline-style:solid;
       outline-color: #353935;*/
       outline-width: 3px;
@@ -132,7 +132,7 @@ letter-spacing: 2px;
       .text-heading {
         position: relative;
       /* border-bottom: 1px solid #353935;*/
-       color: #FF2400;
+       color: #002FA7;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100px;
@@ -164,6 +164,8 @@ margin-left: 1%;
       width: 30vw    !important;
         height: auto   !important;
        object-fit: contain;
+       border-style: solid;
+       margin-left: 1%;
     }
     .fa {
         padding: 10px;

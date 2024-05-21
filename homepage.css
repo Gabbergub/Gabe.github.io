@@ -1,5 +1,5 @@
 body {
-    background-color:white;
+    background-color:#F9F6EE;
     margin: auto;
     padding: auto;
    
@@ -64,10 +64,10 @@ letter-spacing: 2px;
 
   }
   p {
-    color: #FF2400;
+    color: #002FA7;
     font-family: "latino-gothic-variable",sans-serif;
        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-       font-size: 50px;
+       font-size: 40px;
 font-weight: 400px;
 margin-left: 1%;
  }
@@ -112,7 +112,7 @@ border: 20px;
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: transparent;
-    color: #FF2400;
+    color: #002FA7;
   }
   
   .navbar {

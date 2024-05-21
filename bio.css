@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #F9F6EE;
     margin: auto;
     padding: auto;
 }
@@ -47,7 +47,7 @@ letter-spacing: 2px;
   /* Change the color of links on hover */
   .topnav a:hover:not(.active) {
     background-color: transparent;
-    color: #FF2400;
+    color: #002FA7;
   }
   
   a {
@@ -74,7 +74,7 @@ letter-spacing: 2px;
     padding: 2px 15px;
   }
   .active {
-    color: #FF2400;
+    color: #002FA7;
     /*outline-style:solid;
     outline-color: #353935;*/
     outline-width: 3px;
@@ -142,10 +142,10 @@ letter-spacing: 2px;
         border-radius: 5px;
     } */
 p {
-  color: #FF2400;
+  color: #002FA7;
     font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 400px;
         margin-left: 1%;
   }
