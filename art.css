@@ -99,7 +99,7 @@ letter-spacing: 2px;
 word-spacing: 2px;
   } 
   .digital_work {
-    color:#353935;
+    color:#002FA7;
     position: relative;
     font-family: neue-haas-grotesk-display, sans-serif;
   font-style: normal;
@@ -146,8 +146,30 @@ margin-left: 12px;
           box-sizing: border-box;
         }
        
-  
-       
+        .overlay {
+          position: absolute; 
+          bottom: 0; 
+          background: rgb(0, 0, 0);
+          background: rgba(0, 0, 0, 0.5); /* Black see-through */
+          color: #f1f1f1; 
+          width: 100%;
+          transition: .5s ease;
+          opacity:0;
+          color: #F9F6EE;
+          font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+        font-weight: 400;
+          font-size: 15px;
+          padding: 20px;
+          text-align: center;
+        }
+        .container {
+          position: relative;
+          
+        }
+        .container:hover .overlay {
+          opacity: 1;
+        }
 
   /* responsive */
   @media (min-width: 1200px) {
