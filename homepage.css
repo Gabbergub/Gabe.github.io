@@ -1,5 +1,5 @@
 body {
-    background-color:#F9F6EE;
+    background-color:#fff;
     margin: auto;
     padding: auto;
    
@@ -21,7 +21,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+h3 {
+  text-decoration: overline;
+}
 /*@media (max-width: 768px) {
   .container {
     width: 100%;
@@ -46,7 +48,7 @@ img {
   } */
 
   .heading {
-    margin-left: 2%;
+    margin-left: 1%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100;

@@ -1,5 +1,5 @@
 body {
-    background-color: #F9F6EE;
+  background-color:#fff;
     margin: auto;
     padding: auto;
 }
@@ -17,7 +17,7 @@ position: relative;
   width: 100px;
 }*/
 .heading {
-  margin-left: 2%;
+  margin-left: 1%;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -90,8 +90,9 @@ letter-spacing: 2px;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
         font-size: 15px;
 font-weight: 400;
-
-
+  }
+  h3{
+    text-decoration: overline;
   }
   h2 {
     color: #002FA7;

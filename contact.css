@@ -1,5 +1,5 @@
 body {
-  background-color:#F9F6EE;
+  background-color:#fff;
     margin: auto;
     padding: auto;
   
@@ -19,8 +19,7 @@ body {
   }*/
 
   .heading {
-    margin-left: 2%;
-    margin-left: 2%;
+    margin-left: 1%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -146,8 +145,9 @@ margin-left: 1%;
             font-size: 15px;
     font-weight: 400;
     margin-left: 1%;
-    
-   
+      }
+      h3{
+        text-decoration: overline;
       }
       h4 {
         color: gray;
