@@ -16,12 +16,20 @@ position: relative;
   display: flex;
   width: 100px;
 }*/
-.heading {
+.heading1 {
   margin-left: 1%;
   font-family: neue-haas-grotesk-display, sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 10px;
+letter-spacing: 2px;
+}
+.heading2 {
+
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 20px;
 letter-spacing: 2px;
 }
 .topnav {
