@@ -18,7 +18,7 @@ body {
     width: 100px;
   }*/
 
-  .heading1 {
+  /*.heading1 {
     margin-left: 1%;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
@@ -35,27 +35,6 @@ letter-spacing: 2px;
 letter-spacing: 2px;
 }
 
-  
-  /* .workdoc {
-    font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;   
-    width: 20px;
-    margin: center;
-  }
-  .type {
-    background-color: black;
-      color: black;
-    font-family: anton, sans-serif;
-    font-style: normal;
-    font-size: 100%;
-    font-weight: 400;
-    letter-spacing: 5px;
-    text-align: center;
-    border-radius: 5px;
-    width: 20%;
-    margin: auto;
-    
-  } */
   .topnav {
     overflow: hidden;
     text-align: center;
@@ -64,8 +43,36 @@ letter-spacing: 2px;
     font-weight: 100;
     font-size: 10px;
 letter-spacing: 2px;
+  }*/
 
-  }
+  .heading1 {
+    margin-left: 1%;
+    font-family: "Theinhardt-Pan-Bold";
+    font-size: 10px;
+    }
+    
+    .heading2 {
+      line-height: 1px;
+      font-family: "Theinhardt-Pan-Bold";
+      font-size: 20px;
+      font-weight: 100px;
+    }
+    
+      .topnav {
+        overflow: hidden;
+        text-align: center;
+        font-family: "Theinhardt-Pan-Regular";
+        font-size: 12px;
+      }
+      @font-face {
+        font-family: "Theinhardt-Pan-Bold";
+        src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
+      }
+      
+      @font-face {
+        font-family: "Theinhardt-Pan-Regular";
+        src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
+      }
   .navbar {
     outline-style: solid;
     outline-color:#353935;
@@ -140,18 +147,14 @@ letter-spacing: 2px;
         position: relative;
       /* border-bottom: 1px solid #353935;*/
        color: #002FA7;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-style: normal;
-    font-weight: 100px;
+    font-family: "Theinhardt-Pan-Bold";
     font-size: 20px;
 margin-left: 1%;
       }
       p {
         position: relative;
-        font-family: "latino-gothic-variable",sans-serif;
-            font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+        font-family: "Theinhardt-Pan-Regular";
             font-size: 15px;
-    font-weight: 400;
     margin-left: 1%;
       }
       h3{
