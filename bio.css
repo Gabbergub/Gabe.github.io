@@ -138,7 +138,7 @@ h3{
   }
   .footer {
     position: relative;
-    margin-top: 35%;
+    margin-top: 15%;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -181,12 +181,33 @@ h3{
     } */
 p {
   color: #002FA7;
-  font-family: "Theinhardt-Pan-Regular";
+  font-family: "Theinhardt-Pan-Bold";
   text-transform: uppercase;
     /*font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
         font-size: 30px;
         margin-left: 1%;
+  }
+  .title {
+    color: #353935;
+    font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
+        font-weight: 50px;
+        font-size: 12px;
+        margin-left: 1%;
+  }
+  .info {
+    color: #002FA7;
+    font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
+        font-size: 12px;
+        margin-left: 1%;
+  }
+  .education {
+   margin-top: 5%;
+  }
+  .experience {
+    margin-top: 5%;
   }
   .fade-in-text {
     animation: fadeIn 2s;
@@ -238,5 +259,5 @@ word-spacing: 2px;
     outline-style: dashed;
     outline-color:#353935;
     outline-width: 1px;
-    margin-top: 3%;
+   
   }
