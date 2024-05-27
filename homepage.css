@@ -65,29 +65,31 @@ letter-spacing: 2px;
 */
 
 .heading1 {
+  margin-top: -3%;
 margin-left: 1%;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 10px;
+font-size: 35px;
+letter-spacing: -2px;
 }
 
-.heading2 {
+/*.heading2 {
   line-height: 1px;
   font-family: "Theinhardt-Pan-Bold";
   font-size: 20px;
   font-weight: 100px;
-}
+}*/
 
 
   .topnav {
     overflow: hidden;
     text-align: center;
     font-family: "Theinhardt-Pan-Regular";
-    font-size: 12px;
+    font-size: 11px;
   }
   p {
     color: #002FA7;
     font-family: "Theinhardt-Pan-Bold";
-       font-size: 55px;
+       font-size: 70px;
 margin-left: 1%;
 text-transform: uppercase;
 
@@ -133,7 +135,7 @@ border: 20px;
         margin-left: -10px;
         border-radius: 5px;
 } */
-  
+ 
   /* Style the links inside the navigation bar */
   .topnav a {
     text-decoration: none;
@@ -150,17 +152,18 @@ border: 20px;
     outline-color: #353935;
     outline-width: 1px;
   }
-  ul {
+ .topnav ul {
     list-style-type: none;
     margin: 0;
-    padding: o;
+    padding: 0;
     overflow: hidden;
   }
   
   li {
     float: right;
+    margin-left: 20px;
+   
   }
-  
   li a {
     display: block;
     padding: 2px 15px;
@@ -311,21 +314,19 @@ word-spacing: 1px;
 
   
   .wrap {
-    height: 100vh
+    height: 100vh;
   }
   .wrap p{
-     text-align: center;
-     line-height: 200px;
-     /*font-size: 50px;*/
+     text-align: left;
     
   }
 
-  .linebar {
+  /*.linebar {
     outline-style: dashed;
     outline-color:#353935;
     outline-width: 1px;
     margin-top: 3%;
-  }
+  }*/
  
 
   

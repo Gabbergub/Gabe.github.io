@@ -42,23 +42,17 @@ letter-spacing: 2px;
 letter-spacing: 2px;
 }*/
 .heading1 {
-  margin-left: 1%;
-  font-family: "Theinhardt-Pan-Bold";
-  font-size: 10px;
-  }
-  
-  .heading2 {
-    line-height: 1px;
-    font-family: "Theinhardt-Pan-Bold";
-    font-size: 20px;
-    font-weight: 100px;
-  }
-  
+  margin-top: -3%;
+margin-left: 1%;
+font-family: "Theinhardt-Pan-Bold";
+font-size: 35px;
+letter-spacing: -2px;
+}
     .topnav {
       overflow: hidden;
       text-align: center;
       font-family: "Theinhardt-Pan-Regular";
-      font-size: 12px;
+      font-size: 11px;
     }
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
@@ -96,12 +90,13 @@ letter-spacing: 2px;
   ul {
     list-style-type: none;
     margin: 0;
-    padding: o;
+    padding: 0;
     overflow: hidden;
   }
   
   li {
     float: right;
+    margin-left: 20px;
   }
   
   li a {
@@ -140,7 +135,7 @@ word-spacing: 2px;
     color:#002FA7;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
-  font-size: 25px;
+  font-size: 16px;
   text-transform: uppercase;
 top: 40px;
 margin-left: 12px;
