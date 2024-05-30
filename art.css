@@ -124,18 +124,16 @@ letter-spacing: 2px;
   }
   h4 {
     color: gray;
-    font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+    font-family: "Theinhardt-Pan-Regular";
         font-size: 12px;
-font-weight: 400;
 letter-spacing: 2px;
 word-spacing: 2px;
   } 
-  .digital_work {
+  h2 {
     color:#002FA7;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
-  font-size: 16px;
+    font-size: 19px;
   text-transform: uppercase;
 top: 40px;
 margin-left: 12px;

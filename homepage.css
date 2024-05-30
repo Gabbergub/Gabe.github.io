@@ -304,10 +304,8 @@ a:hover{
   } */
   h4 {
     color: gray;
-    font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
+    font-family: "Theinhardt-Pan-Regular";
         font-size: 12px;
-font-weight: 400;
 letter-spacing: 2px;
 word-spacing: 1px;
   } 
