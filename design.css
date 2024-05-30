@@ -42,13 +42,11 @@ letter-spacing: 2px;
 letter-spacing: 2px;
 }*/
 .heading1 {
-  position: relative;
   margin-top: -3%;
 margin-left: 1%;
 font-family: "Theinhardt-Pan-Bold";
 font-size: 35px;
 letter-spacing: -2px;
-
 }
 
   
@@ -74,7 +72,6 @@ letter-spacing: -2px;
   }
   .topnav a {
     text-decoration: none;
-    
   }
   
   /* Change the color of links on hover */
@@ -557,4 +554,7 @@ letter-spacing: 5px;
       a:hover{
         text-decoration:none;
       }
-      
+      * {
+        transition: all .4s;
+        box-sizing: border-box;
+      }

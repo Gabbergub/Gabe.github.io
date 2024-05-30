@@ -330,7 +330,7 @@ word-spacing: 1px;
 animation: fly 20s linear infinite;
 top: -60%;
 left: -15%;
-position: fixed;
+position: absolute;
 z-index: 999;
 pointer-events: none;
 width: 30%;

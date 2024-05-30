@@ -258,3 +258,30 @@ word-spacing: 2px;
     outline-width: 1px;
    
   }
+
+  .me {
+    animation: fly 20s linear infinite;
+    top: -60%;
+    left: -15%;
+    position: absolute;
+    z-index: 999;
+    pointer-events: none;
+    width: 30%;
+    
+    object-fit: contain;
+    }
+    
+    @keyframes fly {
+      0% {
+        transform: translate(0,110vh) rotateZ(-90deg); 
+    }
+    50% {
+    transform: translate(120vw,-4%) rotateZ(20deg);
+    }
+    60% {
+      transform: translate(90vh,2%) rotateZ(50deg); 
+    }
+    100% {
+      transform: translate(-60%,140vh) rotateZ(100deg); 
+    }
+    } 
