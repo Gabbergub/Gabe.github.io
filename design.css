@@ -231,6 +231,11 @@ position: relative;
       width: 52.5vw;
       
     }
+
+    .mag-gif {
+      object-fit: contain;
+      width: 100%;
+    }
     .visual {
       background-color: white;
         outline-style: solid;
