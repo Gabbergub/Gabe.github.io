@@ -240,6 +240,10 @@ position: relative;
       width: 52.5vw;
       
     }
+    .mag-cover {
+      object-fit: contain;
+      width: 40%;
+    }
 
     .mag-gif {
       object-fit: contain;
