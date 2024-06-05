@@ -133,7 +133,7 @@ letter-spacing: -2px;
   }
   .footer {
     position: relative;
-    margin-top: 30%;
+    margin-top: 35%;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -245,7 +245,7 @@ letter-spacing: -2px;
     /*margin-top: -35%;*/
     float: right;
 margin-right: 10%;
-    position: relative;
+   
   }
   * {
     box-sizing: border-box;
