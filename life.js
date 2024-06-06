@@ -20,7 +20,7 @@ function topFunction() {
 
 
 var words = {};
-words['text'] = ['Designer', 'Artist', 'A fusion of both worlds'];
+words['text'] = ['A Designer', 'An Artist', 'A fusion of both worlds'];
 
 typeText(words['text'][0], 'text');
 
