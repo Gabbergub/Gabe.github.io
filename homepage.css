@@ -91,7 +91,7 @@ letter-spacing: -2px;
     color: #002FA7;
     font-family: "Theinhardt-Pan-Bold";
        /*font-size: 70px;*/
-       font-size: 85px;
+       font-size: 75px;
 text-transform: uppercase;
 
  }
@@ -336,9 +336,9 @@ word-spacing: 1px;
   .fruit {
  position: absolute;
  z-index:-1;
- margin-top: -10%;
- margin-left: 29%;
- width: 70%;
+ margin-top: -13%;
+ margin-left: 24%;
+ width: 75%;
  height: auto;
 object-fit: contain;
   }
