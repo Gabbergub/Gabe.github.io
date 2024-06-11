@@ -42,22 +42,31 @@ letter-spacing: 2px;
   font-size: 10px;
 letter-spacing: 2px;
 }*/
-h3{
+/*h3{
   text-decoration: overline;
-}
-.heading1 {
-  margin-top: -3%;
-margin-left: 1%;
+}*/
+
+.heading1{
+  margin-top: -2%;
+  margin-left: 1%;
+  justify-content: left;
+  justify-content: space-between;
+  display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 35px;
-letter-spacing: -2px;
+font-size: 30px;
+letter-spacing: -4px;
+line-height: 50px;
+text-align: left;
 }
-    .topnav {
-      overflow: hidden;
-      text-align: center;
-      font-family: "Theinhardt-Pan-Regular";
-      font-size: 11px;
-    }
+h1:hover:not(.active) {
+color: gray;
+}
+.topnav {
+  overflow: hidden;
+  font-family: "Theinhardt-Pan-regular";
+  font-size: 12px;
+  margin-right: 1%;
+}
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
       src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
@@ -72,14 +81,13 @@ letter-spacing: -2px;
   outline-color:#353935;
   outline-width: 1px;
   }
-  .topnav a {
-    text-decoration: none;
-  }
+
   
   /* Change the color of links on hover */
-  .topnav a:hover:not(.active) {
+  .topnav h3:hover:not(.active) {
     background-color: transparent;
     color: #002FA7;
+    text-decoration: overline;
   }
   
   a {
@@ -87,30 +95,34 @@ letter-spacing: -2px;
     color: #353935;
   }
   
-  a:hover{
+  /*a:hover{
     text-decoration:none;
-  }
+  }*/
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: right;
   }
   
-  li {
+ /* li {
     float: right;
     margin-left: 20px;
-  }
+  }*/
   
   li a {
+    text-align: right;
     display: block;
-    padding: 2px 15px;
+    line-height: 13px;
+   /* padding: 2px 15px;*/
   }
   .active {
     color: #002FA7;
+    text-decoration: overline;
     /*outline-style:solid;
-    outline-color: #353935;*/
-    outline-width: 3px;
+    outline-color: #353935;
+    outline-width: 3px;*/
   }
   .fa {
     padding: 10px;

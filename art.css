@@ -41,19 +41,27 @@ letter-spacing: 2px;
     font-size: 10px;
 letter-spacing: 2px;
 }*/
-.heading1 {
-  margin-top: -3%;
-margin-left: 1%;
+.heading1{
+  margin-top: -2%;
+  margin-left: 1%;
+  justify-content: left;
+  justify-content: space-between;
+  display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 35px;
-letter-spacing: -2px;
+font-size: 30px;
+letter-spacing: -4px;
+line-height: 50px;
+text-align: left;
 }
-    .topnav {
-      overflow: hidden;
-      text-align: center;
-      font-family: "Theinhardt-Pan-Regular";
-      font-size: 11px;
-    }
+h1:hover:not(.active) {
+color: gray;
+}
+.topnav {
+  overflow: hidden;
+  font-family: "Theinhardt-Pan-regular";
+  font-size: 12px;
+  margin-right: 1%;
+}
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
       src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
@@ -75,15 +83,13 @@ letter-spacing: -2px;
     position: relative;
     margin-top: 4%;
   }
-  .topnav a {
-    text-decoration: none;
-    
-  }
+ 
   
   /* Change the color of links on hover */
-  .topnav a:hover:not(.active) {
+  .topnav h3:hover:not(.active) {
     background-color: transparent;
     color: #002FA7;
+    text-decoration: overline;
   }
   
   
@@ -92,22 +98,26 @@ letter-spacing: -2px;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: right;
   }
   
-  li {
-    float: right;
+  /* li {
+   float: right;
     margin-left: 20px;
-  }
+  }*/
   
   li a {
+    text-align: right;
     display: block;
-    padding: 2px 15px;
+    line-height: 13px;
+   /* padding: 2px 15px;*/
   }
   .active {
     color: #002FA7;
+    text-decoration: overline;
     /*outline-style:solid;
-    outline-color: #353935;*/
-    outline-width: 3px;
+    outline-color: #353935;
+    outline-width: 3px;*/
   }
  /* p{
     position: absolute;
@@ -119,9 +129,11 @@ letter-spacing: -2px;
 font-weight: 400;
 letter-spacing: 2px;
   }*/
-  h3{
+
+
+  /*h3{
     text-decoration: overline;
-  }
+  }*/
   h4 {
     color: gray;
     font-family: "Theinhardt-Pan-Regular";
@@ -129,16 +141,27 @@ letter-spacing: 2px;
 letter-spacing: 2px;
 word-spacing: 2px;
   } 
-  h2 {
-    color:#002FA7;
+  .digital_work {
     position: relative;
+    color:#002FA7;
     font-family: "Theinhardt-Pan-Bold";
-    font-size: 19px;
+    font-size: 15px;
   text-transform: uppercase;
 top: 40px;
 margin-left: 1%;
       
   }
+  p {
+    /*font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
+        font-family: "Theinhardt-Pan-regular";
+        font-size: 15px;
+        margin-left: 1%;
+        line-height: 2px;
+        position: relative;
+        top: 40px;
+  }
+
   /*.digital_work {
     color:#002FA7;
     position: relative;
@@ -416,9 +439,9 @@ a {
     color: #353935;
   }
   
-  a:hover{
+ /* a:hover{
     text-decoration:none;
-  }
+  }*/
   .fa {
     padding: 10px;
     font-size: 30px;
@@ -447,15 +470,8 @@ a {
     background-color: transparent;
     text-align: center;
  }
-  a {
-      text-decoration:none;
-      color: #353935;
-    }
+ 
     
-    a:hover{
-      text-decoration:none;
-    }
-  
    
  
     /*
