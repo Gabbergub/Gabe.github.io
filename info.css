@@ -47,15 +47,15 @@ letter-spacing: 2px;
 }*/
 
 .heading1{
-  margin-top: -2%;
+  margin-top: -30px;
   margin-left: 1%;
-  justify-content: left;
-  justify-content: space-between;
+  /*justify-content: left;*/
+  /*justify-content: space-between;*/
   display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
 font-size: 30px;
 letter-spacing: -4px;
-line-height: 50px;
+line-height: 60px;
 text-align: left;
 }
 h1:hover:not(.active) {
@@ -124,13 +124,16 @@ color: gray;
     outline-color: #353935;
     outline-width: 3px;*/
   }
+  /*.socials {
+    margin-right: 30%;
+  }*/
+
   .fa {
-    padding: 10px;
+    /*padding: 10px;*/
     font-size: 30px;
     width: 30px;
-    text-align: center;
     text-decoration: none;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
   }
   .fa:hover {
     opacity: 0.7;
@@ -151,6 +154,7 @@ color: gray;
     width: 100%;
     background-color: transparent;
     text-align: center;
+   
 }
 
     /*section {
@@ -302,10 +306,10 @@ letter-spacing: 2px;
 word-spacing: 2px;
   } 
 
-  img {
+  /*img {
     max-width: 100%;
     height: auto;
-  }
+  }*/
 
   .linebar {
     outline-style: dashed;
@@ -318,7 +322,7 @@ word-spacing: 2px;
     animation: fly 20s linear infinite;
     top: -60%;
     left: -15%;
-    position: absolute;
+    position: fixed;
     z-index: 999;
     pointer-events: none;
     width: 30%;
