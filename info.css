@@ -147,8 +147,9 @@ color: gray;
     color: #353935;
   }
   .footer {
+    padding-top: 80px;
     position: relative;
-    margin-top: 35%;
+    margin-top: 20%;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -216,6 +217,7 @@ color: gray;
     color: #353935;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
+        
   }
   .info {
     color: #002FA7;
@@ -235,20 +237,26 @@ color: gray;
   .container {
     display: flex;
     column-gap: 15%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   .container2 {
     display: flex;
-    column-gap: 14.5%;
+    column-gap: 14.3%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   .container3 {
     display: flex;
-    column-gap: 16.6%;
+    column-gap: 16.3%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   .container4 {
     display: flex;
-    column-gap: 20%;
-    
-  }
+    column-gap: 40%;
+   
+}
   .education {
    margin-top: 4%;
   }
@@ -259,11 +267,13 @@ color: gray;
     margin-top: 2%;
   }
   .contact {
-    /*margin-top: -35%;*/
-    float: right;
-margin-right: 10%;
-   
+    margin-top: 2%;
+   margin-right: 23%;
+   /* float: right;*/
+position: relative;
+   float: right;
   }
+ 
   * {
     box-sizing: border-box;
   }
