@@ -55,14 +55,14 @@ letter-spacing: 2px;
 
 .heading1{
   margin-top: -30px;
-  margin-left: 1%;
+  margin-left: 20px;
   /*justify-content: left;*/
   /*justify-content: space-between;*/
   display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 30px;
+font-size: 27px;
 letter-spacing: -4px;
-line-height: 60px;
+line-height: 53px;
 text-align: left;
 }
 h1:hover:not(.active) {
@@ -72,13 +72,14 @@ color: gray;
   overflow: hidden;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
-  margin-right: 1%;
+  margin-top: 10px;
+  margin-right: 20px;
 }
   #text {
     color: #002FA7;
     font-family: "Theinhardt-Pan-Bold";
        /*font-size: 70px;*/
-       font-size: 75px;
+       font-size: 73px;
 text-transform: uppercase;
 
  }
@@ -231,7 +232,7 @@ word-spacing: 1px;
   p{
     position: relative;
     margin-top: 19%;
-    margin-left: 1%;
+    margin-left: 2%;
     
   }
 
