@@ -199,9 +199,17 @@ color: gray;
     /*font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
         font-size: 27px;
-        margin-left: 1.5%;
-        margin-right: 1.5%;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 50px;
+  }
+  .link {
+    color: #002FA7;
+    text-decoration: underline;
+  }
+  .info-content {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .title {
     color: #353935;
@@ -239,24 +247,28 @@ color: gray;
   .container {
     display: flex;
     column-gap: 15%;
+    position: relative;
     padding-left: 0%;
     padding-right: 0%;
   }
   .container2 {
     display: flex;
     column-gap: 14.3%;
+    position: relative;
     padding-left: 0%;
     padding-right: 0%;
   }
   .container3 {
     display: flex;
     column-gap: 16.3%;
+    position: relative;
     padding-left: 0%;
     padding-right: 0%;
   }
   .container4 {
     display: flex;
     column-gap: 25%;
+    position: relative;
    
 }
   .education {
@@ -267,20 +279,22 @@ color: gray;
   }
   .accomplishments {
     margin-top: 2%;
-    display: inline-flexbox;
+    width: 100%;
+    position: relative;
+  
     /*display: flex;
   align-items: center;
   justify-content: center;*/
   }
-   /*.contact {
-   align-items: center;
-  
-    /*margin-top: 2%;
+   .contact {
+    float: left;
+    /*align-items: center;
+  margin-top: 2%;
    margin-right: 15%;
    float: right;
 position: relative;
-text-align: justify;*
-  }*/
+text-align: justify;*/
+  }
  
   * {
     box-sizing: border-box;

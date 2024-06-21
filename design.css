@@ -119,9 +119,9 @@ margin-top: 10px;
     display: flex;
     column-gap: 10vw;
     margin-top: 70px;
-    margin-left: 1%;
-    padding: 20px;
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
   }
 /* first section */
 .project {
@@ -255,12 +255,14 @@ font-size: 15px;
 }*/
 .w-col-4 {
   /*width: 33.3333%;*/
+  position: relative;
   width: 33%;
   margin-left: 5px;
   margin-right: 5px;
 }
 .w-col {
   float: left;
+  position: relative;
   /*width: 100%;
   min-height: 1px;*/
   padding-left: 20px;
@@ -332,7 +334,7 @@ margin-left: 1%;
    margin: auto;
     column-gap: 20%;
     width: 99%;
-    padding: 15px;
+    padding: 20px;
     position:relative;
     height:fit-content;
   }
