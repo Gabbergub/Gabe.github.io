@@ -12,7 +12,6 @@ body {
 
 .heading1{
   margin-top: -30px;
-  margin-left: 45px;
   display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
 font-size: 27px;
@@ -28,7 +27,8 @@ color: gray;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
 margin-top: 10px;
-  margin-right: 45px;
+padding-left: 45px;
+padding-right: 45px;
 }
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
