@@ -234,7 +234,7 @@ word-spacing: 1px;
   p{
     position: relative;
     margin-top: 19%;
-    margin-left: 45px;
+    margin-left: 35px;
     
   }
 
@@ -250,7 +250,7 @@ word-spacing: 1px;
  position: absolute;
  z-index:-1;
  margin-top: -20%;
-margin-left: 31.3%;
+margin-left: 32%;
 /*margin-left: 27.3;*/
  width: 65%;
  height: auto;

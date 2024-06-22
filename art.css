@@ -116,7 +116,7 @@ word-spacing: 2px;
     font-size: 15px;
   text-transform: uppercase;
   padding-top: 40px;
-  margin-left: 45px;
+  margin-left: 35px;
 font-size: 40px;
 text-transform: uppercase;
 text-decoration: underline  gainsboro;;
@@ -129,7 +129,7 @@ text-decoration: underline  gainsboro;;
   p {
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
-        margin-left: 45px;
+        margin-left: 35px;
         line-height: 2px;
         position: relative;
         top: 40px;
@@ -151,8 +151,8 @@ text-decoration: underline  gainsboro;;
       column-gap: 15px;
       width: 100%;
       float: left;
-      padding-left: 45px;
-      padding-right: 45px;
+      padding-left: 35px;
+      padding-right: 35px;
     }
       .picture_wrapper {
         margin-bottom: 10px;

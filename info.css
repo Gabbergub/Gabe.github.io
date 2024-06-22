@@ -193,7 +193,7 @@ color: gray;
     } */
     .main-title {
       padding-top: 40px;
-      margin-left: 45px;
+      margin-left: 35px;
     color: #353935;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
@@ -212,8 +212,8 @@ color: gray;
     /*font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
         font-size: 27px;
-        margin-left: 45px;
-        margin-right: 45px;
+        margin-left: 35px;
+        margin-right: 35px;
         margin-top: 50px;
   }
   .link {
@@ -221,8 +221,8 @@ color: gray;
     text-decoration: underline;
   }
   .info-content {
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
   .title {
     color: #353935;
