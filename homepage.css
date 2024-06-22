@@ -55,7 +55,7 @@ letter-spacing: 2px;
 
 .heading1{
   margin-top: -30px;
-  margin-left: 20px;
+  margin-left: 45px;
   /*justify-content: left;*/
   /*justify-content: space-between;*/
   display: inline-block;
@@ -73,13 +73,13 @@ color: gray;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 45px;
 }
   #text {
     color: #002FA7;
     font-family: "Theinhardt-Pan-Bold";
        /*font-size: 70px;*/
-       font-size: 70px;
+       font-size: 66px;
 text-transform: uppercase;
 
  }
@@ -167,7 +167,7 @@ a {
   
   .footer {
     position: relative;
-    margin-top: -5%;
+   /* margin-top: -5%;*/
     left: 0;
     bottom: 0;
     width: 100%;
@@ -226,14 +226,15 @@ word-spacing: 1px;
 
   
   .wrap {
-    height: 83vh; 
+    height: 50vh; 
     width: auto;
     position: relative;
+    object-fit: contain;
   }
   p{
     position: relative;
     margin-top: 19%;
-    margin-left: 20px;
+    margin-left: 45px;
     
   }
 
@@ -248,11 +249,13 @@ word-spacing: 1px;
   .fruit {
  position: absolute;
  z-index:-1;
- margin-top: -19%;
-margin-left: 20%;
- width: 80%;
+ margin-top: -20%;
+margin-left: 31.3%;
+/*margin-left: 27.3;*/
+ width: 65%;
  height: auto;
 object-fit: contain;
+border: 3px solid #353935;
   }
 .me {
 animation: fly 20s linear infinite;

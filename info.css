@@ -48,7 +48,7 @@ letter-spacing: 2px;
 
 .heading1{
   margin-top: -30px;
-  margin-left: 20px;
+  margin-left: 45px;
   /*justify-content: left;*/
   /*justify-content: space-between;*/
   display: inline-block;
@@ -66,7 +66,7 @@ color: gray;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 45px;
 }
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
@@ -130,7 +130,7 @@ color: gray;
   }*/
 
   .fa {
-    /*padding: 10px;*/
+    padding: 10px;
     font-size: 30px;
     width: 30px;
     text-decoration: none;
@@ -149,8 +149,7 @@ color: gray;
   }
   .footer {
     position: relative;
-    padding-top: 5px;
-    margin-top: 15%;
+    margin-top: 5%;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -192,6 +191,20 @@ color: gray;
         padding: 15px;
         border-radius: 5px;
     } */
+    .main-title {
+      padding-top: 40px;
+      margin-left: 45px;
+    color: #353935;
+    position: relative;
+    font-family: "Theinhardt-Pan-Bold";
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: underline  #353935;;
+    text-decoration-style:dashed;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 20px;
+    }
+ 
 .bio {
   color: #002FA7;
   font-family: "Theinhardt-Pan-Bold";
@@ -199,8 +212,8 @@ color: gray;
     /*font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
         font-size: 27px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 45px;
+        margin-right: 45px;
         margin-top: 50px;
   }
   .link {
@@ -208,19 +221,15 @@ color: gray;
     text-decoration: underline;
   }
   .info-content {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
   }
   .title {
     color: #353935;
-   /* font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
-        font-weight: 50px;
-        font-size: 12px;*/
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
-        margin-left: 1.5%;
-        /*line-height: 2%;*/
+        /*margin-left: 1.5%;
+        line-height: 2%;*/
         /*margin-bottom: -5px;*/
   }
   .title2 {
