@@ -27,8 +27,8 @@ color: gray;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
   margin-top: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
@@ -113,18 +113,29 @@ word-spacing: 2px;
     position: relative;
     color:#002FA7;
     font-family: "Theinhardt-Pan-Bold";
-    font-size: 15px;
+    font-size: 35px;
   text-transform: uppercase;
-  padding-top: 40px;
+  margin-top: 40px;
   margin-left: 35px;
 font-size: 40px;
 text-transform: uppercase;
-text-decoration: underline  gainsboro;;
+/*text-decoration: underline  gainsboro;;
   text-decoration-style:dashed;
   text-decoration-thickness: 2px ;
   text-underline-offset: 20px;
-  line-height: 60px;
+  line-height: 60px;*/
       
+  }
+  .linebar1 {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:#353935;
+   width: 94%;
+   padding: 0;
+   margin-left: 35px;
+   margin-right: 35px;
+   margin-top: 15px;
+    
   }
   p {
         font-family: "Theinhardt-Pan-regular";
@@ -148,14 +159,16 @@ text-decoration: underline  gainsboro;;
   
     .main_content {
       margin: 60px 0 40px;
-      column-gap: 15px;
+      column-gap: 7px;
       width: 100%;
       float: left;
-      padding-left: 35px;
-      padding-right: 35px;
+      padding: 35px;
+      padding-top: 0%;
+      padding-bottom: 0%;
+     
     }
       .picture_wrapper {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
       }
         .img {
           height: 100%;
@@ -248,7 +261,7 @@ a {
   }
   .footer {
     position:relative;
-    margin-top: 90%;
+    margin-top: 95%;
     left: 0;
     bottom: 0;
     width: 100%;

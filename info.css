@@ -3,12 +3,14 @@ body {
     margin: auto;
     padding: auto;
 }
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
-}
+}*/
+
+
 /*.smiley{
   margin-top: -90px;
   left: 255px;
@@ -197,14 +199,25 @@ color: gray;
     color: #353935;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
-  font-size: 40px;
+  font-size: 35px;
   text-transform: uppercase;
-  text-decoration: underline  #353935;;
-    text-decoration-style:dashed;
+  /*text-decoration: underline  #353935;;
+    text-decoration-style:solid;
     text-decoration-thickness: 2px ;
-    text-underline-offset: 20px;
+    text-underline-offset: 20px;*/
     }
- 
+    .linebar1 {
+      outline-style: solid;
+      outline-width: 1px;
+      outline-color:#353935;
+     width: 94%;
+     padding: 0;
+     margin-left: 35px;
+     margin-right: 35px;
+     margin-top: 15px;
+      
+    }
+
 .bio {
   color: #002FA7;
   font-family: "Theinhardt-Pan-Bold";
@@ -223,14 +236,12 @@ color: gray;
   .info-content {
     margin-left: 35px;
     margin-right: 35px;
+    
   }
   .title {
     color: #353935;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
-        /*margin-left: 1.5%;
-        line-height: 2%;*/
-        /*margin-bottom: -5px;*/
   }
   .title2 {
     color: #353935;
@@ -240,9 +251,6 @@ color: gray;
   }
   .info {
     color: #002FA7;
-    /*font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1;
-        font-size: 12px;*/
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }
@@ -256,29 +264,30 @@ color: gray;
   .container {
     display: flex;
     column-gap: 15%;
-    position: relative;
+   
     padding-left: 0%;
     padding-right: 0%;
   }
   .container2 {
     display: flex;
     column-gap: 14.3%;
-    position: relative;
+    
     padding-left: 0%;
     padding-right: 0%;
   }
   .container3 {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 16.3%;
-    position: relative;
+    
     padding-left: 0%;
     padding-right: 0%;
   }
   .container4 {
     display: flex;
-    column-gap: 25%;
-    position: relative;
-   
+    column-gap: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
   .education {
    margin-top: 4%;
@@ -288,21 +297,10 @@ color: gray;
   }
   .accomplishments {
     margin-top: 2%;
-    width: 100%;
-    position: relative;
-  
-    /*display: flex;
-  align-items: center;
-  justify-content: center;*/
+    
   }
    .contact {
-    float: left;
-    /*align-items: center;
   margin-top: 2%;
-   margin-right: 15%;
-   float: right;
-position: relative;
-text-align: justify;*/
   }
  
   * {
