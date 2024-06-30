@@ -251,7 +251,7 @@ color: gray;
     margin-right: 35px;*/
     width: 95%;
   margin: auto;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
   .title {
     color: #353935;
