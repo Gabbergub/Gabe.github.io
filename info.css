@@ -260,7 +260,14 @@ color: gray;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }
+  .awards-info {
+    margin-left: 20px;
+    color: #002FA7;
+        font-family: "Theinhardt-Pan-regular";
+        font-size: 15px;
+  }
   .con-info a {
+    margin-left: 35px;
     color: #002FA7;
     font-family: "Theinhardt-Pan-regular";
     font-size: 15px;
@@ -268,31 +275,27 @@ color: gray;
     
   }
   .container {
-    display: flex;
+    display:flex;
+    flex-wrap: wrap;
     column-gap: 15%;
    
-    padding-left: 0%;
-    padding-right: 0%;
+   
+    /*padding-left: 0%;
+    padding-right: 0%;*/
   }
-  .container2 {
+ /* .container2 {
     display: flex;
     column-gap: 14.3%;
-    
     padding-left: 0%;
     padding-right: 0%;
   }
   .container3 {
     display: flex;
-    flex-wrap: wrap;
     column-gap: 16.3%;
-    
-    padding-left: 0%;
-    padding-right: 0%;
-  }
+  }*/
   .container4 {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30%;
+   display: inline-flex;
+    column-gap: 15%;
     padding-left: 0%;
     padding-right: 0%;
 }
@@ -301,15 +304,24 @@ color: gray;
   }
   .experience {
     margin-top: 2%;
+    padding-right: 50px;
   }
   .accomplishments {
     margin-top: 2%;
-    
+  
   }
    .contact {
   margin-top: 2%;
-  }
+  padding-right: 20px;
+  /*margin-left: 20px;
+  padding-left: 50px;*/
  
+  }
+ /*.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ }*/
   * {
     box-sizing: border-box;
   }
