@@ -72,9 +72,8 @@ color: gray;
   overflow: hidden;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
-  margin-top: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
+  width: 95%;
+  margin: auto;
 }
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
@@ -157,7 +156,8 @@ color: gray;
   }
   .footer {
     position: relative;
-    margin-top: 20%;
+    margin: auto;
+    margin-top: 55px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -201,7 +201,8 @@ color: gray;
     } */
     .main-title {
       padding-top: 40px;
-      margin-left: 35px;
+      width: 95%;
+  margin: auto;
     color: #353935;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
@@ -216,45 +217,53 @@ color: gray;
       outline-style: solid;
       outline-width: 1px;
       outline-color:#353935;
-     width: 94%;
-     padding: 0;
-     margin-left: 35px;
-     margin-right: 35px;
+      width: 95%;
+      margin: auto;
+      padding: 0;
      margin-top: 15px;
       
     }
-
+    .linebar {
+      outline-style: dashed;
+      outline-color:#353935;
+      outline-width: 1px;
+      width: 95%;
+     margin: auto;
+     padding: 0;
+    }
 .bio {
   color: #002FA7;
   font-family: "Theinhardt-Pan-Bold";
   text-transform: uppercase;
     /*font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
-        font-size: 27px;
-        margin-left: 35px;
-        margin-right: 35px;
-        margin-top: 50px;
+  font-size: 27px;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
   }
   .link {
     color: #002FA7;
     text-decoration: underline;
   }
   .info-content {
-    margin-left: 35px;
-    margin-right: 35px;
+    /*margin-left: 35px;
+    margin-right: 35px;*/
+    width: 95%;
+  margin: auto;
     flex-wrap: nowrap;
   }
   .title {
     color: #353935;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
+        font-weight: -20px;
   }
-  .title2 {
+  /*.title2 {
     color: #353935;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
-        
-  }
+  }*/
   .info {
     color: #002FA7;
         font-family: "Theinhardt-Pan-regular";
@@ -300,7 +309,7 @@ color: gray;
     column-gap: 16.3%;
   }*/
   .container4 {
-   display: inline-flex;
+   display: flex;
     column-gap: 15%;
     padding-left: 0%;
     padding-right: 0%;
@@ -374,12 +383,7 @@ word-spacing: 2px;
     height: auto;
   }*/
 
-  .linebar {
-    outline-style: dashed;
-    outline-color:#353935;
-    outline-width: 1px;
-   
-  }
+ 
 
   .me {
     animation: fly 20s linear infinite;

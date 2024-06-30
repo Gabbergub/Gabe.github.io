@@ -71,9 +71,8 @@ color: gray;
   overflow: hidden;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
-  margin-top: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
+  width: 95%;
+  margin: auto;
 }
   #text {
     color: #002FA7;
@@ -167,6 +166,8 @@ a {
   
   .footer {
     position: relative;
+    margin: auto;
+    margin-top: 55px;
    /* margin-top: -5%;*/
     left: 0;
     bottom: 0;
@@ -229,6 +230,7 @@ word-spacing: 1px;
     height: 50vh; 
     width: auto;
     position: relative;
+    margin: auto;
     object-fit: contain;
   }
   p{
