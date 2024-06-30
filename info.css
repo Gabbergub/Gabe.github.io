@@ -242,7 +242,7 @@ color: gray;
   .info-content {
     margin-left: 35px;
     margin-right: 35px;
-    
+    flex-wrap: nowrap;
   }
   .title {
     color: #353935;
@@ -256,6 +256,12 @@ color: gray;
         
   }
   .info {
+    color: #002FA7;
+        font-family: "Theinhardt-Pan-regular";
+        font-size: 15px;
+  }
+  .experience-info {
+    margin-left: -10px;
     color: #002FA7;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
@@ -304,7 +310,7 @@ color: gray;
   }
   .experience {
     margin-top: 2%;
-    padding-right: 50px;
+    
   }
   .accomplishments {
     margin-top: 2%;
