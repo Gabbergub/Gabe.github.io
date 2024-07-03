@@ -1,7 +1,7 @@
 body {
   background-color:#fff;
     margin: auto;
-    padding: auto;
+    
 }
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
@@ -11,12 +11,12 @@ body {
 }
 
 .heading1{
-  margin-top: -30px;
+  margin-top: -20px;
   display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 27px;
+font-size: 23px;
 letter-spacing: -4px;
-line-height: 53px;
+line-height: 40px;
 text-align: left;
 }
 h1:hover:not(.active) {
@@ -40,7 +40,7 @@ color: gray;
     }
 .navbar {
     outline-style: solid;
-    outline-color:#353935;
+    outline-color:#1A191A;
     outline-width: 1px;
   }
   /*.linebar {
@@ -55,7 +55,7 @@ color: gray;
   /* Change the color of links on hover */
   .topnav h3:hover:not(.active) {
     background-color: transparent;
-    color: #002FA7;
+   /* color: #002FA7;*/
     text-decoration: overline;
   }
   
@@ -80,7 +80,7 @@ color: gray;
    /* padding: 2px 15px;*/
   }
   .active {
-    color: #002FA7;
+   /* color: #002FA7;*/
     text-decoration: overline;
     /*outline-style:solid;
     outline-color: #353935;
@@ -102,7 +102,7 @@ letter-spacing: 2px;
     text-decoration: overline;
   }*/
   h4 {
-    color: gray;
+    color: #1A191A;
     font-family: "Theinhardt-Pan-Regular";
         font-size: 12px;
 letter-spacing: 2px;
@@ -129,7 +129,7 @@ text-transform: uppercase;
   .linebar1 {
     outline-style: solid;
     outline-width: 1px;
-    outline-color:#353935;
+    outline-color:#1A191A;
     width: 95%;
     margin: auto;
     padding: 0;
@@ -236,7 +236,7 @@ text-transform: uppercase;
 
 a {
     text-decoration:none;
-    color: #353935;
+    color: #1A191A;
   }
   
  /* a:hover{
@@ -254,11 +254,11 @@ a {
   }
   .fa-instagram {
     background: transparent;
-    color: #353935;
+    color: #1A191A;
   }
   .fa-linkedin {
     background: transparent;
-    color: #353935;
+    color: #1A191A;
   }
   .footer {
     position:relative;

@@ -1,7 +1,6 @@
 body {
     background-color:#fff;
-    margin: auto;
-    padding: auto;
+   margin: auto;
 }
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
@@ -55,25 +54,25 @@ letter-spacing: 2px;
 
 .heading1{
   
-  margin-top: -30px;
+  margin-top: -20px;
   display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 27px;
+font-size: 23px;
 letter-spacing: -4px;
-line-height: 53px;
+line-height: 40px;
 text-align: left;
 }
 h1:hover:not(.active) {
 color: gray;
 }
 .topnav {
-  
   overflow: hidden;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
   width: 95%;
   margin: auto;
 }
+
   #text {
     color: #002FA7;
     font-family: "Theinhardt-Pan-Bold";
@@ -111,7 +110,7 @@ text-transform: uppercase;
   /* Change the color of links on hover */
   .topnav h3:hover:not(.active) {
     background-color: transparent;
-    color: #002FA7;
+    /*color: gray;*/
     text-decoration: overline;
   }
   h3 {
@@ -138,7 +137,7 @@ text-transform: uppercase;
 
 a {
   text-decoration:none;
-  color: #353935;
+  color: #1A191A;
 }
 /*h3:hover:not(.active) {
   text-decoration: overline;
@@ -157,11 +156,11 @@ a {
   }
   .fa-instagram {
     background: transparent;
-    color: #353935;
+    color: #1A191A;
   }
   .fa-linkedin {
     background: transparent;
-    color: #353935;
+    color: #1A191A;
   }
   
   .footer {
@@ -218,7 +217,7 @@ a {
     
   }*/
   h4 {
-    color: gray;
+    color: #1A191A;
     font-family: "Theinhardt-Pan-Regular";
         font-size: 12px;
 letter-spacing: 2px;
@@ -251,9 +250,8 @@ word-spacing: 1px;
   .fruit {
  position: absolute;
  z-index:-1;
- margin-top: -20%;
+ margin-top: -17%;
 margin-left: 32%;
-/*margin-left: 27.3;*/
  width: 65%;
  height: auto;
 object-fit: contain;

@@ -1,7 +1,6 @@
 body {
   background-color:#fff;
     margin: auto;
-    padding: auto;
 }
 @media (max-width: 600px) {
   .info-content {
@@ -55,14 +54,14 @@ letter-spacing: 2px;
 }*/
 
 .heading1{
-  margin-top: -30px;
+  margin-top: -20px;
   /*justify-content: left;*/
   /*justify-content: space-between;*/
   display: inline-block;
 font-family: "Theinhardt-Pan-Bold";
-font-size: 27px;
+font-size: 23px;
 letter-spacing: -4px;
-line-height: 53px;
+line-height: 40px;
 text-align: left;
 }
 h1:hover:not(.active) {
@@ -86,7 +85,7 @@ color: gray;
     }
 .navbar {
   outline-style: solid;
-  outline-color:#353935;
+  outline-color:#1A191A;
   outline-width: 1px;
   }
 
@@ -94,13 +93,13 @@ color: gray;
   /* Change the color of links on hover */
   .topnav h3:hover:not(.active) {
     background-color: transparent;
-    color: #002FA7;
+    /*color: gray;*/
     text-decoration: overline;
   }
   
   a {
     text-decoration:none;
-    color: #353935;
+    color: #1A191A;
   }
   
   /*a:hover{
@@ -126,7 +125,7 @@ color: gray;
    /* padding: 2px 15px;*/
   }
   .active {
-    color: #002FA7;
+    /*color: gray;*/
     text-decoration: overline;
     /*outline-style:solid;
     outline-color: #353935;
@@ -148,11 +147,11 @@ color: gray;
   }
   .fa-instagram {
     background: transparent;
-    color: #353935;
+    color: #1A191A;
   }
   .fa-linkedin {
     background: transparent;
-    color: #353935;
+    color: #1A191A;
   }
   .footer {
     position: relative;
@@ -203,7 +202,7 @@ color: gray;
       padding-top: 40px;
       width: 95%;
   margin: auto;
-    color: #353935;
+    color: #1A191A;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
   font-size: 35px;
@@ -216,7 +215,7 @@ color: gray;
     .linebar1 {
       outline-style: solid;
       outline-width: 1px;
-      outline-color:#353935;
+      outline-color:#1A191A;
       width: 95%;
       margin: auto;
       padding: 0;
@@ -225,13 +224,34 @@ color: gray;
     }
     .linebar {
       outline-style: dashed;
-      outline-color:#353935;
+      outline-color:#1A191A;
       outline-width: 1px;
       width: 95%;
      margin: auto;
      padding: 0;
     }
+   /* .portfolio-bio{
+      display: flex;
+      margin: auto;
+    }*/
+   
+    /*.wrap {
+      display: inline-flex;
+      margin:auto;
+      
+    }*/
+
+   /* .smiley {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 35px;
+      width: 15%;
+      height: auto;
+      object-fit: contain;
+    }*/
 .bio {
+  
   color: #002FA7;
   font-family: "Theinhardt-Pan-Bold";
   text-transform: uppercase;
@@ -240,7 +260,7 @@ color: gray;
   font-size: 27px;
   width: 95%;
   margin: auto;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   }
   .link {
     color: #002FA7;
@@ -254,9 +274,9 @@ color: gray;
     flex-wrap: wrap;
   }
   .title {
-    color: #353935;
+    color: #1A191A;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 20px;
         font-weight: -20px;
   }
   /*.title2 {
@@ -355,10 +375,10 @@ color: gray;
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     outline-style: solid;
-    outline-color: #353935;
+    outline-color: #1A191A;
     outline-width: 3px;
     background-color: transparent; /* Set a background color */
-    color: #353935; /* Text color */
+    color: #1A191A; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 5px; /* Some padding */
     border-radius: 5px; /* Rounded corners */
@@ -367,11 +387,11 @@ color: gray;
   }
   
   #myBtn:hover {
-    background-color: #353935; /* Add a dark-grey background on hover */
+    background-color: #1A191A; /* Add a dark-grey background on hover */
     color: #F9F6EE;
   }
   h4 {
-    color: gray;
+    color: #1A191A;
     font-family: "Theinhardt-Pan-Regular";
         font-size: 12px;
 letter-spacing: 2px;
