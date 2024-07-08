@@ -156,7 +156,7 @@ color: gray;
   .footer {
     position: relative;
     margin: auto;
-    margin-top: 55px;
+    margin-top: 25px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -250,6 +250,37 @@ color: gray;
       height: auto;
       object-fit: contain;
     }*/
+
+    .wrapper {
+      color:#1A191A;
+      text-align: center;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    
+    .marquee {
+      
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: marquee 11s linear infinite;
+    }
+    
+    .marquee p {
+      text-transform: uppercase;
+      font-family: "Theinhardt-Pan-regular";
+        font-size: 30px;
+      display: inline-block;
+    }
+    
+    @keyframes marquee {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
 .bio {
   
   color: #002FA7;
@@ -276,8 +307,8 @@ color: gray;
   .title {
     color: #1A191A;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 20px;
-        font-weight: -20px;
+        font-size: 15px;
+        
   }
   /*.title2 {
     color: #353935;
