@@ -1,6 +1,6 @@
 body {
  /* background-color:#fff;*/
- background-color: #002fa7;
+ background-color: #ececec;
     margin: auto;
 }
 @media (max-width: 600px) {
@@ -86,7 +86,7 @@ color: gray;
     }
 .navbar {
   outline-style: solid;
-  outline-color:	#ececec;
+  outline-color:	#1A191A;
   outline-width: 1px;
   }
 
@@ -100,7 +100,7 @@ color: gray;
   
   a {
     text-decoration:none;
-    color: 	#ececec;
+    color: 	#1A191A;
   }
   
   /*a:hover{
@@ -148,11 +148,11 @@ color: gray;
   }
   .fa-instagram {
     background: transparent;
-    color: 	#ececec;
+    color: 	#1A191A;
   }
   .fa-linkedin {
     background: transparent;
-    color:	#ececec;
+    color:	#1A191A;
   }
   .footer {
     position: relative;
@@ -203,7 +203,7 @@ color: gray;
       padding-top: 40px;
       width: 95%;
   margin: auto;
-    color: 	#ececec;
+    color: 	#002fa7;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
   font-size: 35px;
@@ -217,8 +217,9 @@ color: gray;
       outline-style: solid;
       outline-width: 1px;
       outline-color:gray;
-      width: 95%;
+      width: 45%;
       margin: auto;
+      margin-right: 52.5%;
       padding: 0;
      margin-top: 15px;
       
@@ -253,7 +254,7 @@ color: gray;
     }*/
 
     .wrapper {
-      color:	#ececec;
+      color:	#1A191A;
       text-align: center;
       max-width: 100%;
       overflow: hidden;
@@ -282,20 +283,51 @@ color: gray;
         transform: translate3d(-50%, 0, 0);
       }
     }
+
+   .portfolio-bio {
+    flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+      /*align-items: center;
+      justify-content: center*/
+      
+    }
+
+   .profile {
+      max-width: 20%;
+      max-height:100%;
+      object-fit: contain;
+      display: flex;
+      float: left;
+    }
+
 .bio {
   
-  color: 	#ececec;
-  font-family: "Theinhardt-Pan-Bold";
-  text-transform: uppercase;
-    /*font-family: "latino-gothic-variable",sans-serif;
+  flex-wrap: wrap;
+  float: left;
+  color: 	#1A191A;
+  font-family: "Theinhardt-Pan-regular";
+   /*text-transform: uppercase;
+   font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
-  font-size: 27px;
-  width: 95%;
-  margin: auto;
-  /*margin-top: 50px;*/
+  font-size: 19px;
+  /*padding-right: 30px;*/
+  width: 55%;
+  /*margin-left: auto;*/
+  
+  /*margin-left: 2.5%;*/
+  }
+  .handprint {
+    width: 35%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    z-index:-1;
+    
   }
   .link {
-    color: 	#ececec;
+    color: 	#002fa7;
     text-decoration: underline;
   }
   .info-content {
@@ -306,7 +338,7 @@ color: gray;
     flex-wrap: wrap;
   }
   .title {
-    color: #ececec;
+    color: #1A191A;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
         
@@ -317,27 +349,27 @@ color: gray;
         font-size: 15px;
   }*/
   .info {
-    color: 	#ececec;
+    color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 13px;
   }
   .experience-info {
     margin-left: -10px;
-    color:	#ececec;
+    color:	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 13px;
   }
   .awards-info {
     margin-left: 20px;
-    color: 	#ececec;
+    color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 13px;
   }
   .con-info a {
     margin-left: 35px;
-    color: 	#ececec;
+    color: 	#002fa7;
     font-family: "Theinhardt-Pan-regular";
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: underline;
     
   }
@@ -407,10 +439,10 @@ color: gray;
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     outline-style: solid;
-    outline-color: 	#ececec;
+    outline-color: 	#1A191A;
     outline-width: 3px;
     background-color: transparent; /* Set a background color */
-    color: 	#ececec; /* Text color */
+    color: 	#1A191A; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 5px; /* Some padding */
     border-radius: 5px; /* Rounded corners */
@@ -419,11 +451,11 @@ color: gray;
   }
   
   #myBtn:hover {
-    background-color: 	#ececec; /* Add a dark-grey background on hover */
-    color: #1A191A;
+    background-color: 	#1A191A; /* Add a dark-grey background on hover */
+    color: #ececec;
   }
   h4 {
-    color: 	#ececec;
+    color: 	#1A191A;
     font-family: "Theinhardt-Pan-Regular";
         font-size: 12px;
 letter-spacing: 2px;
