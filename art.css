@@ -1,5 +1,6 @@
 body {
-  background-color:#fff;
+ /* background-color:#fff;*/
+ background-color: 	#ececec;
     margin: auto;
     
 }
@@ -129,7 +130,7 @@ text-transform: uppercase;
   .linebar1 {
     outline-style: solid;
     outline-width: 1px;
-    outline-color:#1A191A;
+    outline-color:gray;
     width: 95%;
     margin: auto;
     padding: 0;

@@ -1,5 +1,6 @@
 body {
-  background-color: #1A191A;
+  /*background-color: #1A191A;*/
+  background-color: 	#ececec;
   margin: auto;
   padding: auto;
 }
@@ -46,7 +47,7 @@ color: gray;
     }
 .navbar {
     outline-style: solid;
-    outline-color:#353935;
+    outline-color:#1A191A;
     outline-width: 1px;
   }
   /*.topnav a {
@@ -101,7 +102,7 @@ color: gray;
     padding-top: 45px;
   width: 95%;
   margin: auto;
-  color: gainsboro;
+  color: #002fa7;
   position: relative;
   font-family: "Theinhardt-Pan-Bold";
   font-size: 35px;
@@ -115,7 +116,7 @@ color: gray;
   .linebar2 {
     outline-style: solid;
     outline-width: 1px;
-    outline-color:gainsboro;
+    outline-color:gray;
     width: 95%;
     margin: auto;
     padding: 0;
@@ -135,11 +136,11 @@ color: gray;
 .project-descriptor{
   font-family: "Theinhardt-Pan-regular";
   font-size: 15px;
-  color: gainsboro;
+  color: #1A191A;
 }
 .title1 {
   padding-top: 20px;
-  color: gray;
+  color: #1A191A;
   position: relative;
   font-family: "Theinhardt-Pan-Bold";
   text-transform: uppercase;
@@ -294,12 +295,12 @@ margin-left: 1%;
         font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
-        color: gainsboro;
+        color: #1A191A;
   }
  
   
   .title {
-    color: gray;
+    color: #1A191A;
     position: relative;
     font-family: "Theinhardt-Pan-Bold";
     text-transform: uppercase;
@@ -319,7 +320,7 @@ margin-left: 1%;
   } 
   .linebar {
     outline-style: dashed;
-    outline-color:#353935;
+    outline-color:gray;
     outline-width: 1px;
     margin-top: 3%;
     width: 95%;
@@ -333,10 +334,9 @@ margin-left: 1%;
   .main_content {
    /* margin: 60px 0 40px;*/
     column-gap: 20%;
-    width: 95%;
+    width: 95vw;
     padding-bottom: 45px;
   margin: auto;
-    position:relative;
     height:fit-content;
   }
     .picture_wrapper {
@@ -368,16 +368,18 @@ margin-left: 1%;
       }
 
       .poster{
-        width:39.3%;
+        position: relative;
+        width:39.5%;
         height: auto;
         object-fit: contain;
-        padding-right: 10px;
+        /*padding-right: 10px;
         padding-bottom: 10px;
         /*top:100vh;*/
       }
     .poster_mockup{
+      position: relative;
       object-fit: contain;
-      width: 59.5%;
+      width: 59.4%;
       height: auto;
     }
     
@@ -385,9 +387,8 @@ margin-left: 1%;
     .main_content4 {
       padding-bottom: 45px;
       column-gap: 20%;
-    width: 95%;
+    width: 95vw;
   margin: auto;
-      position:relative;
       height:fit-content;
     }
     .picture_wrapper4 {
@@ -403,13 +404,40 @@ margin-left: 1%;
       width: 100%;
     }
    
-    
+    .main_content5 {
+      padding-bottom: 45px;
+      width: 95vw;
+      margin: auto;
+      column-gap: 20%;
+      position: relative;
+    }
+      .picture_wrapper5 {
+        margin-bottom: 10px;
+      }
+      .e-poster1 {
+        position: relative;
+        width: 46.7%;
+        height: auto;
+        object-fit: contain;
+      }
+      .e-poster2 {
+        position: relative;
+        width: 47%;
+        height: auto;
+        object-fit: contain;
+      }
+      .mockup-1{
+        position: relative;
+        width:100%;
+        height: auto;
+        object-fit: contain;
+      }
     
     .main_content2 {
       /*background-color: #FAF9F6;*/
       padding-bottom: 45px;
       column-gap: 20%;
-      width: 95%;
+      width: 95vw;
       margin: auto;
       position:relative;
       height:fit-content;
@@ -473,10 +501,9 @@ margin-left: 1%;
       .main_content3 {
         /*background-color: #FAF9F6;*/
         padding-bottom: 45px;
-        width: 95%;
+        width: 95vw;
         margin: auto;
         column-gap: 20%;
-        width: 99%;
       }
         .picture_wrapper3 {
           margin-bottom: 10px;
@@ -543,10 +570,10 @@ margin-left: 1%;
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     outline-style: solid;
-    outline-color: gainsboro;
+    outline-color: #1A191A;
     outline-width: 3px;
     background-color: transparent; /* Set a background color */
-    color: gainsboro; /* Text color */
+    color: #1A191A; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 5px; /* Some padding */
     border-radius: 5px; /* Rounded corners */
@@ -555,8 +582,8 @@ margin-left: 1%;
   }
   
   #myBtn:hover {
-    background-color: gainsboro; /* Add a dark-grey background on hover */
-    color: #353935;
+    background-color: #1A191A; /* Add a dark-grey background on hover */
+    color: #d0ccc3;
   }
 
   .fa {
@@ -571,11 +598,11 @@ margin-left: 1%;
     }
     .fa-instagram {
       background: transparent;
-      color: gainsboro;
+      color: #1A191A;
     }
     .fa-linkedin {
         background: transparent;
-        color: gainsboro;
+        color: #1A191A;
       }
     .footer {
         position: relative;
@@ -590,7 +617,7 @@ margin-left: 1%;
     
     a {
         text-decoration:none;
-        color: gainsboro;
+        color: #1A191A;
       }
       
      /* a:hover{

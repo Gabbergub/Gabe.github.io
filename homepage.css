@@ -1,5 +1,6 @@
 body {
-    background-color:#fff;
+    /*background-color:#fff;*/
+    background-color: 	#ececec;
    margin: auto;
 }
 @media screen and (max-width: 600px) {
@@ -257,6 +258,14 @@ margin-left: 32%;
 object-fit: contain;
 border: 4px solid #353935;
   }
+
+/* .fruit:hover {
+    transform: rotate(10deg);
+    transition: width 2s, height 2s, transform 2s;
+    width: 65%;
+ height: auto;
+  }*/
+
 .me {
 animation: fly 20s linear infinite;
 top: -60%;
