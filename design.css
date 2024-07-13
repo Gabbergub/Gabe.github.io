@@ -116,7 +116,7 @@ color: gray;
   .linebar2 {
     outline-style: solid;
     outline-width: 1px;
-    outline-color:gray;
+    outline-color:#d0d0d0;
     width: 95%;
     margin: auto;
     padding: 0;
@@ -320,7 +320,7 @@ margin-left: 1%;
   } 
   .linebar {
     outline-style: dashed;
-    outline-color:gray;
+    outline-color:#d0d0d0;
     outline-width: 1px;
     margin-top: 3%;
     width: 95%;

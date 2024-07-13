@@ -4,7 +4,7 @@ body {
     margin: auto;
 }
 @media (max-width: 600px) {
-  .info-content {
+  .info-content .portfolio-bio {
       flex-direction: column;
       align-items: flex-start;
   }
@@ -199,24 +199,11 @@ color: gray;
         padding: 15px;
         border-radius: 5px;
     } */
-    .main-title {
-      padding-top: 40px;
-      width: 95%;
-  margin: auto;
-    color: 	#002fa7;
-    position: relative;
-    font-family: "Theinhardt-Pan-Bold";
-  font-size: 35px;
-  text-transform: uppercase;
-  /*text-decoration: underline  #353935;;
-    text-decoration-style:solid;
-    text-decoration-thickness: 2px ;
-    text-underline-offset: 20px;*/
-    }
+    
     .linebar1 {
       outline-style: solid;
       outline-width: 1px;
-      outline-color:gray;
+      outline-color:#d0d0d0;
       width: 45%;
       margin: auto;
       margin-right: 52.5%;
@@ -224,100 +211,92 @@ color: gray;
      margin-top: 15px;
       
     }
+    
     .linebar {
       outline-style: dashed;
-      outline-color:gray;
+      outline-color:#d0d0d0;
       outline-width: 1px;
       width: 95%;
      margin: auto;
      padding: 0;
     }
-   /* .portfolio-bio{
-      display: flex;
-      margin: auto;
-    }*/
+
    
-    /*.wrap {
-      display: inline-flex;
-      margin:auto;
-      
-    }*/
-
-   /* .smiley {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 20px;
-      padding-right: 35px;
-      width: 15%;
-      height: auto;
-      object-fit: contain;
-    }*/
-
-    .wrapper {
-      color:	#1A191A;
-      text-align: center;
-      max-width: 100%;
-      overflow: hidden;
-    }
-    
-    .marquee {
-      
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-      animation: marquee 11s linear infinite;
-    }
-    
-    .marquee p {
-      text-transform: uppercase;
-      font-family: "Theinhardt-Pan-bold";
-        font-size: 30px;
-      display: inline-block;
-    }
-    
-    @keyframes marquee {
-      0% {
-        transform: translate3d(0, 0, 0);
-      }
-      100% {
-        transform: translate3d(-50%, 0, 0);
-      }
-    }
-
-   .portfolio-bio {
-    flex-wrap: wrap;
+    .portfolio-bio {
       display: flex;
+      flex-direction: column;
       align-items: center;
-    justify-content: center;
-      /*align-items: center;
-      justify-content: center*/
-      
-    }
+      margin: auto;
+  }
 
-   .profile {
+   /*.profile {
       max-width: 20%;
       max-height:100%;
       object-fit: contain;
       display: flex;
       float: left;
-    }
+    }*/
 
-.bio {
+/*.bio {
   
   flex-wrap: wrap;
-  float: left;
+  margin-left: auto;
   color: 	#1A191A;
   font-family: "Theinhardt-Pan-regular";
-   /*text-transform: uppercase;
-   font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
   font-size: 19px;
-  /*padding-right: 30px;*/
-  width: 55%;
-  /*margin-left: auto;*/
+  padding-right: 30px;
+  width: 60%;
+  }*/
+  .main-title {
+    margin:auto;
+    padding-top: 40px;
+     width: 95%;
+   color: 	#002fa7;
+   position: relative;
+   font-family: "Theinhardt-Pan-Bold";
+ font-size: 35px;
+ text-transform: uppercase;
+   }
+.space {
+  width: 100%;
+  height: auto;
+  padding-right: 300px ;
+}
+  .bio {
+    display: flex;
+    flex-direction: column;
+    /*gap: 15px;*/
+    color: 	#1A191A;
+  font-family: "Theinhardt-Pan-regular";
+  font-size: 19px;
+  padding-right: 35px;
+  padding-left: 15px;
   
-  /*margin-left: 2.5%;*/
+}
+
+@media (min-width: 600px) {
+  .portfolio-bio {
+      flex-direction: row;
+      align-items: flex-start;
   }
+
+ /* .main-title {
+      flex: 1;
+      text-align: center;
+  }*/
+
+ /* .linebar1 {
+      flex: 1;
+      margin: 0 20px;
+  }*/
+  .space {
+    flex: 1;
+  }
+  .bio {
+      flex: 2;
+  }
+}
+
   .handprint {
     width: 35%;
     height: auto;
@@ -495,3 +474,35 @@ word-spacing: 2px;
       transform: translate(-60%,140vh) rotateZ(100deg); 
     }
     } 
+
+    .wrapper {
+      color:	#1A191A;
+      text-align: center;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    
+    .marquee {
+      
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: marquee 11s linear infinite;
+    }
+    
+    .marquee p {
+      text-transform: uppercase;
+      font-family: "Theinhardt-Pan-bold";
+        font-size: 30px;
+      display: inline-block;
+    }
+    
+    @keyframes marquee {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
+

@@ -129,7 +129,7 @@ text-transform: uppercase;
   .linebar1 {
     outline-style: solid;
     outline-width: 1px;
-    outline-color:gray;
+    outline-color:#d0d0d0;
     width: 95%;
     margin: auto;
     padding: 0;
