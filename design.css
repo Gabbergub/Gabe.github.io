@@ -137,6 +137,7 @@ color: gray;
   font-family: "Theinhardt-Pan-regular";
   font-size: 15px;
   color: #1A191A;
+  padding-bottom: 10px;
 }
 /*.descriptor{
   /*font-family: "latino-gothic-variable",sans-serif;
@@ -149,7 +150,7 @@ color: gray;
 .title1 {
   
   color: #1A191A;
-  position: relative;
+  
   font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
   text-transform:capitalize;
