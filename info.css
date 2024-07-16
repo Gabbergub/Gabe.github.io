@@ -2,6 +2,8 @@ body {
  /* background-color:#fff;*/
  background-color: #ececec;
     margin: auto;
+    font-family: "Theinhardt-Pan-regular";
+  font-size: 15px;
 }
 @media (max-width: 600px) {
   .info-content .portfolio-bio {
@@ -268,12 +270,18 @@ color: gray;
     /*gap: 15px;*/
     color: 	#1A191A;
   font-family: "Theinhardt-Pan-regular";
-  font-size: 19px;
+  font-size: 15px;
   padding-right: 35px;
   padding-left: 15px;
   
 }
-
+.I {
+  font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+        font-weight: 400;
+  font-size: 35px;
+  color: gray;
+}
 @media (min-width: 600px) {
   .portfolio-bio {
       flex-direction: row;
@@ -330,25 +338,25 @@ color: gray;
   .info {
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 13px;
+        font-size: 15px;
   }
   .experience-info {
     margin-left: -10px;
     color:	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 13px;
+        font-size: 15px;
   }
   .awards-info {
     margin-left: 20px;
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 13px;
+        font-size: 15px;
   }
   .con-info a {
     margin-left: 35px;
     color: 	#002fa7;
     font-family: "Theinhardt-Pan-regular";
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: underline;
     
   }

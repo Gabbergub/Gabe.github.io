@@ -135,15 +135,24 @@ color: gray;
 }
 .project-descriptor{
   font-family: "Theinhardt-Pan-regular";
-  font-size: 13px;
+  font-size: 15px;
   color: #1A191A;
 }
+/*.descriptor{
+  /*font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 43, 'wdth' 76, 'slnt' 1; 
+        font-family: "Theinhardt-Pan-regular";
+  font-size: 15px;
+  color: #002fa7;
+}*/
+
 .title1 {
   
   color: #1A191A;
   position: relative;
-  font-family: "Theinhardt-Pan-Bold";
-  text-transform: uppercase;
+  font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+  text-transform:capitalize;
 font-size: 15px;
 }
 
