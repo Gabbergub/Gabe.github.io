@@ -292,7 +292,7 @@ word-spacing: 1px;
   .background {
     width: 95vw;
     background-size:contain;
-    height: fit-content;
+    height: auto;
     background-color: #d0d0d0;
     margin-left: auto;
     margin-right: auto;
@@ -304,6 +304,7 @@ word-spacing: 1px;
   .mySlides {
     display:block;
     width: 50vw;
+    height: auto;
     margin: auto;
     height: fit-content;
     object-fit: contain;
