@@ -205,7 +205,7 @@ color: gray;
     .linebar1 {
       outline-style: solid;
       outline-width: 1px;
-      outline-color:#d0d0d0;
+      outline-color:#1A191A;
       width: 45%;
       margin: auto;
       margin-right: 52.5%;
@@ -251,7 +251,7 @@ color: gray;
   }*/
   .main-title {
     margin:auto;
-    padding-top: 40px;
+    padding-top: 45px;
      width: 95%;
    color: 	#002fa7;
    position: relative;
@@ -270,7 +270,7 @@ color: gray;
     /*gap: 15px;*/
     color: 	#1A191A;
   font-family: "Theinhardt-Pan-regular";
-  font-size: 15px;
+  font-size: 18px;
   padding-right: 35px;
   padding-left: 15px;
   
@@ -326,8 +326,9 @@ color: gray;
   }
   .title {
     color: #1A191A;
-        font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+    font-family: "latino-gothic-variable",sans-serif;
+    font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+        font-size: 16px;
         
   }
   /*.title2 {
@@ -338,25 +339,25 @@ color: gray;
   .info {
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 16px;
   }
   .experience-info {
     margin-left: -10px;
     color:	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 16px;
   }
   .awards-info {
     margin-left: 20px;
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 15px;
+        font-size: 16px;
   }
   .con-info a {
     margin-left: 35px;
     color: 	#002fa7;
     font-family: "Theinhardt-Pan-regular";
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: underline;
     
   }
@@ -381,7 +382,7 @@ color: gray;
   }*/
   .container4 {
    display: flex;
-    column-gap: 15%;
+    column-gap: 25.5%;
     padding-left: 0%;
     padding-right: 0%;
 }

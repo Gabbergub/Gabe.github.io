@@ -116,7 +116,7 @@ color: gray;
   .linebar2 {
     outline-style: solid;
     outline-width: 1px;
-    outline-color:#d0d0d0;
+    outline-color:#1A191A;
     width: 95%;
     margin: auto;
     padding: 0;
@@ -300,13 +300,13 @@ margin-left: 1%;
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-  p {
-    /*font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; */
+   /*p {
+   font-family: "latino-gothic-variable",sans-serif;
+        font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
         font-family: "Theinhardt-Pan-regular";
         font-size: 13px;
         color: #1A191A;
-  }
+  }*/
  
   
   .title {
@@ -318,7 +318,6 @@ margin-left: 1%;
   font-style: normal;
   font-weight: 100px;*/
   font-size: 15px;
-  /*line-height: 2px;*/
   }
 
   h4 {
