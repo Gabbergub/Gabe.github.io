@@ -1,12 +1,14 @@
 body {
   /*background-color:#fff;*/
   background-color: 	#ececec;
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
   margin: 0;
   width: 100vw;
   height: 100vh;
 }
 @media (max-width: 600px) {
-  .info-content .portfolio-bio {
+  .info-content .portfolio-bio .title .bio{
       flex-direction: column;
       align-items: flex-start;
   }
@@ -339,25 +341,25 @@ color: gray;
   .info {
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 16px;
+        font-size: 15px;
   }
   .experience-info {
     margin-left: -10px;
     color:	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 16px;
+        font-size: 15px;
   }
   .awards-info {
     margin-left: 20px;
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
-        font-size: 16px;
+        font-size: 15px;
   }
   .con-info a {
     margin-left: 35px;
     color: 	#002fa7;
     font-family: "Theinhardt-Pan-regular";
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: underline;
     
   }
