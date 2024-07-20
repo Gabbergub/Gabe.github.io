@@ -136,10 +136,12 @@ padding-bottom: 40px;
   .topnav h3:hover:not(.active) {
     background-color: transparent;
     /*color: gray;*/
+    
     text-decoration: overline;
   }
   h3 {
     text-decoration: none;
+    color: #1A191A;
   }
  ul {
     list-style-type: none;
@@ -162,6 +164,9 @@ padding-bottom: 40px;
 
 a {
   text-decoration:none;
+  color: #1A191A;
+}
+h1{
   color: #1A191A;
 }
 /*h3:hover:not(.active) {
@@ -268,9 +273,46 @@ word-spacing: 1px;
   font-family: "latino-gothic-variable",sans-serif;
   font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
   font-weight: 400;
-  font-size: 35px;
+  font-size: 50px;
   text-transform: uppercase;
   }
+  .sliding-u-l-r-l {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #1A191A;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: #1A191A;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
   .linebar1 {
     position: relative;
     outline-style: solid;
@@ -299,7 +341,9 @@ word-spacing: 1px;
     width: 95%;
     
   }
-  .background {
+
+  
+  /*.background {
     position: relative;
     width: 95vw;
     background-size:contain;
@@ -307,21 +351,20 @@ word-spacing: 1px;
     background-color: #d0d0d0;
     margin-left: auto;
     margin-right: auto;
-  }
-  /*.image-content .image-section {
-      width: 95vw;
-      margin: auto;
   }*/
-  .mySlides {
+  
+ /* .mySlides {
     position: relative;
     display:block;
-    /*width: 50vw;*/
     width: 100%;
     margin: auto;
     height: fit-content;
     object-fit: contain;
    
-  }
+  }*/
+
+
+
 /*.magazine {
   width: 10%;
   height: fit-content;
