@@ -4,8 +4,6 @@ body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
   margin: 0;
-  width: 100vw;
-  height: 100vh;
 }
 @media (max-width: 600px) {
   .info-content .portfolio-bio .title .bio{
@@ -226,31 +224,8 @@ color: gray;
     }
 
    
-    .portfolio-bio {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: auto;
-  }
+   
 
-   /*.profile {
-      max-width: 20%;
-      max-height:100%;
-      object-fit: contain;
-      display: flex;
-      float: left;
-    }*/
-
-/*.bio {
-  
-  flex-wrap: wrap;
-  margin-left: auto;
-  color: 	#1A191A;
-  font-family: "Theinhardt-Pan-regular";
-  font-size: 19px;
-  padding-right: 30px;
-  width: 60%;
-  }*/
   .main-title {
     margin:auto;
     padding-top: 45px;
@@ -261,22 +236,68 @@ color: gray;
  font-size: 50px;
  text-transform: uppercase;
    }
-.space {
+/*.space {
   width: 100%;
   height: auto;
   padding-right: 300px ;
+}*/
+/*.portfolio-bio {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}*/
+.portfolio-bio {
+  column-gap: 35px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right:35px;
+  margin: auto;
 }
-  .bio {
+/*.profile {
+  position: relative;
+  max-width: 100%;
+  max-height: auto;
+  object-fit:contain;
+  padding-right: 35px;
+  padding-left: 35px;
+}*/
+img {
+  width: 450px;
+  filter: grayscale(100%);
+}
+.profile {
+  max-width: 100%;
+  height: auto;
+ object-fit: contain;
+  
+}
+
+.bio {
+  flex: 1;
+  min-width: 200px;
+  font-family: "Theinhardt-Pan-regular";
+  font-size: 18px;
+}
+
+.bio p {
+  margin-top: 1em;
+}
+ /* .bio {
     display: flex;
     flex-direction: column;
-    /*gap: 15px;*/
+    /gap: 15px;/
     color: 	#1A191A;
   font-family: "Theinhardt-Pan-regular";
   font-size: 18px;
   padding-right: 35px;
-  padding-left: 15px;
   
-}
+}*/
 .I {
   font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
@@ -289,17 +310,8 @@ color: gray;
       flex-direction: row;
       align-items: flex-start;
   }
-
- /* .main-title {
-      flex: 1;
-      text-align: center;
-  }*/
-
- /* .linebar1 {
-      flex: 1;
-      margin: 0 20px;
-  }*/
-  .space {
+ 
+  .profile {
     flex: 1;
   }
   .bio {
@@ -517,3 +529,21 @@ word-spacing: 2px;
       }
     }
 
+video {
+  max-width: 100% !important;
+  height: auto   !important;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px;
+}
+.throbber {
+  margin: auto;
+ 
+}
+.banner_animation {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  
+}

@@ -31,9 +31,9 @@ function typeText(text, elementID, i) {
     if (i < text.length) {
         document.getElementById(elementID).innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeText, 150, text, elementID, i);
+        setTimeout(typeText, 100, text, elementID, i);
     } else {
-        setTimeout(clearText, 3000, text, elementID);
+        setTimeout(clearText, 2000, text, elementID);
     }
 
 }
@@ -57,7 +57,7 @@ function clearText(text, elementID, i) {
 
 }
 
-var myIndex = 0;
+/*var myIndex = 0;
 carousel();
 
 function carousel() {
@@ -70,4 +70,4 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 4000); // Change image every 2 seconds
-}
+}*/
