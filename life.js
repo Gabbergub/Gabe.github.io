@@ -57,6 +57,8 @@ function clearText(text, elementID, i) {
 
 }
 
+
+
 /*var myIndex = 0;
 carousel();
 
@@ -71,3 +73,4 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 4000); // Change image every 2 seconds
 }*/
+

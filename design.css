@@ -114,8 +114,17 @@ color: gray;
     text-decoration-thickness: 2px ;
     text-underline-offset: 20px;*/
   }
-
   .linebar2 {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:#1A191A;
+    width: 45%;
+    margin: auto;
+    margin-right: 52.5%;
+    padding: 0;
+   margin-top: 15px;
+  }
+  /*.linebar2 {
     outline-style: solid;
     outline-width: 1px;
     outline-color:#1A191A;
@@ -124,7 +133,7 @@ color: gray;
     padding: 0;
    margin-top: 15px;
     
-  }
+  }*/
 /* first section */
 .project {
   line-height: 20px;

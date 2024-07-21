@@ -529,21 +529,3 @@ word-spacing: 2px;
       }
     }
 
-video {
-  max-width: 100% !important;
-  height: auto   !important;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 35px;
-}
-.throbber {
-  margin: auto;
- 
-}
-.banner_animation {
-  width: 100%;
-  height: fit-content;
-  margin: auto;
-  
-}
