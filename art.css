@@ -194,6 +194,7 @@ text-transform: uppercase;
         }
        .plus {
         font-size: 65px;
+        color: #ececec;
        }
         .overlay {
           align-content: center;
@@ -204,8 +205,8 @@ text-transform: uppercase;
           right: 0;
           background: #1A191A;
          /* background: rgb(0, 0, 0);
-          background: rgba(0, 0, 0, 0.5); /* Black see-through */
-          color: #f1f1f1; 
+          background: rgba(0, 0, 0, 0.5); /* Black see-through 
+          color: #f1f1f1; */
           width: 100%;
           height: auto;
           transition: .5s ease;
