@@ -362,6 +362,11 @@ margin-left: 1%;
     .picture_wrapper {
       margin-bottom: 10px;
     }
+    img {
+      max-width: 100%;
+      min-height: 100%;
+        height: auto;
+    }
      /* .img {
         /* height: 100%;
         width: 100%; 
