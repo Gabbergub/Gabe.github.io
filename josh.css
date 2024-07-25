@@ -250,6 +250,7 @@ body {
          width: 470px    !important;
          height: auto   !important;
         object-fit: contain;
+        margin: auto;
        }
        img {
         width: 750px;
