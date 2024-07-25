@@ -11,7 +11,10 @@ body {
       margin-top: 0;
     }
   }
-
+  @media only screen 
+  and (width: 375px) 
+  and (height: 812px) 
+  and (-webkit-device-pixel-ratio: 3) { }
 
 .heading1{
     margin-top: -20px;
@@ -247,8 +250,8 @@ body {
  
        video {
          /* override other styles to make responsive */
-         max-width: 100%;
-         height: auto;
+         width: 470px    !important;
+         height: auto   !important;
        }
        img {
         width: 750px;
@@ -276,6 +279,8 @@ body {
        object-fit: contain;
     }
     .clip1 {
+      max-width: 100%;
+      min-width: 100%;
       object-fit: contain;
       margin: auto;
       
