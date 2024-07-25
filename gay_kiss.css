@@ -279,6 +279,7 @@ body {
     }
     .clip1 {
       max-width: 100%;
+      min-width: 100%;
       height: fit-content;
       margin: auto;
       

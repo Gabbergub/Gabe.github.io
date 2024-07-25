@@ -135,20 +135,29 @@ color: gray;
     
   }*/
 /* first section */
+.project1 {
+  line-height: 20px;
+  display: flex;
+  margin: auto;
+  width: 95%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  
+}
 .project {
   line-height: 20px;
   display: flex;
   margin: auto;
   width: 95%;
-  padding-top: 25px;
-  padding-bottom: 40px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   
 }
 .project-descriptor{
   font-family: "Theinhardt-Pan-regular";
   font-size: 15px;
   color: #1A191A;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .title1 {
@@ -164,6 +173,7 @@ font-size: 15px;
  
 
 .w-col {
+  padding-top: 20px;
   width: 100%;
   margin: auto;
 }
@@ -212,12 +222,20 @@ margin-left: 1%;
     word-spacing: 1px;
   } 
   .linebar {
-    outline-style: dashed;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:#1A191A;
+    width: 95%;
+    margin: auto;
+    /*margin-right: 52.5%;*/
+    padding: 0;
+   margin-top: 15px;
+    /*outline-style: dashed;
     outline-color:#d0d0d0;
     outline-width: 1px;
     margin-top: 3%;
     width: 95%;
-  margin: auto;
+  margin: auto;*/
   }
 
   * {
@@ -285,7 +303,7 @@ margin-left: 1%;
       }
 
       .poster{
-        position: relative;
+        
         /*width:39.5%;*/
         width: 500px;
         height: auto;
@@ -295,7 +313,6 @@ margin-left: 1%;
         /*top:100vh;*/
       }
     .poster_mockup{
-      position: relative;
       object-fit: contain;
       width: 820px;
       /*width: 59.4%;*/
@@ -327,6 +344,7 @@ margin-left: 1%;
     .mag-gif {
       object-fit: contain;
       width: 883px;
+      height: auto;
     }
     .mag-cover {
      width: 463px;
@@ -594,4 +612,35 @@ margin-left: 1%;
       * {
         transition: all .4s;
         box-sizing: border-box;
+      }
+
+      .wrapper {
+        color:	#1A191A;
+        text-align: center;
+        max-width: 100%;
+        overflow: hidden;
+      }
+      
+      .marquee {
+        
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        animation: marquee 11s linear infinite;
+      }
+      
+      .marquee p {
+        text-transform: uppercase;
+        font-family: "Theinhardt-Pan-bold";
+          font-size: 30px;
+        display: inline-block;
+      }
+
+      @keyframes marquee {
+        0% {
+          transform: translate3d(0, 0, 0);
+        }
+        100% {
+          transform: translate3d(-50%, 0, 0);
+        }
       }
