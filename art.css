@@ -192,10 +192,10 @@ text-transform: uppercase;
         * {
           box-sizing: border-box;
         }
-       .plus {
-        font-size: 65px;
-        color: #ececec;
-       }
+        .plus a {
+          font-size: 65px;
+          color:#ececec;
+         }
         .overlay {
           align-content: center;
           position: absolute; 
