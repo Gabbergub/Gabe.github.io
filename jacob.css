@@ -249,7 +249,6 @@ body {
          /* override other styles to make responsive */
          width: 470px    !important;
          height: auto   !important;
-        object-fit: contain;
        }
        img {
         width: 750px;
@@ -279,7 +278,7 @@ body {
     .clip1 {
       max-width: 100%;
       min-width: 100%;
-      height: fit-content;
+      object-fit: contain;
       margin: auto;
       
     }
