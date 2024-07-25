@@ -14,7 +14,9 @@ body {
   @media only screen 
   and (width: 375px) 
   and (height: 812px) 
-  and (-webkit-device-pixel-ratio: 3) { }
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait)
+  and (orientation: landscape) { }
 
 .heading1{
     margin-top: -20px;
@@ -250,8 +252,7 @@ body {
  
        video {
          /* override other styles to make responsive */
-         width: 470px    !important;
-         height: auto   !important;
+         width: 470px;
        }
        img {
         width: 750px;
@@ -281,6 +282,7 @@ body {
     .clip1 {
       max-width: 100%;
       min-width: 100%;
+      height: auto;
       object-fit: contain;
       margin: auto;
       
