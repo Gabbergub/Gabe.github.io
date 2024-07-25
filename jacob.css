@@ -247,8 +247,8 @@ body {
  
        video {
          /* override other styles to make responsive */
-         width: 470px    !important;
-         height: auto   !important;
+         max-width: 100%;
+         height: auto;
        }
        img {
         width: 750px;
@@ -276,8 +276,6 @@ body {
        object-fit: contain;
     }
     .clip1 {
-      max-width: 100%;
-      min-width: 100%;
       object-fit: contain;
       margin: auto;
       
