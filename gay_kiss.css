@@ -116,7 +116,6 @@ body {
   .title1 {
     font-family: "Theinhardt-Pan-Bold";
   font-size: 30px;
-        width: 95%;
         margin: auto;
         /*line-height: 2px;*/
         top: 40px; 
@@ -125,7 +124,6 @@ body {
   .title2 {
     font-family: "Theinhardt-Pan-Bold";
     font-size: 30px;
-        width: 95%;
         margin: auto;
         margin-top: 20%;
   }
@@ -139,6 +137,7 @@ body {
   }
   .text2 {
     padding-top: -15px;
+    width: 75%;
   }
   .container {
     text-align: left;
@@ -156,8 +155,9 @@ body {
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-     column-gap: 20%;
+    align-items: center;
+    /*align-items: flex-start;*/
+     column-gap: 90px;
    }
    @media (min-width: 600px) {
     .flex {
@@ -247,9 +247,12 @@ body {
  
        video {
          /* override other styles to make responsive */
-         width: 45%    !important;
+         width: 470px    !important;
          height: auto   !important;
         object-fit: contain;
+       }
+       img {
+        width: 750px;
        }
 
   * {
@@ -270,7 +273,7 @@ body {
         margin-right: auto;
         /*padding-top: 45px;
         padding-bottom: 45px;*/
-        max-width: 55%;
+        max-width: 100%;
         height: auto;
        object-fit: contain;
     }
