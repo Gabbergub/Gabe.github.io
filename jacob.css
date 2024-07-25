@@ -1,0 +1,346 @@
+body {
+    background-color: 	#ececec;
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+.heading1{
+    margin-top: -20px;
+    display: inline-block;
+  font-family: "Theinhardt-Pan-Bold";
+  font-size: 23px;
+  letter-spacing: -4px;
+  line-height: 40px;
+  text-align: left;
+  }
+  h1:hover:not(.active) {
+  color: gray;
+  }
+  .topnav {
+    overflow: hidden;
+    font-family: "Theinhardt-Pan-regular";
+    font-size: 12px;
+    width: 95%;
+    margin: auto;
+  }
+      @font-face {
+        font-family: "Theinhardt-Pan-Bold";
+        src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
+      }
+      
+      @font-face {
+        font-family: "Theinhardt-Pan-Regular";
+        src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
+      }
+
+       /* Change the color of links on hover */
+  .topnav h3:hover:not(.active) {
+    background-color: transparent;
+   /* color: #002FA7;*/
+    text-decoration: overline;
+  }
+  
+  a {
+    text-decoration:none;
+    color: #1A191A;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+  }
+  
+  li a {
+    text-align: right;
+    display: block;
+    line-height: 13px;
+  }
+  .active {
+    text-decoration: overline;
+  }
+
+  .main-title {
+    padding-top: 45px;
+  width: 95%;
+  margin: auto;
+  color: #002fa7;
+  position: relative;
+  font-family: "Theinhardt-Pan-Bold";
+  font-size: 50px;
+  text-transform: uppercase;
+  /*text-decoration: underline  gainsboro;;
+    text-decoration-style:solid;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 20px;*/
+  }
+  .linebar1 {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:#1A191A;
+    width: 30%;
+    margin: auto;
+    /*margin-right: 52.5%;*/
+    padding: 0;
+   margin-top: 15px;
+    
+  }
+  /*.title1 {
+    font-family: "latino-gothic-variable",sans-serif;
+    font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+    font-weight: 400;
+    font-size: 35px;
+        width: 95%;
+        margin: auto;
+        position: relative;
+        top: 40px;
+  }*/
+  .sub {
+    margin-top: -10px;
+    font-family: "latino-gothic-variable",sans-serif;
+    font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .title1 {
+    font-family: "Theinhardt-Pan-Bold";
+  font-size: 30px;
+        margin: auto;
+        /*line-height: 2px;*/
+        top: 40px; 
+        padding-bottom: 18px;
+  }
+  .title2 {
+    font-family: "Theinhardt-Pan-Bold";
+    font-size: 30px;
+        margin: auto;
+        margin-top: 20%;
+  }
+  p {
+    font-family: "Theinhardt-Pan-Regular";
+  font-size: 18px;
+  padding-bottom: 45px;
+  }
+  .text1 {
+    padding-top: 15px;
+  }
+  .text2 {
+    padding-top: -15px;
+    width: 75%;
+  }
+  .container {
+    text-align: left;
+  }
+
+  .main_content2 {
+     width: 95vw;
+     padding-bottom: 45px;
+     height:fit-content;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+   .flex{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*align-items: flex-start;*/
+     column-gap: 90px;
+   }
+   @media (min-width: 600px) {
+    .flex {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+   
+    .clip1 {
+      flex: 1;
+    }
+    .container {
+      flex: 2;
+    }
+   
+  }
+
+  .back {
+    font-family: "latino-gothic-variable",sans-serif;
+    font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+    font-weight: 400;
+    font-size: 30px;
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+  }
+  .sliding-u-l-r-l {
+   /* display: inline-block;*/
+    position: relative;
+    padding-bottom: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+}
+.sliding-u-l-r-l:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.sliding-u-l-r-l:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #1A191A;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:before {
+    width: 100%;
+    background: #1A191A;
+    transition: width .5s ease;
+}
+.sliding-u-l-r-l:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+   .main_content1{
+    padding-top: 75px;
+     padding-bottom: 45px;
+     height:fit-content;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+   content {
+    text-align: center;
+   }
+     .picture_wrapper {
+        margin: auto;
+        width: 95vw;
+        height: auto;
+        background-color: #f1f1f1;
+        /*background-color: #d0d0d0;*/
+        
+     }
+ 
+       video {
+         /* override other styles to make responsive */
+         width: 470px    !important;
+         height: auto   !important;
+        object-fit: contain;
+       }
+       img {
+        width: 750px;
+       }
+  * {
+    box-sizing: border-box;
+  }
+
+  /*video {
+      max-width: 100% !important;
+      height: auto   !important;
+     display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 35px;
+    }*/
+    .jacob {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /*padding-top: 45px;
+        padding-bottom: 45px;*/
+        max-width: 100%;
+        height: auto;
+       object-fit: contain;
+    }
+    .clip1 {
+      max-width: 100%;
+      height: fit-content;
+      margin: auto;
+      
+    }
+
+  .fade-in-text {
+    animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+    * {
+      transition: all .4s;
+    }
+  
+  
+      .imgLink { border: none; background: none; }
+.imgLink img
+{
+  height: 8rem;
+}
+.imgLink:active img, .imgLink:focus img
+{
+  height: 16rem;
+}
+       
+
+  h4 {
+    color: #1A191A;
+    font-family: "Theinhardt-Pan-Regular";
+        font-size: 12px;
+letter-spacing: 2px;
+word-spacing: 2px;
+  } 
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    /*border-radius: 50%;*/
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-instagram {
+    background: transparent;
+    color: #1A191A;
+  }
+  .fa-linkedin {
+    background: transparent;
+    color: #1A191A;
+  }
+  .footer {
+    position:relative;
+    margin: auto;
+    margin-top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+ }
+
+ 
+ 
