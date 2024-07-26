@@ -56,15 +56,25 @@ letter-spacing: 2px;
   text-decoration: overline;
 }*/
 
+.gabe {
+  font-family: "Theinhardt-Pan-Bold";
+font-size: 40px;
+text-transform: uppercase;
+}
+.marroquin {
+  margin-top: -35px;
+  font-family: "Theinhardt-Pan-Regular";
+font-size: 40px;
+text-transform: uppercase;
+}
+
 .heading1{
   margin-top: -20px;
-  /*justify-content: left;*/
-  /*justify-content: space-between;*/
   display: inline-block;
-font-family: "Theinhardt-Pan-Bold";
+/*font-family: "Theinhardt-Pan-Bold";
 font-size: 23px;
 letter-spacing: -4px;
-line-height: 40px;
+line-height: 40px;*/
 text-align: left;
 }
 h1:hover:not(.active) {
