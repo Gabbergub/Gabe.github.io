@@ -3,6 +3,7 @@ body {
     background-size: 40px 40px;
     background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
     margin: 0;
+    background-attachment: fixed;
   }
   
   @media screen and (max-width: 600px) {
@@ -34,7 +35,7 @@ body {
   text-align: left;
   }
   h1:hover:not(.active) {
-  color: gray;
+  color: #6b6b6b;
   }
   .topnav {
     overflow: hidden;
@@ -168,7 +169,7 @@ body {
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /*align-items: center;*/
     /*align-items: flex-start;*/
      column-gap: 90px;
    }
@@ -253,16 +254,16 @@ body {
         margin: auto;
         width: 95vw;
         height: auto;
-        background-color: #f1f1f1;
+        background-color: #d0d0d0;
         /*background-color: #d0d0d0;*/
         
      }
  
        video {
          /* override other styles to make responsive */
-         width:100%  !important;
-        /* height: auto   !important;
-        object-fit: contain;*/
+         width: 550px    !important;
+        height: auto   !important;
+        object-fit: contain;
        }
        img {
         width: 950px;
@@ -292,11 +293,12 @@ body {
        object-fit: contain;
     }
     .clip1 {
-      max-width: 800px;
-      min-width: 400px;
-      /*max-width: 100%;
-      height: fit-content;*/
+      max-width: 100%;
+      min-width: 100%;
       margin: auto;
+      /*max-width: 800px;
+      min-width: 400px;
+      margin: auto;*/
       
     }
 

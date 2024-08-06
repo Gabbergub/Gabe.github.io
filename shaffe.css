@@ -3,6 +3,7 @@ body {
     background-size: 40px 40px;
     background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
     margin: 0;
+    background-attachment: fixed;
   }
   
   @media screen and (max-width: 600px) {
@@ -34,7 +35,7 @@ body {
   text-align: left;
   }
   h1:hover:not(.active) {
-  color: gray;
+  color: #6b6b6b;
   }
   .topnav {
     overflow: hidden;
@@ -255,7 +256,7 @@ body {
         margin: auto;
         width: 95vw;
         height: auto;
-        background-color: #f1f1f1;
+        background-color: #d0d0d0;
         /*background-color: #d0d0d0;*/
         
      }

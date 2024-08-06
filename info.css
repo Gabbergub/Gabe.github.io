@@ -4,6 +4,7 @@ body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
   margin: 0;
+  background-attachment: fixed;
 }
 @media (max-width: 600px) {
   .info-content .portfolio-bio .title .bio{
@@ -78,7 +79,7 @@ line-height: 40px;*/
 text-align: left;
 }
 h1:hover:not(.active) {
-color: gray;
+color: #6b6b6b;
 }
 .topnav {
   overflow: hidden;
@@ -95,6 +96,18 @@ color: gray;
     @font-face {
       font-family: "Theinhardt-Pan-Regular";
       src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
+    }
+    @font-face {
+      font-family: "Theinhardt-Pan-Bold-Italic";
+      src: url(Theinhardt-Pan-Bold-Italic/Theinhardt-Pan-Bold-Italic.otf);
+    }
+    @font-face {
+      font-family: "Theinhardt-Pan-Heavy";
+      src: url(Theinhardt-Pan-Heavy/Theinhardt-Pan-Heavy.otf);
+    }
+    @font-face {
+      font-family: "Theinhardt-Pan-Italic";
+      src: url(Theinhardt-Pan-Italic/Theinhardt-Pan-Italic.otf);
     }
 .navbar {
   outline-style: solid;
@@ -312,7 +325,7 @@ img {
         font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
         font-weight: 400;
   font-size: 35px;
-  color: gray;
+  color: #6b6b6b;
 }
 @media (min-width: 600px) {
   .portfolio-bio {
@@ -359,6 +372,11 @@ img {
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }*/
+  .italic {
+    color: 	#002fa7;
+        font-family: "Theinhardt-Pan-Italic";
+        font-size: 15px;
+  }
   .info {
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";

@@ -3,6 +3,7 @@ body {
     background-color: 	#ececec;
     background-size: 40px 40px;
   background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+  background-attachment: fixed;
     margin: 0;
 }
 
@@ -132,6 +133,18 @@ padding-bottom: 40px;
 @font-face {
   font-family: "Theinhardt-Pan-Regular";
   src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
+}
+@font-face {
+  font-family: "Theinhardt-Pan-Bold-Italic";
+  src: url(Theinhardt-Pan-Bold-Italic/Theinhardt-Pan-Bold-Italic.otf);
+}
+@font-face {
+  font-family: "Theinhardt-Pan-Heavy";
+  src: url(Theinhardt-Pan-Heavy/Theinhardt-Pan-Heavy.otf);
+}
+@font-face {
+  font-family: "Theinhardt-Pan-Italic";
+  src: url(Theinhardt-Pan-Italic/Theinhardt-Pan-Italic.otf);
 }
  .fade-in-text {
   animation: fadeIn 2s;
@@ -276,17 +289,21 @@ word-spacing: 1px;
     margin: auto;
     object-fit: contain;
   }
-  .main-title {
-   
-   /* text-align: left;*/
+  /*.main-title {
     padding-top: 20px;
     padding-bottom: 10px;
-  /*width: 95%;*/
- /* margin: auto;*/
   color: #002fa7;
   font-family: "latino-gothic-variable",sans-serif;
   font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
   font-weight: 400;
+  font-size: 50px;
+  text-transform: uppercase;
+  }*/
+  .main-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  color: #002fa7;
+  font-family: "Theinhardt-Pan-Bold-Italic";
   font-size: 50px;
   text-transform: uppercase;
   }
@@ -359,7 +376,20 @@ word-spacing: 1px;
     width: 95%;
    
   }
+  
   .motion-title {
+    margin: auto;
+    float: left;
+    padding-right: 53px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  color: #002fa7;
+  font-family: "Theinhardt-Pan-Bold-Italic";
+  font-size: 50px;
+  font-size: 50px;
+  text-transform: uppercase;
+  }
+  /*.motion-title {
     margin: auto;
     float: left;
     padding-right: 53px;
@@ -371,7 +401,7 @@ word-spacing: 1px;
   font-weight: 400;
   font-size: 50px;
   text-transform: uppercase;
-  }
+  }*/
   /*.smiley {
     width: 10%;
     height: fit-content;
@@ -389,6 +419,8 @@ word-spacing: 1px;
       width: 95%;
       height: auto;
   }
+
+  
   @media (min-width: 600px) {
     .projecContainer {
         flex-direction: row;
