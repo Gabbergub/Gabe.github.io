@@ -322,8 +322,8 @@ img {
 }*/
 .I {
   font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
-        font-weight: 400;
+  font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+  font-weight: 400;
   font-size: 35px;
   color: #6b6b6b;
 }
@@ -362,9 +362,10 @@ img {
   }
   .title {
     color: #1A191A;
-    font-family: "latino-gothic-variable",sans-serif;
-    font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
-        font-size: 16px;
+    font-family: "Theinhardt-Pan-Italic";
+    /*font-family: "latino-gothic-variable",sans-serif;
+    font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; */
+        font-size: 19px;
         
   }
   /*.title2 {
