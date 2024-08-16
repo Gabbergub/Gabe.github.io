@@ -90,7 +90,7 @@ line-height: 40px;*/
 text-align: left;
 }
 h1:hover:not(.active) {
-color: gray;
+color: #6b6b6b;
 }
 .topnav {
   overflow: hidden;
@@ -114,11 +114,12 @@ padding-bottom: 40px;
  .linebar {
   outline-style: solid;
   outline-width: 1px;
-  outline-color:#1A191A;
+  outline-color:#ececec;
   width: 95%;
   margin: auto;
   padding: 0;
- margin-top: 25px;
+  margin-bottom: 90px;
+ 
   
 }
  /*#contain {
@@ -281,7 +282,10 @@ letter-spacing: 2px;
 word-spacing: 1px;
   } 
 
-  
+  #contain {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
   .wrap {
     /*height: 60vh;*/
     height: 45vh;
@@ -299,10 +303,12 @@ word-spacing: 1px;
   font-size: 50px;
   text-transform: uppercase;
   }*/
-  .main-title {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  color: #002fa7;
+  .main-title a {
+    padding-left: 45px;
+    margin: auto;
+    /*padding-top: 20px;
+    padding-bottom: 10px;*/
+  color: #1A191A;
   font-family: "Theinhardt-Pan-Bold-Italic";
   font-size: 50px;
   text-transform: uppercase;
@@ -357,6 +363,9 @@ word-spacing: 1px;
   }
 
   .description {
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 45px;
     display: flex;
     flex-direction: column;
     color: #1A191A;
@@ -368,6 +377,9 @@ word-spacing: 1px;
     
   }
   .descriptionM {
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 45px;
     display: flex;
     flex-direction: column;
     color: #1A191A;
@@ -377,13 +389,14 @@ word-spacing: 1px;
    
   }
   
-  .motion-title {
+  .motion-title a {
+    padding-left: 45px;
     margin: auto;
-    float: left;
+    /*float: left;*/
     padding-right: 53px;
     padding-top: 20px;
     padding-bottom: 10px;
-  color: #002fa7;
+  color: #1A191A;
   font-family: "Theinhardt-Pan-Bold-Italic";
   font-size: 50px;
   font-size: 50px;
@@ -408,16 +421,19 @@ word-spacing: 1px;
   }*/
 
   .projecContainer {
-    padding-top: 45px;
+    padding-top: 25px;
+    background-color:#d0d0d0 ;
+    border-radius: 15px;
+    padding-top: 55px;
     padding-bottom: 55px;
-    position: relative;
     display: flex;
     column-gap: 15%;
       flex-direction: column;
       /*align-items: center;*/
       margin:auto;
       width: 95%;
-      height: auto;
+      margin-top: 5px;
+      
   }
 
   
@@ -472,4 +488,12 @@ width: 30%;
 object-fit: contain;
 }
 
+/*.background {
+  margin-top: 25px;
+  margin: auto;
+  background-color: #1A191A;
+  padding: 25px;
+  padding-top: 45px;
+  padding-bottom: 75px;
+}*/
 
