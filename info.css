@@ -238,8 +238,8 @@ color: #6b6b6b;
     }
     
     .linebar {
-      outline-style: dashed;
-      outline-color:#d0d0d0;
+      outline-style: solid;
+      outline-color:#1A191A;
       outline-width: 1px;
       width: 95%;
      margin: auto;
@@ -308,6 +308,7 @@ img {
 }
 
 .bio p {
+  line-height: 25px;
   margin-top: 1em;
 }
  /* .bio {
@@ -356,6 +357,7 @@ img {
   .info-content {
     /*margin-left: 35px;
     margin-right: 35px;*/
+    padding-top: 1px;
     width: 95%;
   margin: auto;
     flex-wrap: wrap;
@@ -379,24 +381,28 @@ img {
         font-size: 15px;
   }
   .info {
+    float: left;
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }
   .experience-info {
+    float: left;
     margin-left: -10px;
     color:	#002fa7;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }
   .awards-info {
-    margin-left: 20px;
+    float: left;
+    margin-left: 27px;
     color: 	#002fa7;
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }
   .con-info a {
-    margin-left: 35px;
+    float: left;
+    margin-left: 45px;
     color: 	#002fa7;
     font-family: "Theinhardt-Pan-regular";
     font-size: 15px;

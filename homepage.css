@@ -283,8 +283,8 @@ word-spacing: 1px;
   } 
 
   #contain {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
   .wrap {
     /*height: 60vh;*/
@@ -363,7 +363,7 @@ word-spacing: 1px;
   }
 
   .description {
-    line-height: 27px;
+    line-height: 25px;
     margin-top: 0px;
     padding-left: 45px;
     display: flex;
@@ -377,7 +377,7 @@ word-spacing: 1px;
     
   }
   .descriptionM {
-    line-height: 27px;
+    line-height: 25px;
     margin-top: 0px;
     padding-left: 45px;
     display: flex;
