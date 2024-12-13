@@ -31,9 +31,9 @@ function typeText(text, elementID, i) {
     if (i < text.length) {
         document.getElementById(elementID).innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeText, 100, text, elementID, i);
+        setTimeout(typeText, 90, text, elementID, i);
     } else {
-        setTimeout(clearText, 2000, text, elementID);
+        setTimeout(clearText, 700, text, elementID);
     }
 
 }
