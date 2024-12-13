@@ -408,6 +408,19 @@ margin-left: 1%;
         height: auto;
         object-fit: contain;
       }
+
+      /* Tabu poster*/
+     /* .tabu_poster{
+        width: 100px;
+        height: auto;
+        object-fit: contain;
+      }*/
+
+    .tabu_poster2 {
+      width: 50px;
+      height: auto;
+      object-fit: contain;
+    }
     
     .main_content2 {
       display: flex;
