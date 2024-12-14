@@ -417,9 +417,10 @@ margin-left: 1%;
       }*/
 
     .tabu_poster2 {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
+      position: relative;
+        width: 500px;
+        height: auto;
+        object-fit: contain;
     }
     
     .main_content2 {
