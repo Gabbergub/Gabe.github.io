@@ -5,6 +5,7 @@ body {
   background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
   background-attachment: fixed;
   background-position: center;
+  cursor: none; /* Hide the default cursor */
 }
 
 @media screen and (max-width: 600px) {
@@ -701,4 +702,23 @@ padding-bottom: 40px;
         width: auto;
         margin: auto;
         object-fit: contain;
+      }
+
+    
+      .custom-cursor {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 25px; /* Adjust size as needed */
+        height: 25px;
+        background-color: rgba(0, 0, 0, 0.8); /* Customize color and opacity */
+        border-radius: 50%; /* Make it a circle */
+        pointer-events: none; /* Ensure it doesn't block clicks */
+        z-index: 10000; /* Keep it above all other elements */
+        transition: transform 0.1s ease, background-color 0.2s ease, opacity 0.2s ease;
+        transform: translate(-50%, -50%);
+        opacity: 0; /* Start as hidden */
+      }
+      .hidden {
+        opacity: 0; /* Hide when out of bounds */
       }
