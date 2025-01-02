@@ -672,3 +672,29 @@ margin-left: 1%;
           transform: translate3d(-50%, 0, 0);
         }
       }
+/* animated text*/
+
+#text {
+  color: #002FA7;
+  font-family: "Theinhardt-Pan-Bold";
+     font-size: 70px;
+     /*font-size: 50px;*/
+     text-align: center;
+text-transform: uppercase;
+padding-top: 90px;
+padding-bottom: 40px;
+
+}
+      #contain {
+        margin: auto;
+        padding: auto;
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+      .wrap {
+        /*height: 60vh;*/
+        height: 45vh;
+        width: auto;
+        margin: auto;
+        object-fit: contain;
+      }
