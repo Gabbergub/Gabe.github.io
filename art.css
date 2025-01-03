@@ -5,6 +5,7 @@ body {
   background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
   background-position: center;
   background-attachment: fixed;
+  cursor: none; /* Hide the default cursor */
 }
 
 @media screen and (max-width: 600px) {
@@ -40,11 +41,16 @@ h1:hover:not(.active) {
 color: #6b6b6b;
 }
 .topnav {
+  z-index: 1;
   overflow: hidden;
   font-family: "Theinhardt-Pan-regular";
   font-size: 12px;
-  width: 95%;
   margin: auto;
+  position: fixed; /* Keeps it fixed at the top */
+  top: 0; /* Aligns it to the top of the viewport */
+  left: 2.5%; /* Ensures it starts from the left edge */
+  width: 95%; /* Spans the full width of the viewport */
+  
 }
     @font-face {
       font-family: "Theinhardt-Pan-Bold";
@@ -126,14 +132,15 @@ letter-spacing: 2px;
 word-spacing: 2px;
   } 
   .digital_work {
-    color:#002FA7;
-    font-family: "Theinhardt-Pan-Bold";
-    font-size: 50px;
-  text-transform: uppercase;
-  padding-top: 45px;
-  width: 95%;
-  margin: auto;
-text-transform: uppercase;
+   margin-top: 10%;
+   margin-left: 2.5%;
+     width: 95%;
+   color: 	#002fa7;
+   
+   font-family: "Theinhardt-Pan-Bold";
+ font-size: 50px;
+ text-transform: uppercase;
+
 /*text-decoration: underline  gainsboro;;
   text-decoration-style:dashed;
   text-decoration-thickness: 2px ;
@@ -308,7 +315,23 @@ a {
  }
  
     
-   
+ .custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25px; /* Adjust size as needed */
+  height: 25px;
+  background-color: #002fa7; /* Customize color and opacity */
+  border-radius: 50%; /* Make it a circle */
+  pointer-events: none; /* Ensure it doesn't block clicks */
+  z-index: 10000; /* Keep it above all other elements */
+  transition: transform 0.1s ease, background-color 0.2s ease, opacity 0.2s ease;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Start as hidden */
+}
+.hidden {
+  opacity: 0; /* Hide when out of bounds */
+}
  
     /*
     .row {
