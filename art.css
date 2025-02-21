@@ -158,6 +158,22 @@ word-spacing: 2px;
    margin-top: 15px;
     
   }
+  .linebar {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color:#1A191A;
+    width: 95%;
+    margin: auto;
+    /*margin-right: 52.5%;*/
+    padding: 0;
+   margin-top: 15px;
+    /*outline-style: dashed;
+    outline-color:#d0d0d0;
+    outline-width: 1px;
+    margin-top: 3%;
+    width: 95%;
+  margin: auto;*/
+  }
   p {
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
