@@ -415,7 +415,7 @@ img {
   }
   .con-info {
     display:inline-block;
-   
+   margin: auto;
   }
   /*.con-info a {
     float: left;
