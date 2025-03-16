@@ -407,14 +407,24 @@ img {
         font-size: 15px;
   }
   .con-info a {
+    
+    color: 	#002fa7;
+    font-family: "Theinhardt-Pan-regular";
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .con-info {
+    display:inline-block;
+   
+  }
+  /*.con-info a {
     float: left;
     margin-left: 45px;
     color: 	#002fa7;
     font-family: "Theinhardt-Pan-regular";
     font-size: 15px;
     text-decoration: underline;
-    
-  }
+  }*/
   .container {
     display:flex;
     flex-wrap: wrap;
@@ -435,11 +445,16 @@ img {
     column-gap: 16.3%;
   }*/
   .container4 {
+    display: flex;
+    float: left;
+ }
+
+  /*.container4 {
    display: flex;
     column-gap: 25.5%;
     padding-left: 0%;
     padding-right: 0%;
-}
+}*/
   .education {
    margin-top: 4%;
   }
