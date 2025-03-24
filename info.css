@@ -407,12 +407,15 @@ img {
         font-size: 15px;
   }
   .con-info a {
-    
     color: 	#002fa7;
-    font-family: "Theinhardt-Pan-regular";
-    font-size: 15px;
-    text-decoration: underline;
+    font-family: "Theinhardt-Pan-italic";
+    font-size: 18px;
+    text-decoration: none;
   }
+
+  .con-info a:hover {
+    text-decoration: overline;
+}
   .con-info {
     display:inline-block;
    margin: auto;
@@ -447,6 +450,7 @@ img {
   .container4 {
     display: flex;
     float: left;
+    padding-top: 155px;
  }
 
   /*.container4 {
