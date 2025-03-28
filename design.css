@@ -318,8 +318,14 @@ margin-left: 1%;
         box-sizing: border-box;
       }
 
-      .instagram_mockup {
-        width: 500px;
+      .gif {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+      
+     .instagram_mockup {
+        width: 100%;
         height: auto;
        object-fit: contain;
       }
