@@ -120,9 +120,9 @@ color: #6b6b6b;
   padding-top: 45px;
     padding-bottom: 40px;
   }
-
-  .main-title {
-    padding-top: 45px;
+---------------
+ /* .main-title {
+  padding-top: 170px;
   width: 95%;
   margin: auto;
   color: #002fa7;
@@ -130,11 +130,15 @@ color: #6b6b6b;
   font-family: "Theinhardt-Pan-Bold";
   font-size: 50px;
   text-transform: uppercase;
-  /*text-decoration: underline  gainsboro;;
+  }*/
+
+   /*
+   padding-top: 45px;
+   text-decoration: underline  gainsboro;;
     text-decoration-style:solid;
     text-decoration-thickness: 2px ;
     text-underline-offset: 20px;*/
-  }
+  -----------------
   .linebar2 {
     outline-style: solid;
     outline-width: 1px;
@@ -161,18 +165,29 @@ color: #6b6b6b;
   display: flex;
   margin: auto;
   width: 95%;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  
+
+  /*padding-top: 45px;
+  padding-bottom: 45px;*/
 }
 .project {
   line-height: 25px;
   display: flex;
   margin: auto;
   width: 95%;
-  padding-top: 45px;
-  padding-bottom: 45px;
-  
+  /*padding-top: 90px;*/
+  padding-top: 160px;
+  padding-bottom: 60px;
+
+    /*padding-top: 45px;
+  padding-bottom: 45px;*/
+}
+.project_name{
+  line-height: 50px;
+  font-family: "Theinhardt-Pan-Bold";
+  font-size: 50px;
+  color: #002fa7;
+  /*color: #1A191A;*/
+  padding-bottom: 15px;
 }
 
 .project-descriptor{
@@ -187,7 +202,7 @@ color: #6b6b6b;
   color: #1A191A;
   
   font-family: "latino-gothic-variable",sans-serif;
-        font-variation-settings: 'wght' 50, 'wdth' 76, 'slnt' 1; 
+        font-variation-settings: 'wght' 60, 'wdth' 76, 'slnt' 1; 
   text-transform:capitalize;
 font-size: 18px;
 }
@@ -195,9 +210,10 @@ font-size: 18px;
  
 
 .w-col {
-  padding-top: 20px;
+  /*padding-top: 70px;*/
   width: 100%;
-  margin: auto;
+  /*margin: auto;*/
+  padding-bottom: 70px;
 }
 
 /*---------------------*/
@@ -243,15 +259,27 @@ margin-left: 1%;
     letter-spacing: 2px;
     word-spacing: 1px;
   } 
+
+  .linebar1{
+    outline-style: solid;
+    outline-width: 70px;
+    outline-color:#1A191A;
+    width: 95%;
+    margin: auto;
+    padding: 0;
+   /*margin-top: 15px;*/
+   margin-top: 70px;
+   margin-bottom: 90px;
+  }
   .linebar {
     outline-style: solid;
     outline-width: 1px;
     outline-color:#1A191A;
     width: 95%;
     margin: auto;
-    /*margin-right: 52.5%;*/
     padding: 0;
    margin-top: 15px;
+   /*margin-right: 52.5%;*/
     /*outline-style: dashed;
     outline-color:#d0d0d0;
     outline-width: 1px;
@@ -719,14 +747,18 @@ padding-bottom: 75px;
       #contain {
        /* margin: auto;
         padding: auto;*/
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: 30vh;
+        margin-top: -10%;
+       /* padding-top: 75px;
+        padding-bottom: 75px;*/
+        
       }
       .wrap {
         /*height: 60vh;*/
-        height: 75vh;
+       /* height: 75vh;*/
+        height: 100vh;
+        padding-bottom: 50%;
         width: auto;
-       
         object-fit: contain;
       }
 
