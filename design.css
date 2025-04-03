@@ -404,12 +404,17 @@ margin-left: 1%;
       height: auto;
     }
     .mag-cover {
-     /*width: 463px;*/
-     width: 100%;
-     padding-right: 50%;
+      width: 600px;
+    /* width: 463px;
+     /*width: 100%;
+     padding-right: 50%;*/
         height: auto;
        object-fit: contain;
     }
+    .space {
+      width: 800px;
+      height: auto;
+  }
    
     .main_content5 {
       display: flex;
@@ -502,11 +507,7 @@ margin-left: 1%;
         /*margin-bottom: 10px;
       }*/
        
-      .space {
-       
-          width: 800px;
-          height: auto;
-      }
+      
         .cover {
           /* margin-top: 181%; */
          
