@@ -363,14 +363,22 @@ margin-left: 1%;
       width: 95vw;
       /*margin-bottom: 10px;
     }*/
+    .gif {
+      width: 800px;
+      height: auto;
+       object-fit: contain;
+    }
 
     .mag-gif {
       object-fit: contain;
-      width: 883px;
+      /*width: 883px;*/
+      width: 100%;
       height: auto;
     }
     .mag-cover {
-     width: 463px;
+     /*width: 463px;*/
+     width: 100%;
+     padding-right: 50%;
         height: auto;
        object-fit: contain;
     }
@@ -380,6 +388,8 @@ margin-left: 1%;
       flex-direction: column;
       align-items: center;
       padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
       margin: auto;
       /*padding-bottom: 45px;
       width: 95vw;
@@ -412,7 +422,6 @@ margin-left: 1%;
         object-fit: contain;
       }
       .mockup-1{
-      
         width:100%;
         height: auto;
         object-fit: contain;
@@ -441,8 +450,8 @@ margin-left: 1%;
       }*/
 
     .tabu_poster2 {
-    
-        width: 800px;
+        /*width: 800px;*/
+        width: 100%;
         height: auto;
         object-fit: contain;
     }
@@ -482,21 +491,18 @@ margin-left: 1%;
   
         .spread1{
          /* width:49.5%;*/
-         width: 500px;
+         width: 700px;
           height: auto;
-        
           object-fit: contain;
           
         }
         .spread2{
-          width: 500px;
-         
+          width: 700px;
           height: auto;
           object-fit: contain;
         }
       .spread3{
-        width: 500px;
-        
+           width: 700px;
         /*width:49.5%;*/
         height: auto;
         object-fit: contain;
