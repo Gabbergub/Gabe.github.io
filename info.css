@@ -193,25 +193,22 @@ font-style: normal;
 
    
     
-    .linebar1 {
-      outline-style: solid;
-      outline-width: 0.1px;
-      outline-color:#1A191A;
-      width: 45%;
-      
-      margin-right: 52.5%;
-      
-     margin-top: 157px;
-      
-    }
+.linebar1 {
+  outline-style: solid;
+  outline-width: 0.1px;
+  outline-color: #1A191A;
+  width: 95%;
+  margin: 157px auto 0 auto; /* Top margin + horizontal centering */
+  padding: 0;
+}
     
     .linebar {
       outline-style: solid;
       outline-color:#1A191A;
       outline-width: 0.1px;
       width: 95%;
-     /*margin: auto;
-     padding: 0;*/
+     margin: auto;
+    /* padding: 0;*/
     }
 
    
@@ -321,12 +318,12 @@ img {
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
   }*/
- .italic {
-    color: 	#1e4bf5;
+  .italic {
+    color: #1e4bf5;
     font-family: "articulat-cf", sans-serif;
     font-weight: 500;
     font-style: italic;
-        font-size: 13px;
+    font-size: clamp(12px, 1.5vw, 18px);
   }
  /*  .info {
     float: left;
@@ -367,6 +364,7 @@ img {
     text-decoration: overline;
 }
   .con-info {
+
     display:inline-block;
    margin: auto;
   }

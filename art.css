@@ -233,7 +233,7 @@ word-spacing: 2px;
     outline-color:#1A191A;
     outline-width: 0.1px;
     width: 95%;
- 
+   margin: auto;
   }
 
   p {

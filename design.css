@@ -718,7 +718,7 @@ padding-bottom: 75px;
       }
       .sub-header {
         position: relative;
-        top: -640px; /* Adjust as needed */
+        top: -600px; /* Adjust as needed */
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
@@ -726,9 +726,10 @@ padding-bottom: 75px;
         font-weight: 400;
         font-style: normal;
         text-transform: capitalize;
-          font-size: clamp(13px, 2vw, 9px);
+          font-size: clamp(13px, 2vw, 13px);
          color: #002fa7;
-
+         width: 95%;
+         line-height: clamp(30px, 5vw, 20px);
       }
 
       /*.message {
