@@ -18,8 +18,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-
-var words = {};
+//
+/*var words = {};
 words['text'] = ['A Designer', 'An Artist', 'A fusion of both worlds'];
 
 typeText(words['text'][0], 'text');
@@ -55,9 +55,10 @@ function clearText(text, elementID, i) {
         setTimeout(typeText, 2000, text, elementID);
     }
 
-}
+}*/
 
 
+////
 
 /*var myIndex = 0;
 carousel();

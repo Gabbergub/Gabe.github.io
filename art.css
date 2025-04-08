@@ -2,7 +2,7 @@ body {
   /*background-color:#fff;*/
   background-color: 	#ececec;
   background-size: 40px 40px;
-  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);
   background-position: center;
   background-attachment: fixed;
   cursor: none; /* Hide the default cursor */
@@ -15,26 +15,21 @@ body {
   }
 }
 .gabe {
-  font-family: "Theinhardt-Pan-bold";
+  /*font-family: "articulat-cf", sans-serif;
+  font-weight: 900;
+  font-style: normal;
   font-size: clamp(12px, 5vw, 30px);
-/*font-size: 40px;*/
+text-transform: uppercase;*/
+font-family: "articulat-cf", sans-serif;
+font-weight: 600;
+font-style: normal;
 text-transform: uppercase;
+  font-size: clamp(15px, 8vw, 25px);
 }
-/*.marroquin {
-  margin-top: -25px;
-  font-family: "Theinhardt-Pan-Regular";
-  font-size: clamp(20px, 5vw, 40px);
-text-transform: uppercase;
-}*/   /*font-size: 40px;*/
-
 
 .heading1{
   margin-top: -3px;
   display: inline-block;
-/*font-family: "Theinhardt-Pan-Bold";
-font-size: 23px;
-letter-spacing: -4px;
-line-height: 40px;*/
 text-align: left;
 }
 h1:hover:not(.active) {
@@ -43,29 +38,87 @@ color: #6b6b6b;
 .topnav {
   z-index: 1;
   overflow: hidden;
-  font-family: "Theinhardt-Pan-regular";
-  font-size: 12px;
-  margin: auto;
+  font-family: "articulat-cf", sans-serif;
+font-weight: 600;
+font-style: normal;
+text-transform: uppercase;
+  font-size: clamp(15px, 8vw, 15px);
+  
+  
   position: fixed; /* Keeps it fixed at the top */
-  top: 0; /* Aligns it to the top of the viewport */
+  top: 10px; /* Aligns it to the top of the viewport */
   left: 2.5%; /* Ensures it starts from the left edge */
   width: 95%; /* Spans the full width of the viewport */
-  
 }
-    @font-face {
-      font-family: "Theinhardt-Pan-Bold";
-      src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
-    }
-    
-    @font-face {
-      font-family: "Theinhardt-Pan-Regular";
-      src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
-    }
+@font-face {
+  font-family: "Theinhardt-Pan-Bold";
+  src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
+}
+
+@font-face {
+  font-family: "Theinhardt-Pan-Regular";
+  src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
+}
+@font-face {
+  font-family: "Theinhardt-Pan-Bold-Italic";
+  src: url(Theinhardt-Pan-Bold-Italic/Theinhardt-Pan-Bold-Italic.otf);
+}
+@font-face {
+  font-family: "Theinhardt-Pan-Heavy";
+  src: url(Theinhardt-Pan-Heavy/Theinhardt-Pan-Heavy.otf);
+}
+@font-face {
+  font-family: "Theinhardt-Pan-Italic";
+  src: url(Theinhardt-Pan-Italic/Theinhardt-Pan-Italic.otf);
+}
+
+@font-face {
+  font-family: "Test-Pitch-Medium";
+  src: url(Test-Pitch/TestPitch-Medium.otf);
+}
+
+@font-face {
+  font-family: "Test-Pitch-Medium-Italic";
+  src: url(Test-Pitch/TestPitch-MediumItalic.otf);
+}
+
+.Articulat-CF-Extra-Bold {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.Articulat-CF-Medium {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.Articulat-CF-Regular {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.Articulat-CF-Regular {
+font-family: "articulat-cf", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.Dico-Code-One-Regular {
+  font-family: "dico-code-one", mono;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar {
     outline-style: solid;
     outline-color:#1A191A;
     outline-width: 1px;
   }
+
+  .nav-items {
+    margin-top: -65px;
+  }
+    
   /*.linebar {
     outline-style: dashed;
     outline-color:#353935;
@@ -73,16 +126,24 @@ color: #6b6b6b;
     position: relative;
     margin-top: 4%;
   }
- 
+ .nav-items {
+    margin-top: -65px;
+  }
+    
   
   /* Change the color of links on hover */
-  .topnav h3:hover:not(.active) {
+  .topnav, .nav-items a:hover:not(.active) {
     background-color: transparent;
-   /* color: #002FA7;*/
+    /*color: gray;*/
     text-decoration: overline;
   }
   
+  a {
+    text-decoration:none;
+    color: 	#1A191A;
+  }
   
+
   ul {
     list-style-type: none;
     margin: -10;
@@ -91,89 +152,90 @@ color: #6b6b6b;
     float: right;
   }
   
-  /* li {
-   float: right;
-    margin-left: 20px;
-  }*/
   
   li a {
+    
     text-align: right;
     display: block;
-    line-height: 13px;
+    line-height: 30px;
    /* padding: 2px 15px;*/
   }
   .active {
-   /* color: #002FA7;*/
+    /*color: gray;*/
     text-decoration: overline;
     /*outline-style:solid;
     outline-color: #353935;
     outline-width: 3px;*/
   }
- /* p{
-    position: absolute;
-    left: 600px;
-    top: 400px;
-    font-family: "latino-gothic-variable",sans-serif;
-    font-variation-settings: 'wght' 1, 'wdth' 76, 'slnt' 1; 
-    font-size: 12px;
-font-weight: 400;
-letter-spacing: 2px;
+  /*.socials {
+    margin-right: 30%;
   }*/
-
 
   /*h3{
     text-decoration: overline;
   }*/
   h4 {
-    color: #1A191A;
-    font-family: "Theinhardt-Pan-Regular";
-        font-size: 12px;
-letter-spacing: 2px;
+    color: 	#1A191A;
+    font-family: "dico-code-one", mono;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+/*letter-spacing: 2px;*/
 word-spacing: 2px;
   } 
-  .digital_work {
-   margin-top: 10%;
+  .heading {
+  /* margin-top: 10%;
    margin-left: 2.5%;
-     width: 95%;
-   color: 	#002fa7;
-   
-   font-family: "Theinhardt-Pan-Bold";
- font-size: 60px;
- text-transform: uppercase;
-
-/*text-decoration: underline  gainsboro;;
-  text-decoration-style:dashed;
-  text-decoration-thickness: 2px ;
-  text-underline-offset: 20px;
-  line-height: 60px;*/
-      
+     width: 95%;*/
+     position: relative; /* Changed from relative */
+     top: 100px; /* Adjust as needed */
+     left: 50%;
+     transform: translateX(-50%);
+     
+     color: #1A191A;
+     font-family: "articulat-heavy-cf", sans-serif;
+     font-weight: 900;
+     font-style: normal;
+     font-size: clamp(2rem, 8vw, 100px);
+     text-align: center;
+     width: 95vw;
+     height: auto;
+     padding-bottom: 70px;
   }
+
+  .sub-header {
+    position: relative;
+    top: -640px; /* Adjust as needed */
+    
+    font-family: "dico-code-one", mono;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+      font-size: clamp(13px, 2vw, 9px);
+     
+
+  }
+
   .linebar1 {
     outline-style: solid;
-    outline-width: 1px;
+    outline-width: 0.1px;
     outline-color:#1A191A;
-    width: 95%;
-    margin: auto;
-    padding: 0;
-   margin-top: 15px;
+    width: 45%;
+    
+    margin-right: 52.5%;
+    
+   margin-top: 100px;
     
   }
+  
   .linebar {
     outline-style: solid;
-    outline-width: 1px;
     outline-color:#1A191A;
+    outline-width: 0.1px;
     width: 95%;
-    margin: auto;
-    /*margin-right: 52.5%;*/
-    padding: 0;
-   margin-top: 15px;
-    /*outline-style: dashed;
-    outline-color:#d0d0d0;
-    outline-width: 1px;
-    margin-top: 3%;
-    width: 95%;
-  margin: auto;*/
+ 
   }
+
   p {
         font-family: "Theinhardt-Pan-regular";
         font-size: 15px;
@@ -201,6 +263,7 @@ word-spacing: 2px;
       width: 95%;
       margin: auto;
       margin-top: 50px;
+      padding-bottom: 30px;
       /*padding: 35px;
       padding-top: 0%;
       padding-bottom: 0%;*/
@@ -337,7 +400,7 @@ a {
   left: 0;
   width: 25px; /* Adjust size as needed */
   height: 25px;
-  background-color: #002fa7; /* Customize color and opacity */
+  background-color: #1e4bf5;; /* Customize color and opacity */
   border-radius: 50%; /* Make it a circle */
   pointer-events: none; /* Ensure it doesn't block clicks */
   z-index: 10000; /* Keep it above all other elements */
