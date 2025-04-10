@@ -13,22 +13,80 @@ body {
       align-items: flex-start;
   }
 }
+@media (max-width: 600px) {
+  .profile {
+    display: none;
+  }
+}
 
-
-.gabe {
-  /*font-family: "articulat-cf", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  font-size: clamp(12px, 5vw, 30px);
-text-transform: uppercase;*/
+/*.gabe {
 font-family: "articulat-cf", sans-serif;
 font-weight: 600;
 font-style: normal;
 text-transform: uppercase;
   font-size: clamp(15px, 8vw, 25px);
-}
+}*/
+.gabe {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+    font-size: clamp(15px, 8vw, 15px);
+  }
+  
 
-
+.heading1:hover:not(.active) {
+  color: #6b6b6b;
+  }
+  
+  .topnav {
+    z-index: 1;
+    display: flex; /* FLEXBOX */
+    justify-content: space-between; /* Pushes content to edges */
+    align-items: center; /* Vertically centers items */
+    
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: clamp(13px, 8vw, 13px);
+  
+    padding: 10px 0; /* Add some vertical breathing room */
+    position: fixed;
+    top: 10px;
+    left: 2.0%;
+    width: 95vw;
+  }
+  
+  .heading1 a {
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .nav-items ul {
+    display: flex;
+    gap: 30px; /* spacing between links */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-items li a {
+    display: block;
+    line-height: 30px;
+    color: #1A191A;
+    text-decoration: none;
+  }
+  
+  .nav-items a:hover:not(.active) {
+    text-decoration: overline;
+  }
+  
+  .active {
+    text-decoration: overline;
+  }
+/*
 .heading1{
   margin-top:-3px;
   display: inline-block;
@@ -47,70 +105,12 @@ font-style: normal;
 text-transform: uppercase;
   font-size: clamp(15px, 8vw, 15px);
   margin-top: 10px;
-  position: fixed; /* Keeps it fixed at the top */
-  top: 0; /* Aligns it to the top of the viewport */
-  left: 2.5%; /* Ensures it starts from the left edge */
-  width: 95%; /* Spans the full width of the viewport */
+  position: 
+  top: 0; 
+  left: 2.5%; 
+  width: 95%; 
 }
-    @font-face {
-      font-family: "Theinhardt-Pan-Bold";
-      src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
-    }
-    
-    @font-face {
-      font-family: "Theinhardt-Pan-Regular";
-      src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
-    }
-    @font-face {
-      font-family: "Theinhardt-Pan-Bold-Italic";
-      src: url(Theinhardt-Pan-Bold-Italic/Theinhardt-Pan-Bold-Italic.otf);
-    }
-    @font-face {
-      font-family: "Theinhardt-Pan-Heavy";
-      src: url(Theinhardt-Pan-Heavy/Theinhardt-Pan-Heavy.otf);
-    }
-    @font-face {
-      font-family: "Theinhardt-Pan-Italic";
-      src: url(Theinhardt-Pan-Italic/Theinhardt-Pan-Italic.otf);
-    }
-
-    @font-face {
-      font-family: "Test-Pitch-Medium";
-      src: url(Test-Pitch/TestPitch-Medium.otf);
-    }
-
-    @font-face {
-      font-family: "Test-Pitch-Medium-Italic";
-      src: url(Test-Pitch/TestPitch-MediumItalic.otf);
-    }
-
-    .Articulat-CF-Extra-Bold {
-      font-family: "articulat-cf", sans-serif;
-      font-weight: 900;
-      font-style: normal;
-    }
-    .Articulat-CF-Medium {
-      font-family: "articulat-cf", sans-serif;
-      font-weight: 600;
-      font-style: normal;
-    }
-    .Articulat-CF-Regular {
-      font-family: "articulat-cf", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-    }
-    .Articulat-CF-Regular {
-    font-family: "articulat-cf", sans-serif;
-font-weight: 300;
-font-style: normal;
-    }
-
-    .Dico-Code-One-Regular {
-      font-family: "dico-code-one", mono;
-      font-weight: 400;
-      font-style: normal;
-    }
-  
+   
 
 .navbar {
   outline-style: solid;
@@ -121,10 +121,10 @@ font-style: normal;
     margin-top: -65px;
   }
   
-  /* Change the color of links on hover */
+  
   .topnav, .nav-items a:hover:not(.active) {
     background-color: transparent;
-    /*color: gray;*/
+    
     text-decoration: overline;
   }
   
@@ -148,15 +148,16 @@ font-style: normal;
     text-align: right;
     display: block;
     line-height: 30px;
-   /* padding: 2px 15px;*/
+  
   }
   .active {
-    /*color: gray;*/
+    
     text-decoration: overline;
-    /*outline-style:solid;
-    outline-color: #353935;
-    outline-width: 3px;*/
+   
   }
+*/
+
+
   /*.socials {
     margin-right: 30%;
   }*/
@@ -196,17 +197,17 @@ font-style: normal;
 .linebar1 {
   outline-style: solid;
   outline-width: 0.1px;
-  outline-color: #1A191A;
-  width: 95%;
-  margin: 157px auto 0 auto; /* Top margin + horizontal centering */
+  outline-color: #A9A9A9;
+  width: 95vw;
+  margin: 100px auto 0 auto; /* Top margin + horizontal centering */
   padding: 0;
 }
     
     .linebar {
       outline-style: solid;
-      outline-color:#1A191A;
+      outline-color:#A9A9A9;
       outline-width: 0.1px;
-      width: 95%;
+      width: 100vw;
      margin: auto;
     /* padding: 0;*/
     }
@@ -267,18 +268,23 @@ img {
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
+  line-height: 20px;
+
 }
 
 .bio p {
-  line-height: 25px;
+  line-height: 20px;
   margin-top: 1em;
 }
 
 .I {
+  text-transform: uppercase;
+  line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
   font-weight: 600;
-  font-size: 30px;
-  color: #6b6b6b;
+  font-size: clamp(18px, 8vw, 30px);
+  color: #1e4bf5;
+  /*color: #6b6b6b;*/
 }
 @media (min-width: 600px) {
   .portfolio-bio {
@@ -355,7 +361,7 @@ img {
     color: 	#1e4bf5;
     font-family: "articulat-cf", sans-serif;
       font-weight: 500;
-      font-style: italic;
+      /*font-style: italic;*/
     font-size: 13px;
     text-decoration: none;
   }
@@ -374,6 +380,8 @@ img {
   .container4 {
     float: left;
     padding-top: 30px;
+    margin: 55px auto 0 auto;
+    
  }
 
 
@@ -508,3 +516,64 @@ word-spacing: 2px;
     .hidden {
       opacity: 0; /* Hide when out of bounds */
     }
+
+
+    @font-face {
+      font-family: "Theinhardt-Pan-Bold";
+      src: url(Theinhardt-Pan-Bold/Theinhardt-Pan-Bold.otf);
+    }
+    
+    @font-face {
+      font-family: "Theinhardt-Pan-Regular";
+      src: url(Theinhardt-Pan-Regular/Theinhardt-Pan-Regular.otf);
+    }
+    @font-face {
+      font-family: "Theinhardt-Pan-Bold-Italic";
+      src: url(Theinhardt-Pan-Bold-Italic/Theinhardt-Pan-Bold-Italic.otf);
+    }
+    @font-face {
+      font-family: "Theinhardt-Pan-Heavy";
+      src: url(Theinhardt-Pan-Heavy/Theinhardt-Pan-Heavy.otf);
+    }
+    @font-face {
+      font-family: "Theinhardt-Pan-Italic";
+      src: url(Theinhardt-Pan-Italic/Theinhardt-Pan-Italic.otf);
+    }
+
+    @font-face {
+      font-family: "Test-Pitch-Medium";
+      src: url(Test-Pitch/TestPitch-Medium.otf);
+    }
+
+    @font-face {
+      font-family: "Test-Pitch-Medium-Italic";
+      src: url(Test-Pitch/TestPitch-MediumItalic.otf);
+    }
+
+    .Articulat-CF-Extra-Bold {
+      font-family: "articulat-cf", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .Articulat-CF-Medium {
+      font-family: "articulat-cf", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .Articulat-CF-Regular {
+      font-family: "articulat-cf", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .Articulat-CF-Regular {
+    font-family: "articulat-cf", sans-serif;
+font-weight: 300;
+font-style: normal;
+    }
+
+    .Dico-Code-One-Regular {
+      font-family: "dico-code-one", mono;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
