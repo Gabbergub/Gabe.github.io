@@ -21,12 +21,39 @@ body {
       align-items: flex-start;
   }
 }
-.gabe {
 
+.main-linebar {
+  position: fixed;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 1;
+
+  outline: 9px solid #33cccc;
+  width: 100vw;
+  padding: 0;
+}
+/*.main-linebar{
+  justify-items: center;
+  outline-style: solid;
+  outline-width: 9px;
+  outline-color:#33cccc;
+  width: 95%;
+  margin: auto;
+  padding: 0;
+position: fixed;
+z-index: 1;
+
+/* border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}*/
+.gabe {
+margin-left: 30px;
 font-family: "articulat-cf", sans-serif;
 font-weight: 600;
 font-style: normal;
-text-transform: uppercase;
+/*text-transform: uppercase;*/
   font-size: clamp(15px, 8vw, 15px);
   color: #1A191A;
  /* color: #002fa7;*/
@@ -40,24 +67,45 @@ text-align: left;
 .heading1:hover:not(.active) {
 color: #6b6b6b;
 }
-
-.topnav {
+/*.topnav {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: 
+  align-items: center;
+ /* padding: 2px 30px;*
+  background-color: #ececec;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100vw;
   z-index: 1;
-  display: flex; /* FLEXBOX */
-  justify-content: space-between; /* Pushes content to edges */
-  align-items: center; /* Vertically centers items */
-  
   font-family: "articulat-cf", sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
   font-size: clamp(13px, 8vw, 13px);
-
-  padding: 10px 0; /* Add some vertical breathing room */
+}*/
+.topnav {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: clamp(13px, 8vw, 13px);
+margin:auto;
+outline-width: 20px;
+padding-top: 10px;
   position: fixed;
   top: 10px;
-  left: 2.0%;
-  width: 95vw;
+  left: 0;              
+  width: 100%;       
+  background-color: #ececec;
+  border-bottom: 1px solid #A9A9A9;
 }
 
 .heading1 a {
@@ -67,6 +115,7 @@ color: #6b6b6b;
 }
 
 .nav-items ul {
+ 
   display: flex;
   gap: 30px; /* spacing between links */
   list-style-type: none;
@@ -75,6 +124,7 @@ color: #6b6b6b;
 }
 
 .nav-items li a {
+  margin-right: 30px;
   display: block;
   line-height: 30px;
   color: #1A191A;
@@ -149,7 +199,46 @@ text-transform: uppercase;
   }
 */
 
-  
+.scroll {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: clamp(13px, 8vw, 13px);
+  position:absolute;
+  bottom: 10px;
+  right: 30px;
+  /*background-color: black;
+  color: #ececec;*/
+  font-size: 14px;
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+  z-index: 1000;
+ padding-left: 15px;
+ padding-right: 15px;
+
+ border: none; /* Remove borders */
+ outline: none; /* Remove outline */
+ outline-style: solid;
+ outline-color: #1A191A;
+ outline-width: 3px;
+ background-color: transparent; /* Set a background color */
+ color: #1A191A; /* Text color */
+ border-radius: 5px; /* Rounded corners */
+ 
+}
+
+/* Hide on screens smaller than ~600px (typical phone width) */
+@media screen and (max-width: 600px) {
+  .scroll {
+    display: none;
+  }
+}
+
+.scroll.hidden {
+  opacity: 0;
+}
+
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -341,16 +430,27 @@ word-spacing: 2px;
         object-fit: contain;
       }
     .poster_mockup{
-      object-fit: contain;
+      width: 700px;
+          max-width: 100%;
+          height: auto;
+          object-fit: contain;
+      /*object-fit: contain;
       width: 820px;
-      /*width: 59.4%;*/
-      height: auto;
+      height: auto;*/
+    }
+    .poster_m2 {
+      width: 720px;
+          max-width: 100%;
+          height: auto;
+          object-fit: contain;
     }
 
     .gif {
       width: 800px;
       height: auto;
        object-fit: contain;
+       background-size: auto;
+       background-color: #C0C0C0;
     }
 
     .mag-gif {
@@ -390,18 +490,22 @@ word-spacing: 2px;
         /*margin-bottom: 10px;*/
       }
       .e-poster1 {
-       
-        width: 500px;
-        /*width: 46.7%;*/
+        width: 700px;
+        max-width: 100%;
         height: auto;
         object-fit: contain;
+        /*width: 500px;
+        height: auto;
+        object-fit: contain;*/
       }
       .e-poster2 {
-        
-        width: 500px;
-        /*width: 47%;*/
+        width: 800px;
+        max-width: 100%;
         height: auto;
         object-fit: contain;
+       /* width: 500px;
+        height: auto;
+        object-fit: contain;*/
       }
       .mockup-1{
         width:100%;
@@ -483,7 +587,7 @@ word-spacing: 2px;
           object-fit: contain; */
         }
         .mockup1{
-          width: 900px;
+          width: 100%;
          /* width: 835px;
           /*width:57vw;*/
           height: auto;
@@ -491,11 +595,19 @@ word-spacing: 2px;
           /*top:100vh;*/
         }
         .mockup2{
-          width: 500px;
+          width: 700px;
+          max-width: 100%;
           /*width: 450px;
           /*width:35vw;*/
           height: auto;
           object-fit: contain;
+        }
+        .sd-gif {
+          width: 700px;
+          max-width: 100%;
+          height: auto;
+           object-fit: contain;
+           background-size: auto;
         }
       
       
@@ -526,6 +638,7 @@ word-spacing: 2px;
 
 
   #myBtn {
+    
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -656,7 +769,8 @@ padding-bottom: 75px;
         left: 0;
         width: 25px; /* Adjust size as needed */
         height: 25px;
-        background-color: #1e4bf5; /* Customize color and opacity */
+        background-color: #33cccc;
+        /*background-color: #1e4bf5; /* Customize color and opacity */
         border-radius: 50%; /* Make it a circle */
         pointer-events: none; /* Ensure it doesn't block clicks */
         z-index: 10000; /* Keep it above all other elements */
