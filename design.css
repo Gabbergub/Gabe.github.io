@@ -877,12 +877,18 @@ padding-bottom: 75px;
         opacity: 0; /* Hide when out of bounds */
       }
 
+      .titles {
+       color: #1e4bf5;
+        font-style: italic;
+      }
 
       .heading {
         line-height: clamp(20px, 10vw, 35px);
         position: relative; /* Changed from relative */
         top: 300px; /* Adjust as needed */
-        margin-left: 25px;
+        margin: auto;
+         max-width: 95vw;
+        padding-right: 50px;
           /*left: 50%;
            transform: translateX(-50%);*/
         text-transform: uppercase;
@@ -892,8 +898,8 @@ padding-bottom: 75px;
         font-style: normal;
         font-size: clamp(20px, 5vw, 30px);
         /*font-size: clamp(1rem, 8vw, 30px);*/
-        width: 45%;
-        max-width: 95vw;;
+        /*width: 45%;
+        max-width: 95vw;;*/
         height: 100vh; /* No need for full viewport height if it's just a message */
        /* text-align: center;*/
       }
@@ -996,6 +1002,9 @@ padding-bottom: 75px;
         font-family: "Test-Pitch-Medium-Italic";
         src: url(Test-Pitch/TestPitch-MediumItalic.otf);
       }
+
+
+     
       
       
       

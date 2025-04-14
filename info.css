@@ -387,7 +387,7 @@ img {
   font-family: "articulat-cf", sans-serif;
   font-weight: 600;
   font-size: clamp(18px, 5vw, 30px);
-  color: #6b6b6b;
+  color: #1A191A;
   /*color: #6b6b6b;*/
 }
 @media (min-width: 600px) {
@@ -468,13 +468,15 @@ img {
       /*font-style: italic;*/
       font-size: clamp(10px, 5vw, 13px);
     text-decoration: underline;
+    text-transform: uppercase;
+    
   }
 
   .con-info a:hover {
     text-decoration: overline;
 }
   .con-info {
-
+   
     display:inline-block;
    margin: auto;
   }
