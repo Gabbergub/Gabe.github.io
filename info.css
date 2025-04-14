@@ -27,7 +27,7 @@ body {
 
   z-index: 1;
 
-  outline: 9px solid #33cccc;
+  outline: 9px solid #1A191A;
   width: 100vw;
   padding: 0;
 }
@@ -96,7 +96,8 @@ color: #6b6b6b;
   font-size: clamp(13px, 8vw, 13px);
 margin:auto;
 outline-width: 20px;
-padding-top: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
   position: fixed;
   top: 10px;
   left: 0;              
@@ -135,6 +136,55 @@ padding-top: 10px;
 
 .active {
   text-decoration: overline;
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-items {
+    display: none;
+    width: 100%;
+    background-color: #ececec;
+    position: absolute;
+    top: 73px; /* Adjust based on your .topnav height */
+    right: 0; /* Align to the right */
+    z-index: 999;
+    border-bottom: 1px solid #ccc;
+   /* border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-items li {
+    margin: 0;
+    margin-right: -20px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .nav-items.show {
+    display: block;
+  }
 }
 
 /*
@@ -271,7 +321,7 @@ text-transform: uppercase;
     margin-top: 10%;
     margin-left: 2.5%;
      width: 95%;
-   color: 	#33cccc;
+   color: #1A191A;
    font-family: "articulat-cf", sans-serif;
    font-weight: 900;
    font-style: normal;
@@ -335,7 +385,7 @@ img {
   line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
   font-weight: 600;
-  font-size: clamp(18px, 8vw, 30px);
+  font-size: clamp(18px, 5vw, 30px);
   color: #6b6b6b;
   /*color: #6b6b6b;*/
 }
@@ -355,7 +405,7 @@ img {
 
 
   .link {
-    color: #33cccc;
+    color: #1e4bf5;
     text-decoration: underline;
   }
  /* .info-content {
@@ -378,7 +428,7 @@ img {
         font-size: 15px;
   }*/
   .italic {
-    color: #33cccc;
+    color: #1e4bf5;
     font-family: "articulat-cf", sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -411,11 +461,11 @@ img {
         font-size: 13px;
   }*/
   .con-info a {
-    color: 	#33cccc;
+    color: 	#1e4bf5;
     font-family: "articulat-cf", sans-serif;
       font-weight: 500;
       /*font-style: italic;*/
-    font-size: 13px;
+      font-size: clamp(10px, 5vw, 13px);
     text-decoration: none;
   }
 
@@ -558,7 +608,7 @@ word-spacing: 2px;
       left: 0;
       width: 25px; /* Adjust size as needed */
       height: 25px;
-      background-color: #33cccc; /* Customize color and opacity */
+      background-color: #1e4bf5; /* Customize color and opacity */
       border-radius: 50%; /* Make it a circle */
       pointer-events: none; /* Ensure it doesn't block clicks */
       z-index: 10000; /* Keep it above all other elements */

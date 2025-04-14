@@ -22,7 +22,7 @@ body {
 
   z-index: 1;
 
-  outline: 9px solid #33cccc;
+  outline: 9px solid #1A191A;
   width: 100vw;
   padding: 0;
 }
@@ -91,7 +91,8 @@ color: #6b6b6b;
   font-size: clamp(13px, 8vw, 13px);
 margin:auto;
 outline-width: 20px;
-padding-top: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
   position: fixed;
   top: 10px;
   left: 0;              
@@ -130,6 +131,56 @@ padding-top: 10px;
 
 .active {
   text-decoration: overline;
+}
+
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-items {
+    display: none;
+    width: 100%;
+    background-color: #ececec;
+    position: absolute;
+    top: 73px; /* Adjust based on your .topnav height */
+    right: 0; /* Align to the right */
+    z-index: 999;
+    border-bottom: 1px solid #ccc;
+   /* border: 1px solid #ccc;*/
+    /*border-radius: 4px;*/
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-items li {
+    margin: 0;
+    margin-right: -20px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .nav-items.show {
+    display: block;
+  }
 }
 
 /*.gabe {
@@ -430,7 +481,7 @@ a {
   left: 0;
   width: 25px; /* Adjust size as needed */
   height: 25px;
-  background-color: #33cccc;
+  background-color: #1e4bf5;
   border-radius: 50%; /* Make it a circle */
   pointer-events: none; /* Ensure it doesn't block clicks */
   z-index: 10000; /* Keep it above all other elements */

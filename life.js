@@ -108,3 +108,13 @@ document.addEventListener("mouseover", showCursor);
     });
 });
 });
+
+
+
+
+
+//Hamburger menu ///
+  function toggleMenu() {
+    const navMenu = document.getElementById("navMenu");
+    navMenu.classList.toggle("show");
+  }
