@@ -264,12 +264,13 @@ text-transform: uppercase;
   }*/
 
  
-  .fa {
-   /* padding: 10px;*/
+
+/*border-radius: 50%;*/
+ /* padding: 10px;*/
+  /*.fa {
     font-size: 30px;
     width: 30px;
     text-decoration: none;
-    /*border-radius: 50%;*/
   }
   .fa:hover {
     opacity: 0.7;
@@ -292,7 +293,7 @@ text-transform: uppercase;
     background-color: transparent;
     text-align: center;
    
-}
+}*/
 
    
     
@@ -346,10 +347,10 @@ text-transform: uppercase;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding-top: 150px;
+  margin-top: 194px;
   padding-bottom: 50px;
-  padding-left: 35px;
-  padding-right:35px;
+  padding-left: 23px;
+  padding-right:23px;
   
 }
 
@@ -466,7 +467,7 @@ img {
       font-weight: 500;
       /*font-style: italic;*/
       font-size: clamp(10px, 5vw, 13px);
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   .con-info a:hover {
@@ -569,12 +570,23 @@ word-spacing: 2px;
     .email {
       color:	#ececec;
     }
-    .wrapper {
+    /*.wrapper {
       color:	#ececec;
         background-color: #1A191A;
       text-align: center;
       max-width: 100%;
       overflow: hidden;
+    }*/
+    .wrapper {
+      position: relative;
+      bottom: -122px;
+      left: 0;
+      width: 100%;
+      background-color: #1A191A;
+      color: #ececec;
+      text-align: center;
+      overflow: hidden;
+      z-index: 999; /* So it stays on top */
     }
     
     .marquee {
