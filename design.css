@@ -585,7 +585,7 @@ word-spacing: 2px;
         /*margin-bottom: 10px;*/
       }
       .e-poster1 {
-        width: 700px;
+        width: 900px;
         max-width: 100%;
         height: auto;
         object-fit: contain;
@@ -594,7 +594,7 @@ word-spacing: 2px;
         object-fit: contain;*/
       }
       .e-poster2 {
-        width: 800px;
+        width: 900px;
         max-width: 100%;
         height: auto;
         object-fit: contain;
@@ -631,7 +631,18 @@ word-spacing: 2px;
         height: auto;
         object-fit: contain;
     }
-    
+    .clip {
+      width: 700px;
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    .alphabet {
+      width: 700px;
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
        
       
         .cover {
@@ -639,21 +650,21 @@ word-spacing: 2px;
           height: auto;
           object-fit: contain;
         }
-  
+
         .spread1{
-         /* width:49.5%;*/
-         width: 700px;
+          width: 800px;
+          max-width: 100%;
           height: auto;
           object-fit: contain;
-          
         }
         .spread2{
-          width: 700px;
+          width: 800px;
+          max-width: 100%;
           height: auto;
           object-fit: contain;
         }
       .spread3{
-           width: 700px;
+           width: 800px;
         /*width:49.5%;*/
         height: auto;
         object-fit: contain;
