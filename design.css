@@ -489,6 +489,7 @@ word-spacing: 2px;
       img {
         max-width: 100%;
         height: auto;
+        object-fit: cover;
         flex: 1 1 300px; /* Adjust the flex basis as needed */
       }
       @media (max-width: 768px) {
@@ -582,6 +583,8 @@ word-spacing: 2px;
         justify-content: center;
         gap: 10px;
         width: 95vw;
+        max-width: 1600px; /* Optional: constrain the max width */
+        object-fit: cover;
         /*margin-bottom: 10px;*/
       }
       .e-poster1 {
