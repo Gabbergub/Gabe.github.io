@@ -103,7 +103,7 @@ padding-bottom: 20px;
   left: 0;              
   width: 100%;       
   background-color: #ececec;
-  border-bottom: 1px solid #A9A9A9;
+  border-bottom: 1.5px solid #1A191A;
 }
 
 .heading1 a {
@@ -622,7 +622,9 @@ word-spacing: 2px;
       left: 0;
       width: 25px; /* Adjust size as needed */
       height: 25px;
-      background-color: #1e4bf5; /* Customize color and opacity */
+      border: 1.5px solid #1A191A; /* black outline */
+        background-color: #ececec;
+       /*background-color: #1e4bf5;*/
       border-radius: 50%; /* Make it a circle */
       pointer-events: none; /* Ensure it doesn't block clicks */
       z-index: 10000; /* Keep it above all other elements */
