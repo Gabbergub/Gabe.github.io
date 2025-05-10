@@ -730,7 +730,7 @@ word-spacing: 2px;
       
       
 /* responsive */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .main_content .main_content2 .main_content3{
     column-count: 4;
   }
