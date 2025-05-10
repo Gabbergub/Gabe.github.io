@@ -500,7 +500,7 @@ word-spacing: 2px;
         object-fit: cover;
         flex: 1 1 300px; /* Adjust the flex basis as needed */
       }
-      @media (max-width: 768px) {
+      @media (max-width: 100%) {
         .main_content, .main_content2, .main_content3, .main_content4, .main_content5 {
           padding: 10px;
         }
