@@ -1,7 +1,7 @@
 body {
   /*background-color:#fff;*/
   background-color: 	#ececec;
-  background-size: 40px 40px;
+  background-size: 45px 45px;
   background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);
   background-position: center;
   background-attachment: fixed;
@@ -103,7 +103,7 @@ padding-bottom: 20px;
   left: 0;              
   width: 100%;       
   background-color: #ececec;
-  border-bottom: 1.5px solid #1A191A;
+  border-bottom: 2px solid #1A191A;
 }
 
 .heading1 a {
@@ -382,11 +382,16 @@ img {
 }
 
 .I {
-  text-transform: uppercase;
+  font-size: clamp(20px, 5vw, 30px);
   line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
+font-weight: 700;
+font-style: normal;
+  text-transform: uppercase;
+  /*line-height: clamp(20px, 10vw, 35px);
+  font-family: "articulat-cf", sans-serif;
   font-weight: 600;
-  font-size: clamp(18px, 5vw, 30px);
+  font-size: clamp(18px, 5vw, 30px);*/
   color: #1A191A;
   /*color: #6b6b6b;*/
 }
