@@ -501,7 +501,7 @@ word-spacing: 2px;
     outline-color:transparent;
     /*outline-width: 0.1px;
     outline-color:#A9A9A9;*/
-    width: 100vw;
+   
     margin: auto;
     padding: 30px;
    
@@ -1074,6 +1074,10 @@ padding-bottom: 75px;
 
      
       
-      
+      .back {
+        background-color: #1A191A;
+        
+       
+      }
       
       
