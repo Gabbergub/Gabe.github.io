@@ -48,7 +48,7 @@ z-index: 1;
 .gabe {
 margin-left: 30px;
 font-family: "articulat-cf", sans-serif;
-font-weight: 600;
+font-weight: 700;
 font-style: normal;
 /*text-transform: uppercase;*/
   font-size: clamp(15px, 8vw, 15px);
@@ -132,10 +132,13 @@ padding-bottom: 20px;
 
 .nav-items a:hover:not(.active) {
   text-decoration: overline;
+  text-decoration-thickness: 2px;
+  color: #1e4bf5;
 }
 
-.active {
+.nav-items .active {
   text-decoration: overline;
+  text-decoration-thickness: 2px;
 }
 
 /* Hamburger icon */
@@ -382,11 +385,16 @@ img {
 }
 
 .I {
-  font-size: clamp(20px, 5vw, 30px);
+  font-family: "articulat-cf", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: clamp(12px, 3vw, 25px);
+        line-height: clamp(18px, 3vw, 30px);
+ /* font-size: clamp(20px, 5vw, 30px);
   line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
 font-weight: 700;
-font-style: normal;
+font-style: normal;*/
   text-transform: uppercase;
   /*line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
@@ -412,7 +420,7 @@ font-style: normal;
 
   .link {
     color: #1e4bf5;
-    text-decoration: underline;
+    text-decoration: none;
   }
  /* .info-content {
   
@@ -472,13 +480,15 @@ font-style: normal;
       font-weight: 500;
       /*font-style: italic;*/
       font-size: clamp(10px, 5vw, 13px);
-    text-decoration: underline;
+   text-decoration: none;
     text-transform: uppercase;
     
   }
 
   .con-info a:hover {
     text-decoration: overline;
+    text-decoration-thickness: 2px;
+    color: #1A191A;
 }
   .con-info {
    

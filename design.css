@@ -1,12 +1,12 @@
 body {
   /*background-color:#fff;*/
   background-color: 	#ececec;
- background-size: 45px 45px;
-  background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);
- /*  background-size: 85.5px 85.5px;
+ /*  background-size: 45px 45px;
+  background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);*/
+ background-size: 85.5px 85.5px;
  background-image:
     linear-gradient(to right, #A9A9A9 1px, transparent 1px),
-    linear-gradient(to bottom, #A9A9A9 1px, transparent 1px);*/
+    linear-gradient(to bottom, #A9A9A9 1px, transparent 1px);
   background-attachment: fixed;
   background-position: center;
   cursor: none; /* Hide the default cursor */
@@ -55,10 +55,10 @@ z-index: 1;
 .gabe {
 margin-left: 30px;
 font-family: "articulat-cf", sans-serif;
-font-weight: 600;
+font-weight: 700;
 font-style: normal;
-/*text-transform: uppercase;*/
-  font-size: clamp(15px, 8vw, 15px);
+font-size: clamp(15px, 8vw, 15px);
+/*font-size: clamp(13px, 8vw, 15px);*/
   color: #1A191A;
  /* color: #002fa7;*/
 }
@@ -140,10 +140,13 @@ padding-bottom: 20px;
 
 .nav-items a:hover:not(.active) {
   text-decoration: overline;
+  text-decoration-thickness: 2px;
+  color: #1e4bf5;
 }
 
-.active {
+.nav-items .active {
   text-decoration: overline;
+  text-decoration-thickness: 2px;
 }
 
 
@@ -359,22 +362,12 @@ text-transform: uppercase;
    margin-top: 15px;
   }
 
-/* first section */
-.project1 {
+
+/*.project1 {
   line-height: 20px;
   display: flex;
   margin: auto;
   width: 95%;
-
-  /*padding-top: 45px;
-  padding-bottom: 45px;*/
-}
-
-/*.section {
-  margin-top: 50px;
-  margin-left: 30px;
-  padding: -20px;
-  position: relative;
 }*/
 
 .project {
@@ -395,15 +388,20 @@ text-transform: uppercase;
   padding-bottom: 45px;*/
 }
 .project_name{
-  font-size: clamp(20px, 5vw, 30px);
+  font-family: "articulat-cf", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: clamp(20px, 5vw, 45px);
+        line-height: clamp(24px, 5vw, 40px);
+  /*font-size: clamp(20px, 5vw, 30px);
   line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
 font-weight: 700;
-font-style: normal;
+font-style: normal;*/
 text-transform: uppercase;
 /*font-size: clamp(18px, 8vw, 30px);*/
  /* font-size: clamp(15px, 8vw, 18px);*/
-  color: #1e4bf5;
+  color: #1A191A;
   padding-top: 5px;
   padding-bottom: 15px;
 }
@@ -413,7 +411,7 @@ text-transform: uppercase;
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  color: #1A191A;
+  color: #1e4bf5;
   padding-bottom: 15px;
   line-height: 20px;
 }
@@ -931,35 +929,33 @@ padding-bottom: 75px;
 
       .titles {
         font-family: "articulat-cf", sans-serif;
-        font-weight: 600;
+        font-weight: 700;
         font-style: normal;
-        font-size: clamp(20px, 5vw, 30px);
-        line-height: clamp(20px, 10vw, 35px);
+        font-size: clamp(12px, 3vw, 25px);
+        line-height: clamp(18px, 3vw, 30px);
+        /*font-size: clamp(20px, 5vw, 30px);
+        line-height: clamp(20px, 10vw, 35px);*/
        color: #1e4bf5;
         font-style: italic;
       }
      
       .heading {
-        line-height: clamp(20px, 10vw, 35px);
-        /*line-height: clamp(30px, 7vw, 60px);*/
-        position: relative; /* Changed from relative */
-        top: 300px; /* Adjust as needed */
+        position: relative;
+        top: 320px; /* Adjust as needed */
         margin: auto;
-         max-width: 95vw;
         padding-right: 50px;
           /*left: 50%;
            transform: translateX(-50%);*/
         text-transform: uppercase;
         color: #1A191A;
         font-family: "articulat-cf", sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         font-style: normal;
-        font-size: clamp(20px, 5vw, 30px);
-        
-       /*font-size: clamp(33px, 5vw, 55px); */
-        /*font-size: clamp(1rem, 8vw, 30px);*/
-        /*width: 45%;
-        max-width: 95vw;;*/
+        font-size: clamp(20px, 5vw, 45px);
+        line-height: clamp(24px, 5vw, 40px);
+        /*font-size: clamp(20px, 5vw, 30px);
+        line-height: clamp(20px, 5vw, 30px);*/
+       max-width: 95vw;
         height: 100vh; /* No need for full viewport height if it's just a message */
        /* text-align: center;*/
       }
@@ -990,8 +986,13 @@ padding-bottom: 75px;
       font-weight: 700;
       font-style: normal;
       }
-
-
+      
+      .Articulat-CF-Bold {
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        }
+  
       .Articulat-CF-Extra-Bold {
         font-family: "articulat-cf", sans-serif;
         font-weight: 900;

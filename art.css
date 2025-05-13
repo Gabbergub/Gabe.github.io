@@ -43,7 +43,7 @@ z-index: 1;
 .gabe {
 margin-left: 30px;
 font-family: "articulat-cf", sans-serif;
-font-weight: 600;
+font-weight: 700;
 font-style: normal;
 /*text-transform: uppercase;*/
   font-size: clamp(15px, 8vw, 15px);
@@ -127,10 +127,13 @@ padding-bottom: 20px;
 
 .nav-items a:hover:not(.active) {
   text-decoration: overline;
+  text-decoration-thickness: 2px;
+  color: #1e4bf5;
 }
 
-.active {
+.nav-items .active {
   text-decoration: overline;
+  text-decoration-thickness: 2px;
 }
 
 
