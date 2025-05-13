@@ -927,12 +927,17 @@ padding-bottom: 75px;
         opacity: 0; /* Hide when out of bounds */
       }
 
+      span {
+        background-color: #ececec;
+       
+      }
       .titles {
         font-family: "articulat-cf", sans-serif;
         font-weight: 700;
         font-style: normal;
         font-size: clamp(12px, 3vw, 25px);
-        line-height: clamp(18px, 3vw, 30px);
+        line-height: clamp(25px, 3vw, 30px);
+        /*line-height: clamp(18px, 3vw, 30px);*/
         /*font-size: clamp(20px, 5vw, 30px);
         line-height: clamp(20px, 10vw, 35px);*/
        color: #1e4bf5;
@@ -952,7 +957,8 @@ padding-bottom: 75px;
         font-weight: 800;
         font-style: normal;
         font-size: clamp(20px, 5vw, 45px);
-        line-height: clamp(24px, 5vw, 40px);
+        line-height: clamp(35px, 5vw, 50px);
+       /* line-height: clamp(24px, 5vw, 40px); */
         /*font-size: clamp(20px, 5vw, 30px);
         line-height: clamp(20px, 5vw, 30px);*/
        max-width: 95vw;
