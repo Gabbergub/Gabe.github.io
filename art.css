@@ -26,20 +26,7 @@ body {
   width: 100vw;
   padding: 0;
 }
-/*.main-linebar{
-  justify-items: center;
-  outline-style: solid;
-  outline-width: 9px;
-  outline-color:#33cccc;
-  width: 95%;
-  margin: auto;
-  padding: 0;
-position: fixed;
-z-index: 1;
 
-/* border-bottom-right-radius: 5px;
- border-bottom-left-radius: 5px;
-}*/
 .gabe {
 margin-left: 30px;
 font-family: "articulat-cf", sans-serif;
@@ -51,34 +38,11 @@ font-style: normal;
  /* color: #002fa7;*/
 }
 
-/*.heading1{
-  margin-top: -3px;
-  display: inline-block;
-text-align: left;
-}*/
+
 .heading1:hover:not(.active) {
 color: #6b6b6b;
 }
-/*.topnav {
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  display: flex;
-  justify-content: 
-  align-items: center;
- /* padding: 2px 30px;*
-  background-color: #ececec;
-  position: fixed;
-  top: 10px;
-  left: 0;
-  width: 100vw;
-  z-index: 1;
-  font-family: "articulat-cf", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  text-transform: uppercase;
-  font-size: clamp(13px, 8vw, 13px);
-}*/
+
 .topnav {
   z-index: 1;
   display: flex;
@@ -186,78 +150,7 @@ padding-bottom: 20px;
   }
 }
 
-/*.gabe {
-font-family: "articulat-cf", sans-serif;
-font-weight: 600;
-font-style: normal;
-text-transform: uppercase;
-  font-size: clamp(15px, 8vw, 25px);
-}
 
-.heading1{
-  margin-top: -3px;
-  display: inline-block;
-text-align: left;
-}
-h1:hover:not(.active) {
-color: #6b6b6b;
-}
-.topnav {
-  z-index: 1;
-  overflow: hidden;
-  font-family: "articulat-cf", sans-serif;
-font-weight: 600;
-font-style: normal;
-text-transform: uppercase;
-  font-size: clamp(15px, 8vw, 15px);
-  position: fixed; 
-  top: 10px; 
-  left: 2.5%; 
-  width: 95%; 
-}
-
-.navbar {
-    outline-style: solid;
-    outline-color:#1A191A;
-    outline-width: 1px;
-  }
-
-  .nav-items {
-    margin-top: -65px;
-  }
-  
-  .topnav, .nav-items a:hover:not(.active) {
-    background-color: transparent;
-   
-    text-decoration: overline;
-  }
-  
-  a {
-    text-decoration:none;
-    color: 	#1A191A;
-  }
-  
-
-  ul {
-    list-style-type: none;
-    margin: -10;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-  }
-  
-  
-  li a {
-    
-    text-align: right;
-    display: block;
-    line-height: 30px;
- 
-  }
-  .active {
-    text-decoration: overline;
-   
-  }*/
 
   h4 {
     color: 	#1A191A;
@@ -268,12 +161,9 @@ text-transform: uppercase;
 /*letter-spacing: 2px;*/
 word-spacing: 2px;
   } 
-  .heading {
-  /* margin-top: 10%;
-   margin-left: 2.5%;
-     width: 95%;*/
-     position: relative; /* Changed from relative */
-     top: 100px; /* Adjust as needed */
+  /*.heading {
+     position: relative; 
+     top: 100px; 
      left: 50%;
      transform: translateX(-50%);
      
@@ -286,6 +176,45 @@ word-spacing: 2px;
      width: 95vw;
      height: auto;
      padding-bottom: 70px;
+  }*/
+
+ /* span {
+    background-color: #ececec;
+   
+  }*/
+  .titles {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: clamp(12px, 3vw, 25px);
+    line-height: clamp(25px, 3vw, 30px);
+    /*line-height: clamp(18px, 3vw, 30px);*/
+    /*font-size: clamp(20px, 5vw, 30px);
+    line-height: clamp(20px, 10vw, 35px);*/
+   color: #1e4bf5;
+    font-style: italic;
+  }
+ 
+  .heading {
+    position: relative;
+    top: 320px; /* Adjust as needed */
+    margin: auto;
+    padding-right: 50px;
+      /*left: 50%;
+       transform: translateX(-50%);*/
+    text-transform: uppercase;
+    color: #1A191A;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: clamp(20px, 5vw, 45px);
+    line-height: clamp(35px, 5vw, 50px);
+   /* line-height: clamp(24px, 5vw, 40px); */
+    /*font-size: clamp(20px, 5vw, 30px);
+    line-height: clamp(20px, 5vw, 30px);*/
+   max-width: 95vw;
+    height: 70vh; /* No need for full viewport height if it's just a message */
+   /* text-align: center;*/
   }
 
   .sub-header {
