@@ -411,7 +411,7 @@ text-transform: uppercase;
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  color: #1e4bf5;
+  color: #1A191A;
   padding-bottom: 15px;
   line-height: 20px;
 }
@@ -420,7 +420,7 @@ text-transform: uppercase;
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  color: #1e4bf5;
+  color: #1A191A;
   padding-bottom: 15px;
   line-height: 20px;
 }
@@ -1087,4 +1087,14 @@ padding-bottom: 75px;
        
       }
       
-      
+    .website a{
+        color: 	#1e4bf5;
+    font-family: "articulat-cf", sans-serif;
+      font-weight: 500;
+   text-decoration: none;
+    }
+    .website a:hover {
+    text-decoration: overline;
+    text-decoration-thickness: 2px;
+    color: #1A191A;
+}
