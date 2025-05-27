@@ -727,7 +727,8 @@ word-spacing: 2px;
           object-fit: contain; */
         }
         .mockup1{
-          width: 900px;
+         /* width: 900px;*/
+          width: 100%;
           max-width: 100%;
          /* width: 835px;
           /*width:57vw;*/
