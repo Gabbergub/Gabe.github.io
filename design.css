@@ -813,9 +813,9 @@ padding-bottom: 75px;
         position: fixed;
         top: 0;
         left: 0;
-        width: 25px; /* Adjust size as needed */
-        height: 25px;
-        border: 1.5px solid #1A191A; /* black outline */
+        width: 30px; /* Adjust size as needed */
+        height: 30px;
+        border: 2px solid #1A191A; /* black outline */
         background-color: #ececec;
        /*background-color: #1e4bf5;*/
         /*background-color: #1e4bf5; /* Customize color and opacity */
