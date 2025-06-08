@@ -292,10 +292,10 @@ padding-bottom: 20px;
   font-family: "articulat-cf", sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: clamp(20px, 5vw, 45px);
+        font-size: clamp(20px, 5vw, 30px);
+        line-height: clamp(20px, 10vw, 35px);
+  /*font-size: clamp(20px, 5vw, 45px);
         line-height: clamp(24px, 5vw, 40px);
-  /*font-size: clamp(20px, 5vw, 30px);
-  line-height: clamp(20px, 10vw, 35px);
   font-family: "articulat-cf", sans-serif;
 font-weight: 700;
 font-style: normal;*/
