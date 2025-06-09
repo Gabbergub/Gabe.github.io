@@ -1004,7 +1004,7 @@ padding-bottom: 75px;
 .block {
  width: 100%;
   padding: 40px;
-  background-color: #1A191A;
+  background-color: #1f1f21;
   box-sizing: border-box; /* includes padding within width */
 
  /* margin: auto;
