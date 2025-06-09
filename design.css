@@ -665,6 +665,12 @@ word-spacing: 2px;
       
       
 /* responsive */
+@media (min-width: 2560px) {
+  .main_content .main_content2 .main_content3 .main_content5{
+    column-count: 5;
+  }
+}
+
 @media (min-width: 1200px) {
   .main_content .main_content2 .main_content3 .main_content5{
     column-count: 4;
