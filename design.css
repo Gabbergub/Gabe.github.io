@@ -523,7 +523,7 @@ word-spacing: 2px;
         justify-content: center;
         gap: 10px;
         width: 95vw;
-        max-width: 1600px; /* Optional: constrain the max width */
+        /*max-width: 1600px; */
         object-fit: cover;
         /*margin-bottom: 10px;*/
       }
