@@ -419,11 +419,17 @@ word-spacing: 2px;
       }
  
       img {
+         width: 100vw;
+         height: auto;
+         display: block;
+      }
+      
+      /*img {
         max-width: 100%;
         height: auto;
         object-fit: cover;
-        flex: 1 1 300px; /* Adjust the flex basis as needed */
-      }
+        flex: 1 1 300px; 
+      }*/
     
       
     /*  @media (max-width: 768px) {
