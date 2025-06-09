@@ -424,14 +424,16 @@ word-spacing: 2px;
         object-fit: cover;
         flex: 1 1 300px; /* Adjust the flex basis as needed */
       }
-      @media (max-width: 768px) {
+    
+      
+    /*  @media (max-width: 768px) {
         .main_content, .main_content2, .main_content3, .main_content4, .main_content5 {
           padding: 10px;
         }
         .picture_wrapper, .picture_wrapper2, .picture_wrapper3, .picture_wrapper4, .picture_wrapper5 {
           flex-direction: column;
         }
-      }
+      }*/
       
       * {
         transition: all .4s;
