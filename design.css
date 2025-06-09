@@ -203,6 +203,7 @@ padding-bottom: 20px;
 
 
 .scroll {
+  line-height: 5px;
   font-family: "articulat-cf", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -332,9 +333,8 @@ text-transform: uppercase;
   /*font-family: "latino-gothic-variable",sans-serif;
         font-variation-settings: 'wght' 60, 'wdth' 76, 'slnt' 1; */
         font-family: "dico-code-one", mono;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
-  
 font-size: 13px;
 }
 
@@ -1001,3 +1001,60 @@ padding-bottom: 75px;
     text-decoration-thickness: 2px;
     color: #1A191A;
 }
+.block {
+ width: 100%;
+  padding: 40px;
+  background-color: #1A191A;
+  box-sizing: border-box; /* includes padding within width */
+
+ /* margin: auto;
+ padding-left: 40px;
+ padding-right: 40px;
+  background-color: #1A191A;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 45px;*/
+
+  }
+
+   /* display: flex;
+  flex-direction: row; 
+  gap: 2rem; 
+  align-items: flex-start; 
+  flex-wrap: wrap;*/
+
+
+.sub {
+  color: #ececec;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: clamp(20px, 5vw, 45px);
+  /*line-height: clamp(35px, 5vw, 50px);*/
+  line-height: clamp(30px, 5vw, 40px);
+  text-transform: uppercase;
+ 
+ /*flex: 1; 
+  min-width: 200px;*/
+}
+
+.small {
+  font-family: "dico-code-one", mono;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+.about-work {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "dico-code-one", mono;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #ececec;
+  line-height: 20px;
+
+ /* flex: 2; 
+  min-width: 250px;*/
+}
+
