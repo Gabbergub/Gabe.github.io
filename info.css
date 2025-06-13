@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   /*background-color:#fff;*/
   background-color: 	#ececec;
   background-size: 45px 45px;
@@ -549,6 +550,76 @@ font-style: normal;*/
 /*letter-spacing: 2px;*/
 word-spacing: 2px;
   } 
+    .linebar {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #ececec;
+  margin-top: -70px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+  .linebar1 {
+outline-style: solid;
+  outline-width: 1px;
+  outline-color: transparent;
+  padding: 40px;
+  width: 90vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f1f21;
+  text-align: center;
+  border-top: 2px solid #A9A9A9;
+  padding: 100px; /* reduce padding to avoid overlapping content */
+  z-index: 100;
+}
+
+ /*.footer {
+      border-top: 2px solid #A9A9A9;
+      padding: 100px;
+        position: relative;
+        margin: auto;
+      
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #1f1f21;
+        text-align: center;
+     }*/
+
+     .socials {
+    margin-top: 50px;
+  display: flex;
+  gap: 850px;
+  }
+  .email, .instagram, .linkedin {
+    top: 20px;
+    color: #ececec; /* or any color you prefer, like #000 */
+    text-decoration: none;
+       /* padding-right: 50px;*/
+        text-transform: uppercase;
+    font-family: "articulat-cf", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+         font-size: clamp(20px, 5vw, 45px);
+        line-height: clamp(35px, 5vw, 50px);
+  }
+  .socials :hover {
+     text-decoration: overline;
+  text-decoration-thickness: 5px;
+  color: #1e4bf5;
+}
+
 
   /*img {
     max-width: 100%;
