@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   /*background-color:#fff;*/
   background-color: 	#ececec;
   background-size: 45px 45px;
@@ -229,20 +230,37 @@ word-spacing: 2px;
      
 
   }
+    .linebar1 {
+outline-style: solid;
+  outline-width: 1px;
+  outline-color: transparent;
+  padding: 40px;
+  width: 90vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  }
 
-  .linebar1 {
+  /*.linebar1 {
     outline-style: solid;
     outline-width: 0.1px;
     outline-color:#1A191A;
     width: 45%;
-    
     margin-right: 52.5%;
-    
    margin-top: 100px;
-    
-  }
-  
-  .linebar {
+  }*/
+
+      .linebar {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #ececec;
+  margin-top: -70px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ /* .linebar {
     outline-style: solid;
     outline-color:#1A191A;
     outline-width: 1px;
@@ -250,7 +268,7 @@ word-spacing: 2px;
     width: 100vw;
    padding: 0;
    margin-top: 15px;
-  }
+  }*/
 
   p {
         font-family: "Theinhardt-Pan-regular";
@@ -369,22 +387,54 @@ word-spacing: 2px;
     }
   }
   
+.footer {
+    /*border-top: 2px solid #A9A9A9;*/
+  border-bottom: 2px solid #ececec;
+  padding-top: 1px;
+  padding-bottom: 100px;
+  background-color: #1f1f21;
+  text-align: center;
+  width: 100%; /* ensures full width without horizontal scroll */
+  box-sizing: border-box; /* includes padding inside width */
+}
+
+.socials {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* evenly space links */
+  flex-wrap: wrap; /* allows wrap on smaller screens */
+}
+
+.email, .instagram, .linkedin {
+  color: #ececec;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: clamp(15px, 2vw, 25px);
+  line-height: clamp(35px, 5vw, 50px);
+}
+  .socials :hover {
+     text-decoration: overline;
+  text-decoration-thickness: 3px;
+  color: #1e4bf5;
+}
 
 
-a {
+/*a {
     text-decoration:none;
     color: #1A191A;
   }
   
- /* a:hover{
-    text-decoration:none;
-  }*/
+
   .fa {
     padding: 10px;
     font-size: 30px;
     width: 30px;
     text-decoration: none;
-    /*border-radius: 50%;*/
+   
   }
   .fa:hover {
     opacity: 0.7;
@@ -406,7 +456,7 @@ a {
     width: 100%;
     background-color: transparent;
     text-align: center;
- }
+ }*/
  
     
  .custom-cursor {
@@ -528,3 +578,13 @@ font-style: normal;
   }
 } 
 */
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* pushes footer to the bottom */
+}

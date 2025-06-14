@@ -767,26 +767,68 @@ outline-style: solid;
     background-color: #1A191A; /* Add a dark-grey background on hover */
     color: #ececec;
   }
+
+
+  /*.footer {
+      border-top: 2px solid #A9A9A9;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin: auto;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        background-color: #1f1f21;
+        text-align: center;
+     }
   .socials {
+    
     margin-top: 50px;
-  display: flex;
-  gap: 850px;
+ 
+  word-spacing: 100px;
   }
   .email, .instagram, .linkedin {
     top: 20px;
-    color: #ececec; /* or any color you prefer, like #000 */
+    color: #ececec; 
     text-decoration: none;
-       /* padding-right: 50px;*/
         text-transform: uppercase;
     font-family: "articulat-cf", sans-serif;
         font-weight: 800;
         font-style: normal;
          font-size: clamp(20px, 5vw, 45px);
         line-height: clamp(35px, 5vw, 50px);
-  }
+  }*/
+.footer {
+    /*border-top: 2px solid #A9A9A9;*/
+  border-bottom: 2px solid #ececec;
+  padding-top: 1px;
+  padding-bottom: 100px;
+  background-color: #1f1f21;
+  text-align: center;
+  width: 100%; /* ensures full width without horizontal scroll */
+  box-sizing: border-box; /* includes padding inside width */
+}
+
+.socials {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* evenly space links */
+  flex-wrap: wrap; /* allows wrap on smaller screens */
+}
+
+.email, .instagram, .linkedin {
+  color: #ececec;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: clamp(15px, 2vw, 25px);
+  line-height: clamp(35px, 5vw, 50px);
+}
   .socials :hover {
      text-decoration: overline;
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 3px;
   color: #1e4bf5;
 }
 
@@ -811,19 +853,7 @@ outline-style: solid;
         background: transparent;
        
       } */
-    .footer {
-      
-      border-top: 2px solid #A9A9A9;
-      padding: 100px;
-        position: relative;
-        margin: auto;
-      
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #1f1f21;
-        text-align: center;
-     }
+    
     
     
       
