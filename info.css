@@ -3,10 +3,10 @@ body {
   margin: 0;
   /*background-color:#fff;*/
   background-color: 	#ececec;
-  background-size: 45px 45px;
+ /* background-size: 45px 45px;
   background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   cursor: none; /* Hide the default cursor */
 }
 @media (max-width: 600px) {

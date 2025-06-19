@@ -2,10 +2,10 @@ body {
   margin: 0;
   /*background-color:#fff;*/
   background-color: 	#ececec;
-  background-size: 45px 45px;
+ /* background-size: 45px 45px;
   background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   cursor: none; /* Hide the default cursor */
 }
 
@@ -184,16 +184,22 @@ word-spacing: 2px;
    
   }*/
   .titles {
-    font-family: "articulat-cf", sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+  font-style: italic;
+  color: #6b6b6b;
+ 
+  font-family: "dico-code-one", mono;
+
+   /* font-family: "articulat-cf", sans-serif;
     font-weight: 700;
-    font-style: normal;
+    font-style: normal;*/
     font-size: clamp(12px, 3vw, 25px);
-    line-height: clamp(25px, 3vw, 30px);
+    line-height: clamp(25px, 3vw, 35px);
     /*line-height: clamp(18px, 3vw, 30px);*/
     /*font-size: clamp(20px, 5vw, 30px);
     line-height: clamp(20px, 10vw, 35px);*/
-   color: #A9A9A9;
-    font-style: italic;
+   
   }
  
   .heading {

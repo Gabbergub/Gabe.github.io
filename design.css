@@ -1,15 +1,16 @@
+ /*  background-size: 45px 45px;
+  background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);*/
 body {
   margin: 0;
   /*background-color:#fff;*/
   background-color: 	#ececec;
- /*  background-size: 45px 45px;
-  background-image: radial-gradient(circle, #A9A9A9 1px, rgba(0, 0, 0, 0) 1px);*/
- background-size: 85.5px 85.5px;
+
+/* background-size: 85.5px 85.5px;
  background-image:
     linear-gradient(to right, #A9A9A9 1px, transparent 1px),
     linear-gradient(to bottom, #A9A9A9 1px, transparent 1px);
   background-attachment: fixed;
-  background-position: center;
+  background-position: center;*/
   cursor: none; /* Hide the default cursor */
 }
 
@@ -950,31 +951,33 @@ padding-bottom: 75px;
         opacity: 0; /* Hide when out of bounds */
       }
 
-      span {
+     /* span {
         background-color: #ececec;
-       
-      }
+      }*/
+
       .titles {
-        font-family: "articulat-cf", sans-serif;
-        font-weight: 700;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: "dico-code-one", mono;
+        /*font-family: "articulat-cf", sans-serif;*/
         font-style: normal;
         font-size: clamp(12px, 3vw, 25px);
-        line-height: clamp(25px, 3vw, 30px);
+        line-height: clamp(25px, 3vw, 35px);
         /*line-height: clamp(18px, 3vw, 30px);*/
         /*font-size: clamp(20px, 5vw, 30px);
         line-height: clamp(20px, 10vw, 35px);*/
-       color: #1e4bf5;
+        color: #6b6b6b;
         font-style: italic;
+       /*color: #1e4bf5;
+       */
       }
      
       .heading {
         position: relative;
-        top: 320px; /* Adjust as needed */
+        top: 350px; /* Adjust as needed */
         margin: auto;
-        margin-left: 30px;
-        padding-right: 50px;
-          /*left: 50%;
-           transform: translateX(-50%);*/
+       /* margin-left: 30px;
+        padding-right: 50px;*/
         text-transform: uppercase;
         color: #1A191A;
         font-family: "articulat-cf", sans-serif;
@@ -982,13 +985,19 @@ padding-bottom: 75px;
         font-style: normal;
         font-size: clamp(20px, 5vw, 45px);
         line-height: clamp(35px, 5vw, 50px);
-       /* line-height: clamp(24px, 5vw, 40px); */
-        /*font-size: clamp(20px, 5vw, 30px);
-        line-height: clamp(20px, 5vw, 30px);*/
        max-width: 95vw;
         height: 100vh; /* No need for full viewport height if it's just a message */
-       /* text-align: center;*/
       }
+
+
+
+      
+       /*left: 50%;
+        transform: translateX(-50%);*/
+        /* line-height: clamp(24px, 5vw, 40px); */
+        /*font-size: clamp(20px, 5vw, 30px);
+        line-height: clamp(20px, 5vw, 30px);*/
+
       .sub-header {
         position: relative;
         top: -630px; /* Adjust as needed */
@@ -1123,10 +1132,15 @@ padding-bottom: 75px;
     color: #1A191A;
 }
 .block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1f1f21;
+  border-top: 2px solid #1f1f21;
   margin: auto;
- width: 100%;
-  padding: 30px;
-  background-color: #1f1f21;
+ width: 95%;
+  /*padding: 30px;*/
+  background-color: transparent;
+  /*background-color: #1f1f21;*/
   box-sizing: border-box; /* includes padding within width */
 
  /* margin: auto;
@@ -1147,7 +1161,7 @@ padding-bottom: 75px;
 
 
 .sub {
-  color: #ececec;
+  color: #1f1f21;
   font-family: "articulat-cf", sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -1167,16 +1181,36 @@ padding-bottom: 75px;
   font-size: 13px;
 }
 .about-work {
-  padding-top: 40px;
+  padding-top: 20px;
+     font-family: "articulat-cf", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: clamp(20px, 5vw, 45px);
+  line-height: clamp(35px, 5vw, 45px);
+ /* padding-top: 40px;
   padding-bottom: 40px;
   font-family: "dico-code-one", mono;
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  color: #ececec;
-  line-height: 20px;
+  line-height: 20px;*/
+  color: #1f1f21;
 
  /* flex: 2; 
   min-width: 250px;*/
 }
 
+ .type {
+  font-weight: bold;
+  font-style: italic;
+  color: #6b6b6b;
+  padding-top: 20px;
+  margin-left: 45%;
+  font-family: "dico-code-one", mono;
+  /*font-weight: 500;*/
+  font-style: normal;
+  font-size: clamp(12px, 3vw, 25px);
+        line-height: clamp(25px, 3vw, 35px);
+ /* font-size: clamp(15px, 3vw, 35px);
+  line-height: clamp(25px, 5vw, 45px);*/
+  }
