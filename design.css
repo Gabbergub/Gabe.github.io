@@ -956,7 +956,7 @@ padding-bottom: 75px;
       }*/
 
       .titles {
-        font-weight: bold;
+        font-weight: 500;
         text-transform: capitalize;
         font-family: "dico-code-one", mono;
         /*font-family: "articulat-cf", sans-serif;*/
@@ -1180,13 +1180,19 @@ padding-bottom: 75px;
   font-style: normal;
   font-size: 13px;
 }
+.sen {
+width: 50%;
+}
 .about-work {
   padding-top: 20px;
-     font-family: "articulat-cf", sans-serif;
+  font-family: "articulat-cf", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: clamp(20px, 5vw, 45px);
-  line-height: clamp(35px, 5vw, 45px);
+  font-size: clamp(12px, 3vw, 25px);
+  line-height: clamp(25px, 3vw, 35px);
+  /*font-size: clamp(20px, 5vw, 45px);
+  line-height: clamp(35px, 5vw, 45px);*/
+  color: #1f1f21;
  /* padding-top: 40px;
   padding-bottom: 40px;
   font-family: "dico-code-one", mono;
@@ -1194,14 +1200,14 @@ padding-bottom: 75px;
   font-style: normal;
   font-size: 13px;
   line-height: 20px;*/
-  color: #1f1f21;
+  
 
  /* flex: 2; 
   min-width: 250px;*/
 }
 
  .type {
-  font-weight: bold;
+  
   font-style: italic;
   color: #6b6b6b;
   padding-top: 20px;
