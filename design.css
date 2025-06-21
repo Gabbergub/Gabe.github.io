@@ -966,7 +966,7 @@ padding-bottom: 75px;
         /*line-height: clamp(18px, 3vw, 30px);*/
         /*font-size: clamp(20px, 5vw, 30px);
         line-height: clamp(20px, 10vw, 35px);*/
-        color: #6b6b6b;
+        color: #1f1f21;
         font-style: italic;
        /*color: #1e4bf5;
        */
@@ -1209,14 +1209,24 @@ width: 50%;
  .type {
   
   font-style: italic;
-  color: #6b6b6b;
+  color: #1f1f21;
   padding-top: 20px;
   margin-left: 45%;
   font-family: "dico-code-one", mono;
-  /*font-weight: 500;*/
-  font-style: normal;
+  /*font-weight: 500;
+  font-style: normal;*/
   font-size: clamp(12px, 3vw, 25px);
         line-height: clamp(25px, 3vw, 35px);
  /* font-size: clamp(15px, 3vw, 35px);
   line-height: clamp(25px, 5vw, 45px);*/
+  }
+
+  .dots {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: clamp(50px, 5vw, 90px);
   }
