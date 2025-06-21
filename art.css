@@ -392,18 +392,19 @@ outline-style: solid;
   }
   
 .footer {
-    /*border-top: 2px solid #A9A9A9;*/
-  border-bottom: 2px solid #ececec;
-  padding-top: 1px;
-  padding-bottom: 100px;
-  background-color: #1f1f21;
+  /*border-top: 2px solid #A9A9A9;*/
+  border-top:2px solid #1f1f21;
+  border-bottom: 2px solid #1f1f21;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
   text-align: center;
   width: 100%; /* ensures full width without horizontal scroll */
   box-sizing: border-box; /* includes padding inside width */
 }
 
 .socials {
-  margin-top: 50px;
+ /* margin-top: 50px;*/
   display: flex;
   justify-content: center;
   gap: 100px; /* evenly space links */
@@ -411,15 +412,16 @@ outline-style: solid;
 }
 
 .email, .instagram, .linkedin {
-  color: #ececec;
+  color: #1f1f21;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "articulat-cf", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: clamp(15px, 2vw, 25px);
-  line-height: clamp(35px, 5vw, 50px);
+  font-size: clamp(15px, 2vw, 18px);
+  /*line-height: clamp(35px, 5vw, 50px);*/
 }
+ 
   .socials :hover {
      text-decoration: overline;
   text-decoration-thickness: 3px;

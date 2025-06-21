@@ -118,3 +118,49 @@ document.addEventListener("mouseover", showCursor);
     const navMenu = document.getElementById("navMenu");
     navMenu.classList.toggle("show");
   }
+
+
+
+
+
+
+ 
+  const modal = document.getElementById("media-modal");
+  const modalContent = document.getElementById("modal-content");
+  const closeBtn = document.querySelector(".close-btn");
+  const mediaThumbs = document.querySelectorAll("#media-thumb");
+
+  mediaThumbs.forEach((thumb) => {
+    thumb.addEventListener("click", () => {
+      modal.style.display = "flex";
+
+      // Clone clicked element
+      const clone = thumb.cloneNode(true);
+      clone.removeAttribute("class"); // remove class to avoid re-triggering click events
+
+      // If it's a video, make sure it plays inside the modal
+      if (clone.tagName === "VIDEO") {
+        clone.autoplay = true;
+        clone.muted = true;
+        clone.loop = true;
+        clone.controls = true;
+      }
+
+      // Clear previous content and insert new media
+      modalContent.innerHTML = "";
+      modalContent.appendChild(clone);
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+    modalContent.innerHTML = "";
+  });
+
+  // Optional: close modal on outside click
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+      modalContent.innerHTML = "";
+    }
+  });
