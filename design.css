@@ -1438,7 +1438,7 @@ video:hover {
 }
 
 /* When screen is 768px or smaller, reset layout */
-@media (max-width: 768px) {
+@media (max-width: 768px ) {
   .smile {
     position: static;          /* places it back in flow */
     margin: 20px auto 0 auto;  /* centered underneath */
@@ -1446,5 +1446,16 @@ video:hover {
     z-index: -1;               /* optional: behind text if overlapping */
     width: 100%;               /* optional: scale responsively */
     max-width: 300px;          /* limit max size if needed */
+  }
+}
+
+@media (max-width: 1024px) {
+  .smile {
+    position: static;
+    display: block;
+    margin: 20px auto 0 auto;
+    z-index: -1; /* optional: keep it visually underneath */
+    width: 100%;
+    max-width: 300px; /* scale appropriately for smaller screens */
   }
 }
