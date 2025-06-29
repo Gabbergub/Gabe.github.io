@@ -1426,3 +1426,25 @@ video:hover {
   }
 }
 
+.smile {
+  outline: none;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -400px;
+  transition: none !important;
+  transform: none !important;
+  outline: none !important;
+  pointer-events: auto; /* optional: ensures it behaves normally */
+}
+
+/* When screen is 768px or smaller, reset layout */
+@media (max-width: 768px) {
+  .smile {
+    position: static;          /* places it back in flow */
+    margin: 20px auto 0 auto;  /* centered underneath */
+    display: block;
+    z-index: -1;               /* optional: behind text if overlapping */
+    width: 100%;               /* optional: scale responsively */
+    max-width: 300px;          /* limit max size if needed */
+  }
+}

@@ -499,7 +499,7 @@ img {
 
   .con-info a:hover {
     text-decoration: overline;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 3px;
     color: #1A191A;
 }
   .con-info {
@@ -800,4 +800,47 @@ font-style: normal;
   font-weight:bold;
   font-style: normal;
   font-size: 13px;
+}
+
+.outlined {
+  position: relative;
+  display: inline-block;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 800;
+}
+
+/* Drawn underline effect */
+.outlined::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Adjust for distance from text */
+  height: 3px;
+  width: 100%;
+  background: #1f1f21;
+  border-radius: 999px;
+  transform: scaleX(0);
+  transform-origin: left;
+   animation: underline-draw 1s ease-out forwards;
+  /*animation: underline-draw 2s ease-in-out infinite;*/
+}
+
+/* Designer animates immediately */
+.intro::after {
+  animation-delay: 0s;
+}
+
+
+@keyframes underline-draw {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
