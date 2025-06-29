@@ -328,10 +328,11 @@ padding-bottom: 20px;
   font-family: "articulat-cf", sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: clamp(20px, 5vw, 30px);
-        line-height: clamp(20px, 10vw, 35px);
-  /*font-size: clamp(20px, 5vw, 45px);
-        line-height: clamp(24px, 5vw, 40px);
+        font-size: clamp(20px, 2.5vw, 50px);
+        line-height: clamp(20px, 3vw, 50px);
+       /* font-size: clamp(20px, 5vw, 30px);
+        line-height: clamp(28px, 5vw, 65px);
+        
   font-family: "articulat-cf", sans-serif;
 font-weight: 700;
 font-style: normal;*/
@@ -347,18 +348,24 @@ text-transform: uppercase;
   font-family: "dico-code-one", mono;
   font-weight: 400;
   font-style: normal;
-  font-size: 13px;
+   font-size: clamp(13px, 0.9vw, 20px);
+  line-height: clamp(20px, 1.4vw, 30px);
+
   color: #1A191A;
   padding-bottom: 15px;
-  line-height: 20px;
+/*font-size: 13px;
+  line-height: 20px;*/
 }
 .project-type {
   font-family: "dico-code-one", mono;
   font-weight: 400;
   font-style: normal;
-  font-size: 13px;
+   font-size: clamp(13px, 0.9vw, 15px);
+  line-height: clamp(20px, 1.4vw, 30px);
+  /*font-size: 13px;
+  line-height: 20px;*/
   color: #1f1f21;
-  line-height: 20px;
+  
   padding: 5px 15px; /* top/bottom and left/right padding */
   border: 2px solid #1f1f21;
   border-radius: 9999px; /* makes it pill-shaped */
@@ -370,11 +377,14 @@ text-transform: uppercase;
   font-family: "dico-code-one", mono;
   font-weight: 400;
   font-style: italic;
-  font-size: 13px;
+  font-size: clamp(13px, 0.9vw, 15px);
+  line-height: clamp(20px, 1.4vw, 30px);
+ /* font-size: 13px;
+ line-height: 20px;*/
   color: #fff;
   background-color: #1f1f21;
   padding-bottom: 15px;
-  line-height: 20px;
+  
   padding: 5px 15px; /* top/bottom and left/right padding */
   border: 2px solid #1f1f21;
   border-radius: 5px; /* makes it pill-shaped */
@@ -985,9 +995,12 @@ padding-bottom: 75px;
         font-family: "dico-code-one", mono;
         /*font-family: "articulat-cf", sans-serif;*/
         font-style: normal;
-        font-size: clamp(12px, 3vw, 25px);
-        line-height: clamp(25px, 3vw, 35px);
-        /*line-height: clamp(18px, 3vw, 30px);*/
+        font-size: clamp(13px, 1.8vw, 30px);
+        line-height: clamp(20px, 3vw, 35px);
+
+        /*font-size: clamp(12px, 3vw, 25px);
+        line-height: clamp(25px, 3vw, 35px);*/
+       
         /*font-size: clamp(20px, 5vw, 30px);
         line-height: clamp(20px, 10vw, 35px);*/
         color: #1f1f21;
@@ -1007,8 +1020,10 @@ padding-bottom: 75px;
         font-family: "articulat-cf", sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: clamp(20px, 5vw, 45px);
-        line-height: clamp(35px, 5vw, 50px);
+           font-size: clamp(30px, 3vw, 70px);
+        line-height: clamp(30px, 3vw, 65px);
+        /*font-size: clamp(20px, 5vw, 45px);
+        line-height: clamp(35px, 5vw, 50px);*/
        max-width: 95vw;
         height: 100vh; /* No need for full viewport height if it's just a message */
       }
@@ -1189,9 +1204,11 @@ padding-bottom: 75px;
   font-family: "articulat-cf", sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: clamp(20px, 5vw, 45px);
-  /*line-height: clamp(35px, 5vw, 50px);*/
-  line-height: clamp(30px, 5vw, 40px);
+    font-size: clamp(30px, 3vw, 70px);
+        line-height: clamp(30px, 3vw, 50px);
+  /*font-size: clamp(20px, 2.5vw, 50px);
+  line-height: clamp(30px, 5vw, 40px);*/
+  /*font-size: clamp(20px, 5vw, 45px)*/
   text-transform: uppercase;
  
  /*flex: 1; 
@@ -1425,37 +1442,59 @@ video:hover {
     opacity: 1;
   }
 }
-
+/* Default: stacked and centered for all screens */
 .smile {
-  outline: none;
-  position: absolute;
-  margin-left: 800px;
-  margin-top: -400px;
+ /* margin-top: -40px;*/
+  width: clamp(300px, 30vw, 900px);
+  /*margin: 0 auto;*/
+  display: block;
+  position: relative;
+  z-index: -1;
+  pointer-events: auto;
   transition: none !important;
   transform: none !important;
   outline: none !important;
-  pointer-events: auto; /* optional: ensures it behaves normally */
 }
 
-/* When screen is 768px or smaller, reset layout */
-@media (max-width: 768px ) {
+/* Optional: Float it off to the side on large screens only */
+@media (min-width: 1440px) {
   .smile {
-    position: static;          /* places it back in flow */
-    margin: 20px auto 0 auto;  /* centered underneath */
-    display: block;
-    z-index: -1;               /* optional: behind text if overlapping */
-    width: 100%;               /* optional: scale responsively */
-    max-width: 300px;          /* limit max size if needed */
+    position: absolute;
+    top: -70px;
+    left: 55%;
+    transform: translateX(-50%);
   }
 }
 
-@media (max-width: 1024px) {
+/*.smile {
+  width: 600px;
+  outline: none;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: -500px;
+  transition: none !important;
+  transform: none !important;
+  outline: none !important;
+  pointer-events: auto; 
+}
+
+
+@media (max-width: 768px ) {
+  .smile {
+    position: static;          
+    margin: 20px auto 0 auto; 
+    display: block;
+    z-index: -1;             
+    width: 100%;             
+    max-width: 300px;         
+}
+
+@media (max-width: 2560px) {
   .smile {
     position: static;
     display: block;
-    margin: 20px auto 0 auto;
-    z-index: -1; /* optional: keep it visually underneath */
+    z-index: -1; 
     width: 100%;
-    max-width: 300px; /* scale appropriately for smaller screens */
+    max-width: 500px; 
   }
-}
+}*/
