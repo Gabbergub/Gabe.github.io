@@ -1468,6 +1468,13 @@ video:hover {
   }
 }
 
+/* Hide on iPhone 13 mini and similar small screens */
+@media (max-width: 400px) {
+  .smile {
+    display: none !important;
+  }
+}
+
 /*.smile {
   width: 600px;
   outline: none;
