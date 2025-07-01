@@ -1447,6 +1447,7 @@ video:hover {
  /* margin-top: -40px;*/
   width: clamp(300px, 30vw, 900px);
   /*margin: 0 auto;*/
+  
   display: block;
   position: relative;
   z-index: -1;
@@ -1459,9 +1460,10 @@ video:hover {
 /* Optional: Float it off to the side on large screens only */
 @media (min-width: 1440px) {
   .smile {
-    position: absolute;
-    top: -70px;
-    left: 55%;
+    position: relative;
+    top: -35%;
+    /*top: -70px;*/
+    left: 57%;
     transform: translateX(-50%);
   }
 }

@@ -347,12 +347,14 @@ text-transform: uppercase;
   margin: auto;
 }*/
 .portfolio-bio {
+   width: 90%;
   column-gap: 35px;
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-top: 194px;
+  margin-top: 195px;
+  /*margin-top: 194px;*/
   padding-bottom: 50px;
   padding-left: 23px;
   padding-right:23px;
@@ -372,26 +374,31 @@ img {
 }
 
 .bio {
+ 
   min-width: 200px;
   font-family: "dico-code-one", mono;
   font-weight: 400;
   font-style: normal;
-  font-size: 13px;
-  line-height: 20px;
+ /* font-size: 13px;
+  line-height: 20px;*/
+   font-size: clamp(13px, 0.9vw, 20px);
+  line-height: clamp(20px, 1.4vw, 30px);
 
 }
 
-.bio p {
+/*.bio p {
   line-height: 20px;
   margin-top: 1em;
-}
+}*/
 
 .I {
   font-family: "articulat-cf", sans-serif;
         font-weight: 800;
         font-style: normal;
-        font-size: clamp(20px, 5vw, 45px);
-        line-height: clamp(35px, 5vw, 50px);
+         font-size: clamp(20px, 2.5vw, 50px);
+        line-height: clamp(20px, 3vw, 50px);
+        /*font-size: clamp(20px, 5vw, 45px);
+        line-height: clamp(35px, 5vw, 50px);*/
 
   /* font-size: clamp(12px, 3vw, 25px);
   line-height: clamp(18px, 3vw, 30px);
@@ -408,6 +415,40 @@ img {
   color: #1A191A;
   /*color: #6b6b6b;*/
 }
+
+/*.smile {
+ 
+  width: clamp(300px, 30vw, 900px);
+ margin: 0 auto;
+ top: -25%;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  pointer-events: auto;
+  transition: none !important;
+  transform: none !important;
+  outline: none !important;
+}
+
+@media (min-width: 1440px) {
+  .smile {
+    position: relative;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+}*.
+
+.second-p {
+  padding-top: 20px;
+width: 50%;
+/*margin-left:50% ;
+}*/
+
+.third-p {
+  padding-top: 20px;
+ width: 60%;
+}
+
 @media (min-width: 600px) {
   .portfolio-bio {
       flex-direction: row;
