@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  background-color: 	#ffff;
+  cursor: url('arrow-cursor.png') 0 0, auto; /* set hot spot (x y) */
+
+/*background-size: 85.5px 85.5px;
+ background-image:
+    linear-gradient(to right, #A9A9A9 1px, transparent 1px),
+    linear-gradient(to bottom, #A9A9A9 1px, transparent 1px);
+  background-attachment: fixed;
+  background-position: center;
+  cursor: none; /* Hide the default cursor */
+}
+.content {
+   margin: 40px;
+}
+a {
+  text-decoration: none;
+  color: #69df46;
+  
+}
+.link {
+line-height: 0px;
+}
+
+.header {
+font-family: "indivisible", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
+ font-size: clamp(1rem, 2vw + 0.5rem, 2.5rem);
+
+  display: inline; /* makes background only cover the text */
+  background-color: #69df46;
+  margin: 0;       /* remove default margin */
+  padding: 0;      /* remove any padding */
+}
+h3 {
+font-family: "indivisible", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
+}
+.project-info {
+  display: flex;
+  /*justify-content: space-between; /* pushes them to opposite sides */
+  align-items: center; /* keeps text aligned nicely */
+  gap: 7rem;
+  /*gap: 24%;*/
+  font-family: "indivisible", sans-serif;
+font-weight: 500;
+font-style: italic;
+ font-size: clamp(0.9rem, 1vw, 1rem);
+}
+
+p {
+font-family: "owners-text", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.text {
+width: 50%;
+}
+@media (max-width: 768px) {
+  .text {
+    width: 100%;
+  }
+}
+.project {
+  padding-bottom: 1px;
+font-family: "indivisible", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: clamp(0.9rem, 1vw, 1rem);
+}
+.project-descriptor {
+color: gray;
+font-family: "owners-text", sans-serif;
+font-weight: 400;
+font-style: normal;
+padding-top: 30px;
+}
+
+.content1 {
+  display: flex;
+  /*justify-content: space-between; /* pushes text left, image right */
+  align-items:flex-start; /* aligns them at the top */
+  gap: 50px; /* space between text and image */
+
+    border-top: 2px solid black;   /* top border */
+  /*border-bottom: 2px solid black; /* bottom border */
+  padding: 10px 0; /* optional: add space between borders and content */
+}
+
+img {
+  max-width: 100%;  /* ensures it never exceeds its container */
+  height: auto;     /* maintains aspect ratio */
+  display: block;   /* removes extra space below image */
+}
+
+.shrink-hover {
+  transition: transform 0.3s ease;
+}
+
+.shrink-hover:hover {
+  transform: scale(0.9);
+}
+
+/* Optional: adjust size for very small screens */
+@media (max-width: 600px) {
+  img {
+    width: 200px;    /* fills container on mobile */
+    max-width: none;
+  }
+}
+/*
+Indivisible Thin
+font-family: "indivisible", sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Indivisible Thin Italic
+font-family: "indivisible", sans-serif;
+font-weight: 200;
+font-style: italic;
+
+Indivisible Light
+font-family: "indivisible", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Indivisible Light Italic
+font-family: "indivisible", sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Indivisible Regular
+font-family: "indivisible", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Indivisible Italic
+font-family: "indivisible", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Indivisible Medium
+font-family: "indivisible", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Indivisible Medium Italic
+font-family: "indivisible", sans-serif;
+font-weight: 500;
+font-style: italic;
+
+Indivisible SemiBold
+font-family: "indivisible", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Indivisible SemiBold Italic
+font-family: "indivisible", sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Indivisible Bold
+font-family: "indivisible", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Indivisible Bold Italic
+font-family: "indivisible", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Indivisible Black
+font-family: "indivisible", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Indivisible Black Italic
+font-family: "indivisible", sans-serif;
+font-weight: 900;
+font-style: italic;
+*/
+
+
+/*
+Owners Text XLight
+font-family: "owners-text", sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Owners Text XLight Italic
+font-family: "owners-text", sans-serif;
+font-weight: 200;
+font-style: italic;
+
+Owners Text Light
+font-family: "owners-text", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Owners Text Light Italic
+font-family: "owners-text", sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Owners Text Regular
+font-family: "owners-text", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Owners Text Italic
+font-family: "owners-text", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Owners Text Medium
+font-family: "owners-text", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Owners Text Medium Italic
+font-family: "owners-text", sans-serif;
+font-weight: 500;
+font-style: italic;
+
+Owners Text Bold
+font-family: "owners-text", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Owners Text Bold Italic
+font-family: "owners-text", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Owners Text Black
+font-family: "owners-text", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Owners Text Black Italic
+font-family: "owners-text", sans-serif;
+font-weight: 800;
+font-style: italic;
+/*
+
+
+/* 
+Darkmode DarkmodeOn Thin
+font-family: "darkmode-on", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+Darkmode DarkmodeOn XLight
+font-family: "darkmode-on", sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Darkmode DarkmodeOn Light
+font-family: "darkmode-on", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Darkmode DarkmodeOn Regular
+font-family: "darkmode-on", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Darkmode DarkmodeOn Medium
+font-family: "darkmode-on", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Darkmode DarkmodeOn Bold
+font-family: "darkmode-on", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Darkmode DarkmodeOn XBold
+font-family: "darkmode-on", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Darkmode DarkmodeOn Black
+font-family: "darkmode-on", sans-serif;
+font-weight: 900;
+font-style: normal; 
+*/
+
