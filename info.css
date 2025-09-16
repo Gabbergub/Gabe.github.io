@@ -339,26 +339,39 @@ text-transform: uppercase;
   height: auto;
   padding-right: 300px ;
 }*/
+
 /*.portfolio-bio {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-}*/
-.portfolio-bio {
-   width: 90%;
+   width: 70%;
   column-gap: 35px;
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   margin-top: 195px;
-  /*margin-top: 194px;*/
   padding-bottom: 50px;
   padding-left: 23px;
   padding-right:23px;
-  
+}*/
+
+.portfolio-bio {
+  width: 90%;
+  column-gap: 35px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 195px;
+  padding: 0 23px 50px 23px;
+}
+
+/* For iPhone 13 mini (375px wide) and smaller screens */
+@media screen and (max-width: 400px) {
+  .portfolio-bio {
+    width: 100%;
+    margin-top: 120px; /* adjust for better spacing on mobile */
+    column-gap: 20px;  /* tighter spacing */
+    padding: 0 16px 40px 16px; /* less padding for small screens */
+  }
 }
 
 img {
@@ -641,6 +654,13 @@ outline-style: solid;
   justify-content: center;
   gap: 100px; /* evenly space links */
   flex-wrap: wrap; /* allows wrap on smaller screens */
+}
+/* For iPhone 13 mini and similar small screens */
+@media screen and (max-width: 400px) {
+  .socials {
+    gap: 30px; /* tighter spacing for small screens */
+    justify-content: space-around; /* spread them nicely */
+  }
 }
 
 .email, .instagram, .linkedin {
