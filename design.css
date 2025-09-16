@@ -851,6 +851,13 @@ outline-style: solid;
   gap: 100px; /* evenly space links */
   flex-wrap: wrap; /* allows wrap on smaller screens */
 }
+/* For iPhone 13 mini and similar small screens */
+@media screen and (max-width: 400px) {
+  .socials {
+    gap: 30px; /* tighter spacing for small screens */
+    justify-content: space-around; /* spread them nicely */
+  }
+}
 
 .email, .instagram, .linkedin {
   color: #1f1f21;
