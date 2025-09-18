@@ -297,14 +297,44 @@ padding-bottom: 20px;
    margin-top: 15px;
   }
 
+  .current {
+    font-family: "articulat-cf", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: clamp(12px, 3vw, 25px);
+  }
 
-/*.project1 {
-  line-height: 20px;
+ .links {
+  color: inherit;
+ text-decoration: underline dotted;
+ text-underline-offset: 10px;
+  transition: color 0.2s ease-in-out;
+}
+.links:hover {
+  color: grey;
+}
+
+.tabs {
   display: flex;
-  margin: auto;
-  width: 95%;
-}*/
-
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.project-tabs {
+  font-family: "dico-code-one", mono;
+  font-weight: 400;
+  font-style: normal;
+   font-size: clamp(13px, 0.9vw, 15px);
+  line-height: clamp(20px, 1.4vw, 30px);
+  color: #1f1f21;
+  padding: 5px 15px; /* top/bottom and left/right padding */
+  /* border-style: dotted;*/
+  border: 2px dotted #1f1f21;
+  border-radius: 9999px; /* makes it pill-shaped */
+  display: inline-block; /* ensures padding and border shape apply correctly */
+ margin-top: 10px;
+}
 
 .project {
   margin-top: 40px;
@@ -362,10 +392,7 @@ text-transform: uppercase;
   font-style: normal;
    font-size: clamp(13px, 0.9vw, 15px);
   line-height: clamp(20px, 1.4vw, 30px);
-  /*font-size: 13px;
-  line-height: 20px;*/
   color: #1f1f21;
-  
   padding: 5px 15px; /* top/bottom and left/right padding */
   border: 2px solid #1f1f21;
   border-radius: 9999px; /* makes it pill-shaped */
@@ -1183,27 +1210,21 @@ padding-bottom: 75px;
   border-bottom: 2px solid #1f1f21;
   border-top: 2px solid #1f1f21;
   margin: auto;
- width: 95%;
-  /*padding: 30px;*/
+  width: 95%;
   background-color: transparent;
   /*background-color: #1f1f21;*/
   box-sizing: border-box; /* includes padding within width */
-
- /* margin: auto;
- padding-left: 40px;
- padding-right: 40px;
-  background-color: #1A191A;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 45px;*/
-
   }
 
-   /* display: flex;
-  flex-direction: row; 
-  gap: 2rem; 
-  align-items: flex-start; 
-  flex-wrap: wrap;*/
+  /* Make .block full width on very small screens */
+@media screen and (max-width: 400px) {
+  .block {
+    width: 100%;
+    margin: 0; /* remove auto margin so it spans edge-to-edge */
+    border-left: 2px solid #1f1f21;
+    border-right: 2px solid #1f1f21; /* optional */
+  }
+}
 
 
 .sub {
@@ -1213,9 +1234,6 @@ padding-bottom: 75px;
   font-style: normal;
     font-size: clamp(30px, 3vw, 70px);
         line-height: clamp(30px, 3vw, 50px);
-  /*font-size: clamp(20px, 2.5vw, 50px);
-  line-height: clamp(30px, 5vw, 40px);*/
-  /*font-size: clamp(20px, 5vw, 45px)*/
   text-transform: uppercase;
  
  /*flex: 1; 
