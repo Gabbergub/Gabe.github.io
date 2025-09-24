@@ -174,7 +174,7 @@ padding-bottom: 20px;
 .nav-items a:hover:not(.active) {
   text-decoration: overline;
   text-decoration-thickness: 2px;
-  color: #1e4bf5;
+  color: #1a85ff;
 }
 
 .nav-items .active {
@@ -900,7 +900,7 @@ outline-style: solid;
   .socials :hover {
      text-decoration: overline;
   text-decoration-thickness: 3px;
-  color: #1e4bf5;
+  color: #1a85ff;
 }
 
 
@@ -1194,9 +1194,10 @@ padding-bottom: 75px;
       }
       
     .website a{
-        color: 	#1e4bf5;
+    /*color: 	#1e4bf5;*/
+    color: #1a85ff;
     font-family: "articulat-cf", sans-serif;
-      font-weight: 500;
+    font-weight: 500;
    text-decoration: none;
     }
     .website a:hover {
@@ -1205,14 +1206,15 @@ padding-bottom: 75px;
     color: #1A191A;
 }
 .block {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #1f1f21;
+  padding-top: 70px;
+  padding-bottom: 70px;
+ border-bottom: 2px solid #1f1f21;
   border-top: 2px solid #1f1f21;
   margin: auto;
-  width: 95%;
-  background-color: transparent;
-  /*background-color: #1f1f21;*/
+ width: 95%;
+  /*width: 100%;*/
+  background-color: transparent ;
+  /*background-color: #1a85ff;*/
   box-sizing: border-box; /* includes padding within width */
   }
 

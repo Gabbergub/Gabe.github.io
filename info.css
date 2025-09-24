@@ -135,7 +135,7 @@ padding-bottom: 20px;
 .nav-items a:hover:not(.active) {
   text-decoration: overline;
   text-decoration-thickness: 2px;
-  color: #1e4bf5;
+  color: #1a85ff;
 }
 
 .nav-items .active {
@@ -478,7 +478,7 @@ width: 50%;
 
 
   .link {
-    color: #1e4bf5;
+    color: #1a85ff;
     text-decoration: none;
   }
  /* .info-content {
@@ -501,7 +501,7 @@ width: 50%;
         font-size: 15px;
   }*/
   .italic {
-    color: #1e4bf5;
+    color: #1a85ff;
     font-family: "articulat-cf", sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -678,7 +678,7 @@ outline-style: solid;
   .socials :hover {
      text-decoration: overline;
   text-decoration-thickness: 3px;
-  color: #1e4bf5;
+  color: #1a85ff;
 }
 
 
